@@ -133,6 +133,29 @@ une équipe d'agents spécialisés que le DG affecte à ses départements.
 Choisis toujours l'agent le plus proche de la tâche. Un agent de The Agency
 reste soumis aux règles du Gorosei ci-dessous.
 
+## Les API : voir le monde, par sujet, à la demande
+
+Le Gorosei voit le monde en se branchant sur des API (des services qui donnent
+une donnée fraîche : météo, actualité, prix, cartes, images, finance...). Le
+répertoire public-apis (github.com/public-apis/public-apis) en recense plus de
+1000, souvent gratuites.
+
+Principe réaliste, à ne pas survendre au fondateur :
+- On n'intègre PAS "toutes les API en même temps" : ça n'a pas de sens et ça
+  coûterait cher. On branche **la bonne API, pour le bon sujet, au moment où une
+  tâche en a besoin**. C'est exactement comme les agents : une réserve énorme,
+  on en sort un à la demande.
+- Quand une tâche réclame une donnée fraîche que le modèle n'a pas (prix du
+  jour, actu, météo, taux de change), le DG consulte le répertoire public-apis,
+  choisit l'API adaptée, et l'appelle avec WebFetch, ou l'ajoute comme serveur
+  MCP si l'usage est régulier.
+- Beaucoup d'API "gratuites" demandent quand même une clé gratuite à créer :
+  cette création et toute clé passent par le fondateur (règles de l'Arsenal).
+- Pour une agence de sites 3D, les API vraiment utiles sont rares (taux de
+  change pour un devis, géocodage d'une adresse, une banque d'images). Ne
+  branche une API que si elle sert la mission ou le site d'un client, pas pour
+  la collection.
+
 ## Étape 3 : faire exécuter
 
 Pour chaque département activé, lance un sous-agent avec l'outil Agent (en
