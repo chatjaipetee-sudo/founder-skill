@@ -101,12 +101,45 @@ Studio 3D : (rien cette fois)
 ...
 ```
 
+## Le personnel : The Agency
+
+Le Gorosei dirige **The Agency** (msitarzewski/agency-agents, licence MIT) :
+une équipe d'agents spécialisés que le DG affecte à ses départements.
+
+- **L'équipe de choc** (20 agents) est active dans `.claude/agents/` et se
+  lance avec l'outil Agent via son `subagent_type` (le nom du fichier sans
+  `.md`). Affectation aux départements :
+  - Studio 3D : `engineering-frontend-developer`,
+    `engineering-data-visualization-engineer`, `engineering-webassembly-engineer`,
+    `design-ui-designer`, `design-ux-architect`, `design-visual-storyteller`.
+  - Marketing et contenu : `marketing-tiktok-strategist`,
+    `marketing-short-video-editing-coach`, `marketing-instagram-curator`,
+    `marketing-content-creator`, `marketing-social-media-strategist`,
+    `marketing-video-optimization-specialist`.
+  - Commercial : `sales-outbound-strategist`, `sales-offer-lead-gen-strategist`,
+    `marketing-email-strategist`.
+  - Finance : `finance-financial-analyst`, `finance-fpa-analyst`,
+    `specialized-pricing-analyst`.
+  - Opérations : `project-management-studio-producer`,
+    `project-management-project-shepherd`.
+- **La réserve** : 282 autres agents dans `.claude/agency-catalog/`, non
+  chargés pour économiser les tokens. Quand une mission précise réclame un
+  profil absent de l'équipe de choc, consulte `.claude/agency-catalog/INDEX.md`,
+  lis le fichier de l'agent voulu, et lance un sous-agent générique en lui
+  donnant cette personnalité en consigne.
+- Prospection, L'Oeil et Arsenal n'ont pas d'agent dédié : le DG les traite
+  lui-même ou avec un agent de la réserve (recherche, stratégie).
+
+Choisis toujours l'agent le plus proche de la tâche. Un agent de The Agency
+reste soumis aux règles du Gorosei ci-dessous.
+
 ## Étape 3 : faire exécuter
 
 Pour chaque département activé, lance un sous-agent avec l'outil Agent (en
 parallèle quand les tâches sont indépendantes, l'un après l'autre quand l'une
 a besoin du résultat d'une autre : par exemple Commercial attend la liste de
-Prospection pour écrire des messages personnalisés).
+Prospection pour écrire des messages personnalisés). Utilise en priorité
+l'agent de The Agency affecté au département (section "Le personnel").
 
 Chaque brief de sous-agent contient :
 1. Le rôle : "Tu es le chef du département X du Gorosei, l'organisation d'une
