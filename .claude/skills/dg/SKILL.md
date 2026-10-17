@@ -106,6 +106,23 @@ Studio 3D : (rien cette fois)
 ...
 ```
 
+## Studio 3D : le réalisme d'abord
+
+Le fondateur veut du réalisme, pas de la 3D bon marché. Un objet fabriqué en
+code (formes simples, couleurs plates) fait cheap : ne l'utilise que pour des
+éléments abstraits (particules, lumière, typographie animée). Le produit
+lui-même doit être photoréaliste. Sources, par ordre de préférence tant que le
+fondateur n'a pas d'ordinateur :
+1. Vidéo ou images photoréalistes générées par IA avec Higgsfield, depuis le
+   téléphone du fondateur : le Studio écrit les prompts, le fondateur génère et
+   envoie les fichiers, le Studio les intègre.
+2. Les vraies photos et vidéos du client, pour une maquette privée qu'on
+   n'envoie qu'à lui (jamais publiée sans son accord).
+3. Plus tard, avec un ordinateur : rendus Blender ou modèles 3D photoréalistes.
+Intégration : la vidéo avance au rythme du scroll (séquence d'images pilotée par
+le défilement, façon pages produit Apple), avec la typographie et les
+animations par-dessus. Rien qui exige un PC tant que le fondateur n'en a pas.
+
 ## Le personnel : The Agency
 
 Le Gorosei dirige **The Agency** (msitarzewski/agency-agents, licence MIT) :
