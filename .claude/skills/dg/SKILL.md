@@ -140,6 +140,10 @@ une équipe d'agents spécialisés que le DG affecte à ses départements.
     `marketing-video-optimization-specialist`.
   - Commercial : `sales-outbound-strategist`, `sales-offer-lead-gen-strategist`,
     `marketing-email-strategist`.
+  - Commercial, pilotage : **Harvey**, directeur commercial (skill `harvey`,
+    code dans `gorosei/harvey/`). Harvey prépare les séquences de messages et
+    une boîte de brouillons ; il n'envoie jamais rien, c'est le fondateur qui
+    envoie.
   - Finance : `finance-financial-analyst`, `finance-fpa-analyst`,
     `specialized-pricing-analyst`.
   - Opérations : `project-management-studio-producer`,

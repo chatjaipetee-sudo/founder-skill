@@ -5,6 +5,7 @@ possibles sont expliqués dans `gorosei/README.md`.
 
 | ID | Élément | Type | Département | Priorité | Statut | Action proposée | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+
 | G-001 | Founder skill (11 skills : board, CFO, panel de 100 acheteurs...) | skill | Arsenal | haute | installé | Utiliser avant chaque nouvelle offre ou idée | github.com/Jakeschincariol/founder-skill |
 | G-002 | DG (`/dg`), chef du Gorosei | agent | Arsenal | haute | installé | Point d'entrée de toutes les demandes | `.claude/skills/dg/` |
 | G-003 | PonyTail : Claude écrit le moins de code possible | skill | Arsenal | moyenne | installé | Activer `/ponytail` pour économiser des tokens | github.com/DietrichGebert/ponytail |
@@ -28,3 +29,6 @@ possibles sont expliqués dans `gorosei/README.md`.
 | G-021 | Blender : rendus 3D photoréalistes | outil | Studio 3D | moyenne | en attente | Exige un ordinateur : à reprendre quand le fondateur en aura un | blender.org |
 | G-022 | Chaîne `gorosei-prospection` : trouver, vérifier, trier A/B/C et écrire les emails d'une niche locale | workflow | Prospection | haute | installé | Réutilisable pour toute niche ; demande l'accès réseau complet pour vérifier les sites et relever les emails | `.claude/workflows/gorosei-prospection.js` |
 | G-023 | ProdCrea et GetMyFirstSaaS : vidéo « 10 000 € à 18 ans », e-book et SaaS en quelques clics, estimateur de revenus | référence | L'Oeil | basse | rejeté | Pas de preuve de revenus (liste de factures avec des emails personnels, estimation de revenus fictive) ; ne jamais reprendre ces promesses ni cette mise en scène ; garder seulement le principe d'un quiz interactif « quel revenu veux-tu ? » comme aimant pour un prospect, sans chiffre inventé | vidéo, auteur non vérifié |
+| G-024 | Harvey (ethanplusai/harvey, MIT) : agent commercial qui écrit des séquences personnalisées et les valide avec une porte de contrôle déterministe | agent | Commercial | haute | installé | Vendu en mode brouillon : code dans `gorosei/harvey/` (config `harvey.yaml` sans envoi, LinkedIn désactivé) ; la skill `harvey` produit `gorosei/outbox/` ; envoi toujours fait par le fondateur | github.com/ethanplusai/harvey |
+| G-025 | Boîte de brouillons Harvey, 19 octobre 2026 : 6 messages prêts (Debeaulieu, Lachaume, Désirée, Ateliers Flash Fleurs, Akiko Usami, Boule de Neige) | projet | Commercial | haute | à évaluer | Relire, remplacer les placeholders, envoyer 2 ou 3 par jour depuis la boîte du fondateur | `gorosei/outbox/2026-10-19-boite.md` |
+| G-026 | Harvey en mode automatique (heartbeat 15 min, envoi sans validation, LinkedIn) | technique | Arsenal | basse | rejeté | Envoi automatique et LinkedIn refusés par le fondateur ; Harvey exige un ordinateur allumé et des comptes mail connectés | github.com/ethanplusai/harvey |

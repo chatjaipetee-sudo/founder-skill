@@ -24,6 +24,9 @@ EM = chr(0x2014)  # built in code so this file does not trip its own check
 def text_files():
     for base, dirs, files in os.walk(ROOT):
         dirs[:] = [d for d in dirs if d not in (".git", "__pycache__", ".claude")]
+        rel = os.path.relpath(base, ROOT)
+        if rel == os.path.join("gorosei", "harvey") or rel.startswith(os.path.join("gorosei", "harvey") + os.sep):
+            continue  # vendored third-party code (MIT), kept verbatim
         for f in files:
             if f.endswith((".md", ".py", ".json", ".txt")) or f in ("LICENSE", ".gitignore"):
                 yield os.path.join(base, f)
