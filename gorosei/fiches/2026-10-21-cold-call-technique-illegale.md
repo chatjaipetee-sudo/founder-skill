@@ -82,6 +82,37 @@ appât à clics. Transcription (Whisper, français) :
 | « 5 petites minutes, ce soir ou demain ? » | Une seule demande minuscule, avec un choix : « Je vous l'envoie ce soir ou demain matin ? » |
 | Ton assuré, aucune excuse | Aucun « je me permets », aucun conditionnel mou (« je pourrais », « peut-être ») |
 
+## Deuxième Reel du même commercial : « Le technique INTERDITE en cold call » (70 s)
+
+Même script, autre prospect : une épicerie écologique, un dimanche. Bandeau :
+« +2997 € si elle dit oui » (montant annoncé par l'auteur, non vérifié : à
+traiter comme un simple repère de prix). Ce qu'il ajoute :
+
+14. **La pique repose sur un vrai défaut, en contradiction avec les valeurs
+    du client.** « Une épicerie écologiste avec un site hébergé aux
+    États-Unis, si peu de référencement et si peu d'esthétisme. » Ce n'est
+    plus une taquinerie, c'est un constat vérifiable qui touche ce que la
+    boutique défend. Pour nous : un audit réel de chaque site avant
+    d'écrire (poids de la page, vitesse sur téléphone, référencement,
+    hébergement, mise en page sur mobile), puis une pique qui relie ce
+    défaut aux valeurs de la boutique.
+15. **Le miroir de l'identité.** « J'ai recréé votre site à l'image de ce que
+    vous êtes et de ce que vous voulez renvoyer. »
+16. **La question de curiosité.** « Seriez-vous curieuse de le voir ce soir
+    ou demain ? » : on ne demande pas un rendez-vous, on demande si la
+    personne est curieuse.
+17. **L'humour dans les valeurs du client.** La prospecte dit « vous avez
+    déjà fait le boulot », il répond « on ne va pas le gaspiller ? » : un clin
+    d'oeil à l'écologie.
+18. **Imperturbable.** Elle lui dit qu'il est trop enthousiaste pour un
+    dimanche : il ne s'excuse pas, il enchaîne.
+19. **Le client choisit le créneau** (« lundi 9 h avant l'ouverture ») et le
+    commercial s'en réjouit franchement : « extraordinaire ».
+
+Vérification du 21 octobre : les 6 sites des fleuristes répondent. La page
+d'accueil d'Ateliers Flash Fleurs pèse environ 10,8 Mo, ce qui est très lourd
+sur un téléphone : c'est le type de fait à utiliser.
+
 ## Décision
 
 Adoptée par le département Commercial. La méthode entre dans la skill
