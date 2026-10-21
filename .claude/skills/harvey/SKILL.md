@@ -60,8 +60,11 @@ rapide ».
 Chaque message se termine par la phrase : « Pour ne plus recevoir de message de
 ma part, répondez simplement "stop". »
 
-Les placeholders autorisés sont uniquement : [Prénom], [Nom de l'agence],
-[Téléphone]. Le lien de démo ne se met pas dans le premier message.
+Les messages sont signés par Alice, commerciale senior de l'agence : « Je suis
+Alice, de Maison Vitura » dans le texte, et en signature « Alice » puis
+« Commerciale senior, Maison Vitura ». Pas de numéro de téléphone tant que
+l'agence n'en a pas. Aucun autre placeholder. Le lien de démo ne se met pas
+dans le premier message.
 
 ## Étape 3 : règles de qualité (non négociables)
 

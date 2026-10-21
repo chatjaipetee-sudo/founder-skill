@@ -144,6 +144,9 @@ une équipe d'agents spécialisés que le DG affecte à ses départements.
     code dans `gorosei/harvey/`). Harvey prépare les séquences de messages et
     une boîte de brouillons ; il n'envoie jamais rien, c'est le fondateur qui
     envoie.
+  - Commercial, signature : **Alice**, commerciale senior de l'agence. Les
+    messages de prospection sont signés « Alice, Commerciale senior, Maison
+    Vitura » et partent de support.maisonvitura@gmail.com.
   - Finance : `finance-financial-analyst`, `finance-fpa-analyst`,
     `specialized-pricing-analyst`.
   - Opérations : `project-management-studio-producer`,
