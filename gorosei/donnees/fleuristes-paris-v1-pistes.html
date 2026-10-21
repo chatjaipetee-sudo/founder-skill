@@ -1,0 +1,183 @@
+<title>Fleuristes Paris</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Instrument+Sans:wght@400;600&family=DM+Mono&display=swap">
+<style>
+/* Layout: one column for a phone; summary first, then the A-tier kits as cards with copy buttons, then B and C lists */
+:root{
+  --bg:#f4f5f1; --surface:#ffffff; --ink:#1d2420; --muted:#5f6a63; --line:#dde2da; --accent:#b8325a; --good:#2f7d4f; --warn:#a46a12;
+  --display:"Fraunces",Georgia,serif; --body:"Instrument Sans",system-ui,-apple-system,sans-serif; --mono:"DM Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141815;--surface:#1c211e;--ink:#e9ece7;--muted:#a3ada6;--line:#2f3631;--accent:#e86f93;--good:#6cc490;--warn:#e0a84e;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141815;--surface:#1c211e;--ink:#e9ece7;--muted:#a3ada6;--line:#2f3631;--accent:#e86f93;--good:#6cc490;--warn:#e0a84e;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.55}
+.wrap{max-width:760px;margin:0 auto;padding-block:28px 56px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:28px}
+h1,h2,h3{font-family:var(--display);font-weight:600;margin:0;text-wrap:balance;line-height:1.15}
+h1{font-size:clamp(28px,6vw,40px)} h2{font-size:22px} h3{font-size:19px}
+.lead{color:var(--muted);margin:6px 0 0}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.kpis div{background:var(--surface);padding:12px}
+.kpis b{display:block;font-family:var(--display);font-size:26px;font-variant-numeric:tabular-nums}
+.kpis span{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.steps{margin:0;padding-left:20px;display:grid;gap:6px}
+.note{border-left:3px solid var(--warn);background:var(--surface);padding:12px 14px;border-radius:0 8px 8px 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:10px;min-width:0}
+.head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.tier{font-family:var(--mono);font-size:11px;letter-spacing:.08em;padding:3px 8px;border-radius:99px;border:1px solid currentColor}
+.tA{color:var(--good)} .tB{color:var(--warn)} .tC{color:var(--muted)}
+.meta{font-size:13px;color:var(--muted)}
+.meta a{color:var(--accent)}
+.label{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.mail{white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14px;margin:0;overflow-wrap:anywhere}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+button{font:600 13px var(--body);border:1px solid var(--ink);background:transparent;color:var(--ink);padding:8px 14px;border-radius:99px;cursor:pointer}
+button:hover,button:focus-visible{background:var(--ink);color:var(--surface);outline:none}
+button.done{border-color:var(--good);color:var(--good);background:transparent}
+.list{display:grid;gap:8px;margin:0;padding:0;list-style:none}
+.list li{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px;min-width:0}
+.list b{font-family:var(--display);font-size:17px}
+.src{font-size:13px;color:var(--muted);display:grid;gap:4px}
+.src a{color:var(--accent);overflow-wrap:anywhere}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Fleuristes indépendants de Paris</h1>
+    <p class="lead">Première liste du Gorosei, triée. 8 fleuristes en tier A ont leur email prêt à copier.</p>
+  </header>
+
+  <div class="kpis">
+    <div><b>18</b><span>trouvés</span></div>
+    <div><b>8</b><span>tier A</span></div>
+    <div><b>8</b><span>emails prêts</span></div>
+  </div>
+
+  <section style="display:grid;gap:10px">
+    <h2>Avant d'envoyer</h2>
+    <ol class="steps">
+      <li>Ouvre le site ou l'Instagram de la boutique : vérifie qu'elle est ouverte et que le détail cité est toujours vrai. Certaines sources datent.</li>
+      <li>Copie l'adresse email de sa page Contact. Prends l'adresse de la boutique, jamais une adresse personnelle.</li>
+      <li>Remplace [Prénom], [Nom de l'agence] et [Téléphone], puis envoie 2 ou 3 emails par jour, pas plus.</li>
+    </ol>
+    <p class="note">Pas encore de lien de démo dans ces emails : on propose une maquette gratuite faite avec <b>leurs propres photos</b>, animées de façon réaliste. Le jour où un fleuriste dit oui, le Studio la fabrique.</p>
+  </section>
+
+  <section style="display:grid;gap:12px" id="a">
+    <h2>Tier A : à contacter en premier</h2>
+    <p class="meta">Indépendants, positionnement créateur ou haut de gamme, forte identité visuelle.</p>
+    <div id="kits"></div>
+  </section>
+
+  <section style="display:grid;gap:10px">
+    <h2>Relances (pour tous)</h2>
+    <div class="card">
+      <span class="label">Relance J+3</span>
+      <pre class="mail" id="r3">Bonjour,
+
+Je me permets de revenir vers vous avec une idée concrète : la première image de votre site pourrait être votre bouquet de la semaine, qui tourne doucement pendant que les pétales tombent au fil du défilement.
+
+Je peux vous montrer à quoi cela ressemblerait avec vos propres photos, gratuitement. Cela vous tente ?
+
+[Prénom] · [Nom de l'agence] · [Téléphone]
+Pour ne plus recevoir de message, répondez simplement « stop ».</pre>
+      <div class="row"><button type="button" data-copy="r3">Copier la relance J+3</button></div>
+    </div>
+    <div class="card">
+      <span class="label">Relance J+7</span>
+      <pre class="mail" id="r7">Bonjour,
+
+Dernier message de ma part, promis. Les commandes de Saint-Valentin se jouent souvent en ligne, dès janvier. Un site livré en 14 jours peut encore être prêt à temps.
+
+Si le sujet vous intéresse un jour, il suffit de répondre à cet email.
+
+Belle journée,
+[Prénom] · [Nom de l'agence] · [Téléphone]</pre>
+      <div class="row"><button type="button" data-copy="r7">Copier la relance J+7</button></div>
+    </div>
+  </section>
+
+  <section style="display:grid;gap:10px">
+    <h2>Tier B : bons profils, à contacter ensuite</h2>
+    <ul class="list">
+      <li><b>Parisette</b> · 10e, rue de Lancry<div class="meta">Fleurs françaises de saison et ateliers. Petite structure créative.</div></li>
+      <li><b>Nuances</b> · 20e, avenue Gambetta<div class="meta">Membre du Collectif de la Fleur Française, livre Paris et la petite couronne.</div></li>
+      <li><b>Christian Morel</b> · 11e<div class="meta">Plus de vingt ans dans le quartier, décoration d'intérieurs et d'événements.</div></li>
+      <li><b>BéFlowers</b> · sans boutique<div class="meta">Atelier sur commande uniquement : le site est sa seule vitrine, argument fort.</div></li>
+      <li><b>Ikebanart</b> · 10e<div class="meta">Fleurs fraîches et séchées, livraison à vélo.</div></li>
+      <li><b>Lily of the Valley</b> · 11e, avenue Parmentier<div class="meta">Boutique récente selon le guide cité.</div></li>
+      <li><b>Adonis</b> · 10e, rue du Faubourg-Poissonnière<div class="meta">Fleurs exotiques et compositions d'événements.</div></li>
+    </ul>
+  </section>
+
+  <section style="display:grid;gap:10px">
+    <h2>Tier C : à vérifier avant tout</h2>
+    <ul class="list">
+      <li><b>Ephémère</b> · 11e, avenue Parmentier<div class="meta">Seule source de 2015 : vérifier que la boutique existe encore.</div></li>
+      <li><b>Pascal Mutel</b> · 17e<div class="meta">Affilié au réseau Interflora : décision et site peut-être liés au réseau.</div></li>
+      <li><b>Debeaulieu (Pierre Banchereau)</b><div class="meta">Institution de la mode : a sans doute déjà une agence et un site soigné.</div></li>
+    </ul>
+  </section>
+
+  <section class="src">
+    <h2 style="font-size:18px">Sources</h2>
+    <a href="https://www.pariszigzag.fr/tops/les-meilleurs-fleuristes-de-paris">Paris Zigzag : les plus beaux fleuristes de Paris</a>
+    <a href="https://www.yonder.fr/les-tops/shopping/les-13-meilleurs-fleuristes-de-paris-2015/rambert-rigaud-lincontournable">Yonder : les 13 meilleurs fleuristes de Paris (2015)</a>
+    <a href="https://www.evous.fr/paris/shopping/Les-meilleurs-fleuristes-a-Paris,1176708.html">Evous : les meilleurs fleuristes à Paris</a>
+    <a href="https://www.sortiraparis.com/en/what-to-do-in-paris/shopping-fashion/articles/189331-boya-paris-the-original-florist-in-the-6th-arrondissement">Sortir à Paris : Boya Paris</a>
+    <a href="https://parisjetaime.com/shopping/desiree-p2621">Paris je t'aime : Désirée</a>
+    <a href="https://www.lebonbon.fr/paris/les-tops-mode/le-printemps-arrive-voici-le-top-des-fleuristes-a-paris/">Le Bonbon : le top des fleuristes à Paris</a>
+    <a href="https://www.evous.fr/paris/11eme-arrondissement/Guide-Paris-11e/Se-mettre-au-vert-Paris-11e/Fleuristes-et-jardineries-Paris-11e/">Evous : fleuristes du 11e</a>
+    <a href="https://www.118712.fr/fiches/WUZRXVNTHgY">118 712 : Nuances Gambetta</a>
+    <a href="https://theboldway.substack.com/p/pierre-banchereau-debeaulieu-une-institution">The Bold Way : Pierre Banchereau, Debeaulieu</a>
+  </section>
+</div>
+
+<script>
+const SIGN = "\n\nBelle journée,\n[Prénom] · [Nom de l'agence] · [Téléphone]\nPour ne plus recevoir de message de ma part, répondez simplement « stop ».";
+const PITCH = "\n\nJe m'appelle [Prénom] et je crée des sites internet animés pour les fleuristes : la page d'accueil s'ouvre sur vos vraies compositions, mises en mouvement de façon réaliste, avec un bouquet qui pivote et des pétales qui tombent quand on fait défiler la page.\n\nAvec Noël puis la Saint-Valentin, un site livré en 14 jours peut être en ligne avant les fêtes. Je vous propose une maquette gratuite de votre page d'accueil, réalisée avec vos photos, sans engagement. Je vous l'envoie ?";
+const KITS = [
+  { name: "Odorantes", area: "6e", why: "Duo de fleuristes connu pour ses roses, fleurs de producteurs régionaux.", src: "https://www.yonder.fr/les-tops/shopping/les-13-meilleurs-fleuristes-de-paris-2015/odorantes-la-passion",
+    subject: "Vos roses méritent de bouger", hook: "J'aime l'idée qui a fait connaître Odorantes : des roses mêlées aux fleurs de saison, choisies chez des producteurs régionaux." },
+  { name: "Stéphane Chapelle", area: "1er, rue de Richelieu", why: "Haut de gamme, travaille pour des maisons de couture.", src: "https://www.yonder.fr/les-tops/shopping/les-13-meilleurs-fleuristes-de-paris-2015/stephane-chapelle-le-gout-du-luxe",
+    subject: "Une vitrine à la hauteur de vos scénographies", hook: "Rue de Richelieu, à deux pas de la Comédie-Française, vos créations vont du simple bouquet à la scénographie pour des maisons de couture." },
+  { name: "Rambert Rigaud", area: "7e, rue de l'Université", why: "Compositions élégantes, clientèle Rive gauche.", src: "https://www.yonder.fr/les-tops/shopping/les-13-meilleurs-fleuristes-de-paris-2015/rambert-rigaud-lincontournable",
+    subject: "Vos compositions, en mouvement", hook: "Vos compositions de la rue de l'Université ont cette élégance rare qui reste naturelle, jamais guindée." },
+  { name: "Boya Paris", area: "6e", why: "Concept store floral : fleurs, vases anciens, bijoux, jardin d'hiver.", src: "https://www.sortiraparis.com/en/what-to-do-in-paris/shopping-fashion/articles/189331-boya-paris-the-original-florist-in-the-6th-arrondissement",
+    subject: "Le jardin d'hiver de Boya, en ligne", hook: "Chez Boya, on entre pour les fleurs et on découvre les vases anciens, les bijoux et le jardin d'hiver : un vrai univers, que le site pourrait faire visiter." },
+  { name: "Studio Maison Ciero", area: "4e, rue du Petit Musc", why: "Fleurs françaises et de saison, créations sur mesure, cité en 2026.", src: "https://www.pariszigzag.fr/tops/les-meilleurs-fleuristes-de-paris",
+    subject: "Vos fleurs de saison, en vitrine", hook: "Rue du Petit Musc, vous travaillez des fleurs françaises et de saison, en créations sur mesure." },
+  { name: "Désirée", area: "11e et 19e", why: "Café fleuriste engagé, 100 % français et de saison, deux adresses.", src: "https://parisjetaime.com/shopping/desiree-p2621",
+    subject: "Les fleurs de Désirée, en mouvement", hook: "Des bouquets 100 % français et de saison, dont une grande partie cultivée à moins de 200 km : chez Désirée, l'engagement se voit, rue de la Folie-Méricourt comme rue de Meaux." },
+  { name: "Varda", area: "1er, rue Montorgueil", why: "Designer floral, orchidées, tables d'événements.", src: "https://www.evous.fr/paris/shopping/Les-meilleurs-fleuristes-a-Paris,1176708.html",
+    subject: "Vos orchidées méritent un écrin", hook: "Rue Montorgueil, vous signez des compositions de designer floral, avec un vrai choix d'orchidées et des tables d'événements." },
+  { name: "Eric & Alain Abtan", area: "8e et 16e", why: "Deux frères, créations modernes, deux adresses dans les beaux quartiers.", src: "https://www.evous.fr/paris/shopping/Les-meilleurs-fleuristes-a-Paris,1176708.html",
+    subject: "Vos créations, mises en scène", hook: "Deux frères, deux adresses dans le 8e et le 16e, et des créations modernes qui partent d'une matière première d'exception." },
+];
+const host = document.getElementById('kits');
+KITS.forEach((k, i) => {
+  const body = "Bonjour,\n\n" + k.hook + PITCH + SIGN;
+  const c = document.createElement('article');
+  c.className = 'card';
+  c.innerHTML = `<div class="head"><h3></h3><span class="tier tA">TIER A</span></div>
+    <div class="meta"></div>
+    <span class="label">Objet</span><pre class="mail" id="s${i}"></pre>
+    <span class="label">Email</span><pre class="mail" id="m${i}"></pre>
+    <div class="row"><button type="button" data-copy="s${i}">Copier l'objet</button><button type="button" data-copy="m${i}">Copier l'email</button></div>`;
+  c.querySelector('h3').textContent = k.name;
+  const meta = c.querySelector('.meta');
+  meta.textContent = k.area + " · " + k.why + " ";
+  const a = document.createElement('a'); a.href = k.src; a.textContent = "Source"; meta.appendChild(a);
+  c.querySelector('#s' + i).textContent = k.subject;
+  c.querySelector('#m' + i).textContent = body;
+  host.appendChild(c);
+});
+document.addEventListener('click', async e => {
+  const b = e.target.closest('button[data-copy]');
+  if (!b) return;
+  const el = document.getElementById(b.dataset.copy);
+  const label = b.textContent;
+  try { await navigator.clipboard.writeText(el.textContent); b.textContent = 'Copié ✓'; }
+  catch { const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Sélectionné, copie-le'; }
+  b.classList.add('done');
+  setTimeout(() => { b.textContent = label; b.classList.remove('done'); }, 2200);
+});
+</script>

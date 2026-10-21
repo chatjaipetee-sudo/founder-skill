@@ -1,0 +1,1027 @@
+{
+  "_source": "résultat du workflow Gorosei : trouver les commerces d'une niche dans une ville, les vérifier, les trier en tiers A/B/C, et écrire un kit d'email ciblé relu pour les meilleurs",
+  "resultat": {
+    "niche": "fleuristes",
+    "city": "Paris",
+    "date": "2026-10-17",
+    "stats": {
+      "controlled": 30,
+      "kept": 27,
+      "unique": 25,
+      "kits": 8
+    },
+    "ranked": [
+      {
+        "tier": "A",
+        "score": 7,
+        "zone": "13e, 14e et 15e arrondissements",
+        "prospect": {
+          "name": "Akiko Usami",
+          "website": "https://www.akiko-usami.com/",
+          "area": "Paris 14e (26 rue de Plaisance selon Bridebook ; la fiche reçue disait 26 rue Pernety, à confirmer)",
+          "style": "luxe / créateur : fleuriste japonaise et artiste Ikebana, style 'wafuka', mariages et grands hôtels",
+          "price_signal": "aucun prix publié ; d'après Pen Online, ses bouquets sont dans de grands hôtels parisiens et des mariages élégants",
+          "instagram": "",
+          "email_pro": "contact@akiko-usami.com (donnée par l'équipe de prospection, non revérifiée car le site est bloqué)",
+          "contact_form": "https://www.akiko-usami.com/contact/",
+          "site_platform": "WordPress probable (non confirmé)",
+          "site_weakness": "Non vérifiée directement : site bloqué ici et non indexé par la recherche site:. Selon la fiche reçue, les réalisations ne portent qu'un numéro (N°562...). À contrôler avant l'envoi.",
+          "detail_reel": "Le style 'wafuka', qui mêle influences japonaises et françaises (Homo Faber) ; atelier lancé à Paris en 2012 ; des bouquets présents dans de grands hôtels parisiens et des mariages élégants (Pen Online).",
+          "sources": [
+            "https://bridebook.com/fr/wedding-florists/akiko-usami-paris-ile-de-france-frQgG6mBXv",
+            "https://www.homofaber.com/en/artisans/akiko-usami-flower-designing-france",
+            "https://pen-online.com/arts/a-japanese-ikebana-artist-in-france/"
+          ]
+        },
+        "controleur": "Elle existe bien : Bridebook, Homo Faber et Pen Online la décrivent comme fleuriste japonaise et artiste Ikebana à Paris, créatrice du style 'wafuka', atelier lancé en 2012, avec des bouquets placés dans de grands hôtels parisiens et des mariages. C'est un profil haut de gamme et indépendant. Je CONTESTE l'adresse : Bridebook la place au 26 rue de Plaisance (75014), pas au 26 rue Pernety. Ça reste dans le 14e, mais il faut l'écrire juste. Je n'ai pas pu vérifier moi-même l'email contact@ ni la faiblesse du site : WebFetch et curl sont bloqués (DNS) pour tous les domaines, et la recherche site: ne renvoie aucune page d'akiko-usami.com. Le fondateur doit ouvrir le site avant d'envoyer, pour confirmer l'adresse email et que le site n'est pas déjà animé. Instagram introuvable."
+      },
+      {
+        "tier": "B",
+        "score": 6,
+        "zone": "11e, 12e et 20e arrondissements (Bastille, Oberkampf, Belleville)",
+        "prospect": {
+          "name": "Désirée (café-fleuriste)",
+          "website": "https://www.desireefleurs.fr",
+          "area": "11e, 5 rue de la Folie-Méricourt (Oberkampf). Deuxième boutique au 96 rue de Meaux (19e)",
+          "style": "Créateur et écoresponsable : fleurs 100 % françaises et de saison, café-fleuriste, ateliers d'art floral le week-end, kits de jardinage urbain",
+          "price_signal": "Prix non observé (site inaccessible)",
+          "instagram": "@desireefleurs",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "Shopify (d'après une newsletter de 2023, pas revérifié)",
+          "site_weakness": "NON VÉRIFIÉ : le site est bloqué par le proxy. Le fondateur doit le regarder lui-même avant l'envoi. S'il est déjà soigné ou animé, rétrograder la fiche",
+          "detail_reel": "La cofondatrice refuse de vendre des roses à la Saint-Valentin parce qu'elles sont hors saison en février, et propose à la place des renoncules, des anémones ou des scabieuses (Reporterre). C'est l'accroche pour une vitrine 3D des compositions de saison avant le 14 février",
+          "sources": [
+            "https://reporterre.net/Saint-Valentin-les-fleurs-de-saison-a-offrir",
+            "https://www.parisselectbook.com/2025/02/17/desiree-cafe-fleuriste-une-adresse-cosy-a-decouvrir/",
+            "https://frenchglimpses.com/2022/05/19/a-charming-ecological-florist-in-paris/",
+            "https://parisjetaime.com/shopping/desiree-p2621",
+            "https://www.district-immo.com/en/desiree-the-florist-cafe/"
+          ]
+        },
+        "controleur": "Existe et indépendant : café-fleuriste fondé en 2017 par Audrey Venant et Mathilde Bignon, 5 rue de la Folie-Méricourt (11e), deuxième boutique au 96 rue de Meaux (19e) depuis juillet 2020 (recherches qui citent parisjetaime, district-immo, frenchglimpses). Aucune annonce de fermeture trouvée et un article de février 2025 (parisselectbook) parle encore du lieu, mais aucune source de 2026 ne confirme que la boutique du 11e est ouverte. Accroche vérifiée : Reporterre cite la cofondatrice, qui refuse la rose en février parce qu'elle est hors saison et la remplace par des renoncules, des anémones ou des scabieuses. Contact : aucun email générique trouvé ; seul le compte Instagram @desireefleurs est confirmé par un tiers (frenchglimpses), d'où le tier B. Je n'ai pas pu vérifier la faiblesse du site : desireefleurs.fr, paris.fr et les annuaires sont bloqués (ENOTFOUND, CONNECT 403). Le site Shopify peut donc être correct, ce qui fait baisser le score. Bon profil créatif et écoresponsable, avec de la vente en ligne : le site compte pour eux, donc ils ont des raisons de payer pour un meilleur site."
+      },
+      {
+        "tier": "B",
+        "score": 6,
+        "zone": "13e, 14e et 15e arrondissements",
+        "prospect": {
+          "name": "Tiffany Levain (Maison Tiffany Levain)",
+          "website": "https://www.tiffany-levain.fr/",
+          "area": "Paris 15e (35 boulevard Pasteur selon Le Bonbon ; une mention ambiguë du 5e, à confirmer)",
+          "style": "créateur / artisan : fleurs fraîches, plantes grasses et plantes fleuries, événementiel, abonnements pour entreprises",
+          "price_signal": "selon la fiche reçue (Sessile, non revérifié) : bouquets dès 50 à 55 EUR, création dès 120 EUR",
+          "instagram": "@maison_tiffany_levain",
+          "email_pro": "contact@tiffany-levain.fr (donnée par l'équipe de prospection, non revérifiée)",
+          "contact_form": "",
+          "site_platform": "site maison en pages .html statiques (d'après la fiche reçue, non revérifié)",
+          "site_weakness": "Non vérifiée directement (site bloqué). Selon la fiche reçue : site vitrine statique, la vente en ligne passe par Sessile.",
+          "detail_reel": "Livraisons régulières de producteurs d'Île-de-France, d'Italie et d'Équateur, et un large choix de plantes grasses et de plantes fleuries (Le Bonbon).",
+          "sources": [
+            "https://en.lebonbon.fr/paris/tops-fashion/spring-is-here-so-here-is-the-top-list-of-florists-in-paris",
+            "https://www.lebonbon.fr/paris/les-tops-mode/le-printemps-arrive-voici-le-top-des-fleuristes-a-paris/"
+          ]
+        },
+        "controleur": "Le guide Le Bonbon cite Tiffany Levain au 35 boulevard Pasteur (15e), avec un compte Instagram @maison_tiffany_levain : la fiche disait à tort qu'il n'y avait pas d'Instagram. Le même article évoque pourtant un lieu 'dans le 5e'. C'est sans doute une confusion avec l'entrée voisine (The Blue Tree, 4 rue de Candolle), mais il faut confirmer que la boutique est toujours dans le 15e. J'ai pu confirmer les fleurs d'Île-de-France, d'Italie et d'Équateur. Je n'ai pas pu vérifier l'email contact@, les pages .html ni les prix Sessile, car tous les sites sont bloqués ici. Je la passe en B à cause du doute sur l'adresse et parce que l'email n'est pas vérifié."
+      },
+      {
+        "tier": "B",
+        "score": 6,
+        "zone": "13e, 14e et 15e arrondissements",
+        "prospect": {
+          "name": "Georges François Fleurs (Sumire)",
+          "website": "https://georges-francois.fr/",
+          "area": "Paris 14e (36-38 rue Delambre, Montparnasse)",
+          "style": "institution haut de gamme depuis 1963 : mariages, clients professionnels, cours d'art floral, lien avec le Japon",
+          "price_signal": "",
+          "instagram": "",
+          "email_pro": "[adresse retirée : dépôt public] (affichée sur sa page Facebook selon la fiche reçue, à recouper)",
+          "contact_form": "",
+          "site_platform": "inconnue",
+          "site_weakness": "Non observée : le fondateur doit ouvrir le site avant tout envoi.",
+          "detail_reel": "Artisan fleuriste depuis 1963 à Montparnasse ; selon un avis client, beaucoup de Japonais viennent en formation longue sous la direction de Sumire et de M. François (Justacote).",
+          "sources": [
+            "https://www.cylex-locale.fr/entreprises/georges-fran%c3%a7ois-fleurs-13115332.html",
+            "https://www.justacote.com/paris-75014/fleuriste/"
+          ]
+        },
+        "controleur": "Je confirme : 36(-38) rue Delambre (14e), artisan fleuriste depuis 1963, bouquets de mariage, clients professionnels, cours d'art floral, et l'avis Justacote sur les stagiaires japonais formés par Sumire et M. François. Les annuaires indiquent aussi qu'il a un Instagram et un Facebook, mais je ne connais pas le nom du compte Instagram. Profil haut de gamme. La faiblesse du site n'est pas observée (site bloqué) et le seul email est une gmail affichée sur Facebook : elle est au nom du commerce, donc générique, mais à recouper. Je le passe en B tant que le site n'a pas été vu."
+      },
+      {
+        "tier": "B",
+        "score": 6,
+        "zone": "Créateurs floraux, ateliers d'art floral pour événements et mariages, et abonnements floraux indépendants basés à Paris",
+        "prospect": {
+          "name": "Debeaulieu",
+          "website": "https://www.debeaulieu-paris.com",
+          "area": "Paris 9e (30 rue Henry-Monnier, Pigalle)",
+          "style": "Luxe et créateur, studio floral pour les maisons de mode (Louis Vuitton, Balenciaga, Kenzo)",
+          "price_signal": "Autour de 50 EUR pour un beau bouquet selon Time Out (chiffre peut-être ancien) ; clientèle de maisons de luxe",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "Non vérifié (site inaccessible depuis l'outil)",
+          "site_weakness": "NON OBSERVÉE : site inaccessible (DNS/proxy). Le site est peut-être déjà soigné vu le positionnement mode : à regarder à la main",
+          "detail_reel": "Pierre Banchereau, ancien des ressources humaines formé à l'École des Fleuristes de Paris, a ouvert Debeaulieu en novembre 2013. Il s'inspire des natures mortes des maîtres hollandais du XVIIe siècle (Galerie Magazine) et a composé des vitrines florales hebdomadaires pour Louis Vuitton",
+          "sources": [
+            "https://thursd.com/florists/debeaulieu",
+            "https://www.timeout.fr/paris/shopping/debeaulieu",
+            "https://theboldway.substack.com/p/pierre-banchereau-debeaulieu-une-institution",
+            "https://galeriemagazine.com/?p=62085",
+            "https://purple.fr/magazine/paris-issue-31/debeaulieupierre-banchereau/"
+          ]
+        },
+        "controleur": "Existe : fleuriste et studio créatif indépendant de Pierre Banchereau, ouvert en novembre 2013, au 30 rue Henry-Monnier (9e), tél. 01 45 26 78 68, site debeaulieu-paris.com (thursd, Time Out, doitinparis, Purple Magazine). Clientèle mode (Louis Vuitton, Balenciaga, Kenzo) : un excellent profil haut de gamme, donc capable de payer 1 500 EUR. Mais aucun email pro et aucun compte Instagram n'ont pu être confirmés : Galerie Magazine le cite parmi les fleuristes à suivre sur Instagram sans donner le @. Contact à trouver à la main. Le site n'a pas pu être ouvert, donc la faiblesse n'est pas vérifiée. Comme la marque est tournée vers le luxe et la mode, le site est peut-être déjà soigné, ce qui est un risque de refus. Je n'ai pas pu vérifier que le client indique son budget et le style voulu sur le site : j'ai retiré ce point de l'accroche. Aucune source datée de 2026."
+      },
+      {
+        "tier": "B",
+        "score": 5.5,
+        "zone": "13e, 14e et 15e arrondissements",
+        "prospect": {
+          "name": "Boule de Neige",
+          "website": "https://bouledeneige.fr/",
+          "area": "Paris 15e (19-21 rue de Lourmel, métro Dupleix)",
+          "style": "artisan créatif, bouquets champêtres de saison",
+          "price_signal": "selon la fiche reçue (non revérifié) : bouquets à 55, 70 et 90 EUR",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "https://bouledeneige.fr/pages/contact",
+          "site_platform": "Shopify probable (non confirmé)",
+          "site_weakness": "Non vérifiée directement (site bloqué). Selon la fiche reçue : boutique générique, URL de produits copiées.",
+          "detail_reel": "La boutique dit choisir les meilleurs producteurs pour la qualité de ses compositions et livrer à domicile à l'heure, selon les disponibilités de la personne qui reçoit (Evous).",
+          "sources": [
+            "https://www.justacote.com/paris-75000/fleuriste/",
+            "https://www.evous.fr/paris/shopping/Les-meilleurs-fleuristes-a-Paris,1176708.html"
+          ]
+        },
+        "controleur": "Justacote et Evous confirment la boutique au 19-21 rue de Lourmel (15e, métro Dupleix et Avenue Émile Zola). Evous parle de fleurs choisies chez de bons producteurs et de livraison à domicile. Elle a déjà une boutique en ligne avec des prix (sans doute Shopify), donc un site correct. Le seul contact est un formulaire. Je n'ai pas pu vérifier les URL de produits 'copie', les prix ni la phrase 'plus de 20 ans' : site bloqué et non indexé. Instagram introuvable."
+      },
+      {
+        "tier": "B",
+        "score": 5,
+        "zone": "1er, 2e, 3e et 4e arrondissements (Marais, centre)",
+        "prospect": {
+          "name": "Castor Fleuriste",
+          "website": "https://castor-fleuriste.com",
+          "area": "3e (Marais), 14 rue Debelleyme",
+          "style": "luxe et créateur, fleuriste de la mode (Prada, Saint Laurent, Fendi, Lemaire)",
+          "price_signal": "clientèle de maisons de couture ; prix non vérifiés",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "inconnu (site non consulté, réseau bloqué)",
+          "site_weakness": "NON VÉRIFIÉ : un article de 2022 dit qu'on ne pouvait pas commander sur le site et que le travail se voyait surtout sur les réseaux sociaux. À contrôler.",
+          "detail_reel": "Ancien marchand d'art pendant quinze ans, il a lancé Castor Fleuriste en 2017. Fleurs de saison venant de Rungis et de producteurs franciliens. Collaborations avec Prada et Fendi, et une collection avec Zara Home.",
+          "sources": [
+            "https://lofficielusa.com/travel-living/florist-louis-geraud-castor-fleuriste-paris",
+            "https://thefemin.com/2022/04/castor-fleuriste/",
+            "https://thefemin.com/2023/06/louis-geraud-castor-zara-home-castor-fleuriste-collection/",
+            "https://www.bottin.fr/fiche-locale/bdgdihfddhbgfdfcgdhj--castor-fleuriste--paris-03.htm",
+            "https://www.timeout.fr/paris/shopping/fleuristes"
+          ]
+        },
+        "controleur": "Le fleuriste existe bien et il est haut de gamme : L'Officiel USA le présente comme le fleuriste préféré de la mode, fondé en 2017, qui a travaillé pour Prada, Saint Laurent, Fendi et Lemaire, et qui a fait une collection avec Zara Home (thefemin 2023). D'après le résumé de recherche de la fiche Bottin, il est ouvert du mardi au samedi de 10 h à 17 h au 14 rue Debelleyme. LIMITE : le réseau est bloqué dans cette session (WebFetch et curl renvoient ENOTFOUND ou une erreur 403 du proxy), donc je n'ai pu ouvrir ni castor-fleuriste.com ni Instagram, et la faiblesse du site N'EST PAS VÉRIFIÉE. Avec une clientèle de luxe, il est probable que le site soit soigné : à contrôler avant tout envoi. Aucun contact vérifié, et le prix de 120 à 500 EUR n'apparaît pas dans ce que j'ai pu consulter. Tier B tant que le site et l'email ne sont pas confirmés."
+      },
+      {
+        "tier": "B",
+        "score": 5,
+        "zone": "1er, 2e, 3e et 4e arrondissements (Marais, centre)",
+        "prospect": {
+          "name": "Maison Stéphane Chapelle",
+          "website": "",
+          "area": "1er, 29 rue de Richelieu (Palais-Royal) ; second atelier au 234 boulevard Raspail (14e)",
+          "style": "luxe et classique haut de gamme, avec des ateliers",
+          "price_signal": "présenté par Yonder sous le titre « le goût du luxe »",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "inconnu (Thursd parle de commande en ligne, site non consulté)",
+          "site_weakness": "NON VÉRIFIÉ : site non consulté, réseau bloqué.",
+          "detail_reel": "Installée rue de Richelieu depuis près de 25 ans, avec un second atelier boulevard Raspail. Livre des bouquets du lundi au samedi et propose des ateliers pour apprendre ses techniques.",
+          "sources": [
+            "https://www.yonder.fr/les-tops/shopping/les-13-meilleurs-fleuristes-de-paris-2015/stephane-chapelle-le-gout-du-luxe",
+            "https://thursd.com/articles/8-flower-shops-in-paris-you-dont-want-to-miss",
+            "https://www.lebonbon.fr/paris/lifestyle/livraison-fleurs-paris-adresse/",
+            "https://frenchglimpses.com/2023/01/19/the-most-beautiful-florists-in-paris/"
+          ]
+        },
+        "controleur": "Maison indépendante et haut de gamme, installée rue de Richelieu depuis environ 25 ans d'après les guides, avec un second atelier au 234 boulevard Raspail (14e). Elle livre et propose des ateliers. D'après le résumé de recherche, Thursd cite le compte Instagram @maisonstephanechapelle et dit qu'on peut commander en ligne. Il existe donc probablement un site, que je n'ai pas pu ouvrir (réseau bloqué) : la faiblesse du site n'est pas vérifiée. Je n'ai pas non plus pu vérifier moi-même le compte Instagram, donc je le laisse vide dans les champs. Tier B tant que le site et le contact ne sont pas confirmés."
+      },
+      {
+        "tier": "B",
+        "score": 5,
+        "zone": "5e, 6e et 7e arrondissements (Saint-Germain, Rive gauche)",
+        "prospect": {
+          "name": "Moulié (Moulie Fleurs)",
+          "website": "",
+          "area": "7e - 8 place du Palais-Bourbon",
+          "style": "luxe / institutionnel, fleuriste des ministères et ambassades",
+          "price_signal": "chiffre d'affaires 2023 : 3 040 k EUR (Xerfi), 6 autres établissements ; clientèle institutionnelle",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "aucun site trouvé (non vérifié directement)",
+          "site_weakness": "Aucun site officiel ni Instagram n'apparaît dans les recherches, alors que l'entreprise fait environ 3 M EUR de chiffre d'affaires. À confirmer sur Google Maps.",
+          "detail_reel": "Maison issue d'Alexandre Savart (1870), reprise par M. Moulié en 1978 (société créée en 1979 selon Xerfi). Présentée comme le fleuriste officiel des ministères et des ambassades. Une grande partie des fleurs vient de sa propre ferme en Bretagne (Goop).",
+          "sources": [
+            "https://www.yonder.fr/les-tops/shopping/les-13-meilleurs-fleuristes-de-paris-2015/moulie-savart-au-service-du-roi",
+            "https://www.xerfi.com/etudes-par-entreprise/moulie_316696350",
+            "https://goop.com/place/france/7th-arrondissement/moulie",
+            "https://acceslibre.beta.gouv.fr/app/75-paris/a/fleuriste/erp/moulie/"
+          ]
+        },
+        "controleur": "Existe : 8 place du Palais-Bourbon, 75007, tél. 01 45 51 78 43 (acceslibre, Goop, Yonder). Selon Xerfi, la société a fait 3 040 k EUR de chiffre d'affaires en 2023, son siège est à Paris 7 sous l'enseigne Moulie Fleurs, et elle possède 6 autres établissements. C'est une maison familiale indépendante à plusieurs boutiques, pas une franchise. Correction : Xerfi date la création de la société de 1979, Yonder parle d'une reprise en 1978. Goop mentionne une ferme florale en propre en Bretagne et des horaires du lundi au samedi. Aucun site, Instagram ni email trouvé : aucun contact écrit conforme à la règle. Gros budget potentiel, mais une maison institutionnelle risque de juger un site 3D futuriste décalé, et il n'y a aucun canal écrit : tier B."
+      },
+      {
+        "tier": "B",
+        "score": 5,
+        "zone": "8e, 16e et 17e arrondissements (beaux quartiers)",
+        "prospect": {
+          "name": "Lachaume",
+          "website": "",
+          "area": "8e - 103 rue du Faubourg Saint-Honoré",
+          "style": "luxe, institution historique (fondée en 1845)",
+          "price_signal": "clientèle haut de gamme (Faubourg Saint-Honoré ; Wikipedia cite Proust, Dior, Saint Laurent et Lagerfeld parmi ses clients), prix non observés",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "inconnu (deux domaines cités, lachaume-fleurs.com et maisonlachaume.com, aucun ouvert depuis l'environnement)",
+          "site_weakness": "NON VÉRIFIÉ : le site n'a pas pu être ouvert. Les sources ne s'accordent ni sur le domaine ni sur le téléphone (01 42 60 57 26 ou 01 42 60 59 74)",
+          "detail_reel": "Maison fondée en 1845, tenue aujourd'hui par deux soeurs, Stéphanie et Caroline, qui l'ont reprise de leur grand-mère (Goop, Thursd)",
+          "sources": [
+            "https://goop.com/place/france/8th-16th-arrondissement/lachaume",
+            "https://en.wikipedia.org/wiki/Lachaume",
+            "https://thursd.com/articles/flower-shops-of-paris",
+            "https://www.newmoney.gr/fine-living/%CF%84%CE%BF-%CE%B1%CE%B3%CE%B1%CF%80%CE%B7%CE%BC%CE%AD%CE%BD%CE%BF-%CE%B1%CE%BD%CE%B8%CE%BF%CF%80%CF%89%CE%BB%CE%B5%CE%AF%CE%BF-%CF%84%CE%B7%CF%82-%CF%80%CE%B1%CF%81%CE%B9%CF%83%CE%B9%CE%BD%CE%AE/amp/"
+          ]
+        },
+        "controleur": "Existe et se trouve bien dans la zone : 103 rue du Faubourg Saint-Honoré, 8e (Goop, evous, Wikipedia via recherche). Maison familiale fondée en 1845, tenue par Stéphanie Primet et Caroline Cnocquaert (l'orthographe du nom varie selon les sources). Clientèle très haut de gamme. RÉFUTATION PARTIELLE : aucune page n'a pu être ouverte. WebFetch renvoie ENOTFOUND et curl un 403 du proxy sur lachaume-fleurs.com, maisonlachaume.com et même wikipedia.org. La faiblesse du site n'est donc PAS vérifiée : une institution de ce niveau a probablement un site soigné, à contrôler à la main avant tout envoi. Le compte @lachaume.fleurs n'est cité que par un magazine grec (newmoney.gr), sans confirmation : il est laissé vide. Aucun email pro ni formulaire vérifié. Accroche corrigée : la mention des 'longues tiges' n'a pas été retrouvée, je l'ai retirée. Sources en partie anciennes (Yonder 2015) : rien ne confirme une activité en 2026."
+      },
+      {
+        "tier": "B",
+        "score": 5,
+        "zone": "Créateurs floraux, ateliers d'art floral pour événements et mariages, et abonnements floraux indépendants basés à Paris",
+        "prospect": {
+          "name": "L'Atelier Yann-H2o",
+          "website": "https://yann-h2o.com/",
+          "area": "Paris 11e (6 rue Pache, métro Voltaire)",
+          "style": "Artisan fleuriste et décoration florale de mariage",
+          "price_signal": "Atelier de composition florale à 60 EUR par personne (Funbooker)",
+          "instagram": "@yann.h2o",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "Non vérifié (site inaccessible depuis l'outil)",
+          "site_weakness": "NON OBSERVÉE : site inaccessible (DNS/proxy). À regarder à la main",
+          "detail_reel": "Artisan fleuriste au 6 rue Pache (11e), ouvert du mardi au samedi de 10h à 20h, qui fait aussi de la décoration florale de mariage et des ateliers de composition florale (60 EUR par personne sur Funbooker)",
+          "sources": [
+            "https://www.118712.fr/fiches/WUNXW1VXHQU",
+            "https://www.lebonbon.fr/paris/les-tops-mode/le-printemps-arrive-voici-le-top-des-fleuristes-a-paris/",
+            "https://fr.gaultmillau.com/artisans/l-atelier-de-yann",
+            "https://www.funbooker.com/fr/annonce/atelier-bouquet-de-fleurs-fraiches-a-paris-11eme/voir"
+          ]
+        },
+        "controleur": "Existe : artisan fleuriste au 6 rue Pache, 75011 (métro Voltaire), ouvert du mardi au samedi de 10h à 20h, site yann-h2o.com et Instagram @yann.h2o, d'après la fiche 118712 vue dans les résultats de recherche. Tél. 07 88 96 03 63 selon Le Bonbon. Également référencé par Gault&Millau (L'Atelier de Yann). Activité mariage confirmée (décoration florale de mariage). L'abonnement floral pour particuliers, hôtels et entreprises n'est PAS confirmé : je l'ai retiré de l'accroche. Un atelier de composition florale à 60 EUR par personne est proposé sur Funbooker. Aucun email pro trouvé, donc contact par Instagram seulement. Le site n'a pas pu être ouvert, donc la faiblesse et la plateforme ne sont pas vérifiées. Un petit atelier de quartier avec une activité mariage : budget plausible, sans plus."
+      },
+      {
+        "tier": "B",
+        "score": 4.5,
+        "zone": "13e, 14e et 15e arrondissements",
+        "prospect": {
+          "name": "Ateliers Flash Fleurs",
+          "website": "https://ateliersflashfleurs.com/",
+          "area": "Paris 15e (4 rue Bausset, angle rue Maublanc)",
+          "style": "fleuriste de quartier / atelier de compositions",
+          "price_signal": "selon la fiche reçue (Sessile, non revérifié) : bouquets d'environ 49 à 75 EUR",
+          "instagram": "",
+          "email_pro": "admin@ateliersflashfleurs.com (à confirmer sur le site)",
+          "contact_form": "",
+          "site_platform": "inconnue",
+          "site_weakness": "Non vérifiée : le numéro factice '01 XX XX XX XX' et l'écart d'horaires viennent seulement de la fiche reçue. À contrôler avant d'en faire l'accroche.",
+          "detail_reel": "Fleuriste de la rue Bausset, à l'angle de la rue Maublanc, de bon conseil selon un avis client (Justacote).",
+          "sources": [
+            "https://www.justacote.com/paris-75000/fleuriste/"
+          ]
+        },
+        "controleur": "Justacote confirme un 'Atelier Flash Fleurs' au 4 rue Bausset (15e, à l'angle de la rue Maublanc). Un avis le décrit comme un fleuriste de quartier sympathique, de bon conseil, qui fait parfois des remises. Le profil est surtout de quartier. Je n'ai pas pu vérifier le numéro de remplissage '01 XX', les horaires, l'email admin@ ni le lien avec Interflora et Sessile : la recherche site: ne renvoie rien et le site est bloqué. L'email admin@ est une adresse générique, à garder seulement si le site l'affiche bien."
+      },
+      {
+        "tier": "B",
+        "score": 4.5,
+        "zone": "13e, 14e et 15e arrondissements",
+        "prospect": {
+          "name": "Le Renard Fleuriste",
+          "website": "",
+          "area": "Paris 13e (187 ter rue de Tolbiac)",
+          "style": "créateur éco-responsable, fleurs françaises de saison (d'après la fiche reçue, non revérifié)",
+          "price_signal": "",
+          "instagram": "@renard.fleuriste (à confirmer)",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "aucun site (seulement une page Linktree selon la fiche reçue)",
+          "site_weakness": "Aucun site propre trouvé : rien n'apparaît dans la recherche hors annuaires.",
+          "detail_reel": "Non vérifié : compositions à base de fleurs françaises de saison (fiche reçue). Seule l'adresse au 187 ter rue de Tolbiac est confirmée.",
+          "sources": [
+            "https://trouver-ouvert.fr/paris/choisy-flor-52376"
+          ]
+        },
+        "controleur": "Un annuaire (trouver-ouvert) confirme Le Renard Fleuriste au 187 ter rue de Tolbiac (13e) et le donne comme en activité. Il n'a pas de site propre, ce qui est une opportunité, mais on ne peut le joindre que par Instagram, d'où le tier B. Je n'ai pas pu confirmer le compte @renard.fleuriste ni le prénom Théo : la recherche ne trouve rien et Linktree est bloqué. J'ai retiré le Linktree du champ formulaire, car ce n'est pas un formulaire de contact. Il faut confirmer le compte Instagram et le détail d'accroche avant l'envoi."
+      },
+      {
+        "tier": "B",
+        "score": 4,
+        "zone": "8e, 16e et 17e arrondissements (beaux quartiers)",
+        "prospect": {
+          "name": "Gilles Pothier",
+          "website": "",
+          "area": "16e - 97 avenue Raymond Poincaré",
+          "style": "créateur haut de gamme, Meilleur Ouvrier de France, installations florales pour intérieurs prestigieux",
+          "price_signal": "",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "aucun site trouvé",
+          "site_weakness": "Aucun site officiel ni compte Instagram trouvé dans les recherches : seuls des annuaires et des articles le citent",
+          "detail_reel": "Meilleur Ouvrier de France en 1994 et champion du monde Interflora en 1997 (Yonder) ; auteur du livre Paris Floral Interiors",
+          "sources": [
+            "https://www.yonder.fr/les-tops/shopping/les-13-meilleurs-fleuristes-de-paris-2015/Gilles-Pothier-la-signature",
+            "https://acceslibre.beta.gouv.fr/app/75-paris/a/fleuriste/erp/gilles-pothier-2/",
+            "https://data.bnf.fr/13771441/gilles_pothier/fr.pdf",
+            "https://www.powells.com/book/paris-9789058561732"
+          ]
+        },
+        "controleur": "L'adresse 97 avenue Raymond Poincaré (16e) et le téléphone 01 40 67 71 71 sont confirmés par Yonder et acceslibre. Les titres sont exacts : MOF 1994 et champion du monde Interflora 1997 (Yonder). La BnF le présente comme fleuriste à Paris depuis 1990. Aucun site ni Instagram trouvé, ce qui donne tier B (pas de site). DOUTE : les sources datent surtout de 2015, rien ne confirme qu'il est encore en activité en 2026. Aucun contact écrit publié : seul le téléphone est disponible. Le livre 'Paris Floral Interiors' est confirmé (Kebuk, Powell's)."
+      },
+      {
+        "tier": "B",
+        "score": 4,
+        "zone": "8e, 16e et 17e arrondissements (beaux quartiers)",
+        "prospect": {
+          "name": "Adele",
+          "website": "https://adele-artisan-fleuriste.fr",
+          "area": "17e - 10 rue Poncelet (Ternes)",
+          "style": "artisan, événementiel (mariages, naissances, funérailles), abonnements pour hôtels",
+          "price_signal": "",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "inconnu",
+          "site_weakness": "NON VÉRIFIÉ : le site n'a pas pu être ouvert depuis l'environnement",
+          "detail_reel": "Se présente comme « votre artisan fleuriste rue Poncelet » ; décoration florale sur mesure pour mariages, naissances et funérailles, et abonnements floraux pour hôtels (annuaires)",
+          "sources": [
+            "https://www.118712.fr/annuaire/ville/paris-17e-arrondissement-75/fleuristes",
+            "https://www.118712.fr/professionnels/WkpXWlBWHAg",
+            "https://acceslibre.beta.gouv.fr/app/75-paris/a/fleuriste/erp/adele/"
+          ]
+        },
+        "controleur": "L'adresse 10 rue Poncelet (17e, métro Ternes), le domaine adele-artisan-fleuriste.fr et le téléphone 01 46 22 00 19 sont confirmés par 118712 et acceslibre. Les annuaires précisent aussi la décoration de mariages, naissances et funérailles, et des abonnements floraux pour hôtels. RÉFUTATION PARTIELLE : le site n'a pas pu être ouvert (ENOTFOUND et proxy 403), donc ni sa faiblesse ni sa plateforme ne sont vérifiées. Aucun email, formulaire ou Instagram trouvé. Positionnement plutôt artisan de quartier que luxe."
+      },
+      {
+        "tier": "C",
+        "score": 4.5,
+        "zone": "11e, 12e et 20e arrondissements (Bastille, Oberkampf, Belleville)",
+        "prospect": {
+          "name": "Fragrance | fleurs et thés",
+          "website": "https://fragrance.paris",
+          "area": "11e, 14 rue Saint-Sébastien (Saint-Sébastien-Froissart). À vérifier : une fiche « fragrance | studio floral » existe au 115 rue de Turenne (3e)",
+          "style": "Créateur, romantique aux tons pastel : fleuriste et salon de thé, fleurs françaises de saison, fleurs séchées, abonnements floraux à la semaine et au mois",
+          "price_signal": "Bouquets frais à partir de 15 EUR, bouquets séchés à partir de 25 EUR (doitinparis, non daté)",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "Inconnu : le site fragrance.paris, cité par The Shopkeepers, est inaccessible depuis ici",
+          "site_weakness": "NON VÉRIFIÉ : un site fragrance.paris est cité, mais il n'a pas pu être consulté. Vérifier à la main s'il existe encore et à quoi il ressemble",
+          "detail_reel": "Claire Champonnois choisit elle-même des fleurs françaises de saison à Rungis et chez des producteurs d'Île-de-France, compose les bouquets à la minute devant le client et sert des thés bio au milieu des fleurs (doitinparis)",
+          "sources": [
+            "https://www.doitinparis.com/fr/fleuristes-eco-responsable-paris-25682",
+            "https://www.doitinparis.com/fr/fleurs-sechees-paris-25080",
+            "https://theshopkeepers.com/shops/fragrance/",
+            "https://www.bottin.fr/fiche-locale/iaedijcacfcgjjfedcb--fragrance-rr-fleurs-et-thes--paris.htm",
+            "https://www.bottin.fr/fiche-locale/fibjhhgagaaejdgfddi--fragrance-studio-floral--paris.htm"
+          ]
+        },
+        "controleur": "Existe : fleuriste et salon de thé au 14 rue Saint-Sébastien (11e), en face de Merci, tenu par Claire Champonnois, fondé en 2018 (doitinparis et theshopkeepers via recherche). Bottin donne des horaires et une note de 4,7/5 sur plus de 60 avis, mais la page n'a pas pu être ouverte. Correction : la fiche disait « aucun site », or The Shopkeepers indique un site, fragrance.paris. Je n'ai pas pu l'ouvrir (ENOTFOUND), donc j'ignore s'il fonctionne et ce qu'il vaut. Doute sur l'adresse : Bottin a aussi une fiche « fragrance | studio floral » au 115 rue de Turenne (3e), hors de la zone. C'est peut-être un déménagement, une deuxième adresse ou un autre commerce : à vérifier. Le compte Instagram @fragrancefleursthes n'est confirmé nulle part, je l'ai donc vidé. Aucun email et aucun formulaire vérifiés : pour l'instant, aucun contact conforme à la règle. Prix d'entrée bas (bouquets à partir de 15 EUR), une clientèle de quartier : moins solide pour un site à 1 500 EUR."
+      },
+      {
+        "tier": "C",
+        "score": 4,
+        "zone": "5e, 6e et 7e arrondissements (Saint-Germain, Rive gauche)",
+        "prospect": {
+          "name": "Odorantes",
+          "website": "",
+          "area": "6e - 9 rue Madame (Saint-Germain / Saint-Sulpice)",
+          "style": "créateur haut de gamme, bouquets composés par le parfum (roses anciennes)",
+          "price_signal": "clientèle haut de gamme (citée par Goop, Gardenista, Phaidon ; une source cite Catherine Deneuve parmi les clients) ; aucun prix observé",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "aucun site trouvé",
+          "site_weakness": "Aucun site officiel trouvé. Je n'ai pas pu vérifier directement à cause des blocages du proxy. Il faut confirmer à la main qu'elle est ouverte en 2026 et chercher un éventuel Instagram.",
+          "detail_reel": "Fondé en 2002 (2003 selon une autre source) par Emmanuel Sammartino et Christophe Hervé, passionnés de roses anciennes. Les fleurs, surtout des roses, sont classées par parfum : d'abord le parfum, ensuite la composition. Le thème de la boutique change environ tous les deux mois.",
+          "sources": [
+            "https://www.yonder.fr/les-tops/shopping/les-13-meilleurs-fleuristes-de-paris-2015/odorantes-la-passion",
+            "https://www.evous.fr/paris/6eme-Arrondissement-Saint-Germain-des-Pres/guide-paris-6e/Se-mettre-au-vert-Paris-6e/Fleuristes-et-jardineries-Paris-6e/Odorantes-Fleuriste-Paris-75006,1188894.html",
+            "https://gardenista.com/posts/odorantes-a-chic-parisian-florist-where-the-flowers-are-arranged-by-scent",
+            "https://staging2.phaidon.com/agenda/design/articles/2019/april/10/odorantes-not-your-grandmothers-florist"
+          ]
+        },
+        "controleur": "Existe bien au 9 rue Madame, 75006 (Yonder 2015, evous, Gardenista, Phaidon 2019). Le résumé de recherche cite aussi un guide frenchglimpses de mars 2025 qui la recommande encore, mais je n'ai pas pu ouvrir la page (ENOTFOUND). Aucune source datée de 2026 ne confirme qu'elle est ouverte. Aucun site, Instagram ni email trouvé : aucun contact conforme à la règle, seulement le téléphone 01 42 84 03 00 relevé par la recherche. Profil créateur haut de gamme très bon pour l'offre (concept du parfum), mais l'activité est incertaine et il n'y a aucun canal écrit : tier C tant qu'on n'a pas vérifié Google Maps et Instagram à la main. Correction : sources en désaccord sur l'année d'ouverture (2002 ou 2003) ; le décor change environ tous les deux mois."
+      },
+      {
+        "tier": "C",
+        "score": 4,
+        "zone": "13e, 14e et 15e arrondissements",
+        "prospect": {
+          "name": "Flor 50",
+          "website": "https://www.flor-50.fr/",
+          "area": "Paris 13e (50 boulevard de l'Hôpital)",
+          "style": "classique / artisan familial",
+          "price_signal": "",
+          "instagram": "",
+          "email_pro": "[adresse retirée : dépôt public] (affichée sur Facebook selon la fiche reçue, à recouper)",
+          "contact_form": "https://www.flor-50.fr/livraison-paris",
+          "site_platform": "inconnue",
+          "site_weakness": "Non vérifiée (site bloqué). Selon la fiche reçue : pas de prix pour les bouquets et pas d'Instagram.",
+          "detail_reel": "Non vérifié de façon indépendante : 'artisan fleuriste depuis 86 ans', sur trois générations (fiche reçue). Confirmé : ouvert 7 jours sur 7, jusqu'à 21h en semaine (trouver-ouvert).",
+          "sources": [
+            "https://trouver-ouvert.fr/paris/flor-50-89120"
+          ]
+        },
+        "controleur": "Un annuaire mis à jour le 4 juin 2026 confirme Flor 50 au 50 boulevard de l'Hôpital (13e) et le donne ouvert presque tous les jours, de 7h30 à 21h. C'est un profil classique de quartier, sans signe de positionnement créatif ou haut de gamme. Le seul email est une adresse wanadoo affichée sur Facebook : au nom du commerce, mais à recouper. Je n'ai pas pu vérifier le slogan '86 ans', les trois générations ni la reprise en 1997 : la recherche ne trouve rien et le site est bloqué."
+      },
+      {
+        "tier": "C",
+        "score": 3,
+        "zone": "1er, 2e, 3e et 4e arrondissements (Marais, centre)",
+        "prospect": {
+          "name": "Frédéric Garrigues Fleuriste",
+          "website": "",
+          "area": "3e (Marais), 2 rue Saint-Gilles",
+          "style": "créateur et événementiel champêtre chic (mariages, baptêmes, réceptions, cours d'art floral)",
+          "price_signal": "",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "aucun site trouvé",
+          "site_weakness": "Aucun site ni réseau social trouvé ; seul un téléphone apparaît dans des annuaires de 2017.",
+          "detail_reel": "Il excelle dans les compositions paysagères champêtres et donne des cours d'art floral, collectifs ou particuliers. Coauteur de « Décoration florale, pour une approche intuitive et poétique au fil des saisons » (Eyrolles, 2015).",
+          "sources": [
+            "https://www.evous.fr/paris/le-marais/boutiques/Fleuristes-et-jardineries-du-Marais/Frederic-Garrigues-Fleuriste-Paris-75003,1121419.html",
+            "https://www.koifaire.com/ile-de-france/frederic,garrigues-44953.html",
+            "https://data.bnf.fr/17015258/nathalie_bouat/fr.pdf"
+          ]
+        },
+        "controleur": "Indépendant et créatif : l'atelier fait des décors de mariage et donne des cours, et il a coécrit un livre chez Eyrolles en 2015 avec Nathalie Bouat. En revanche, la fiche annuaire date de novembre 2017, et je n'ai trouvé ni site, ni Instagram, ni source récente qui prouve que l'atelier est encore actif en 2026. Pas de site du tout et un doute sur l'activité, donc tier C. Avant d'envoyer quoi que ce soit, il faut vérifier la fiche Google ou appeler. Aucun contact écrit publié."
+      },
+      {
+        "tier": "C",
+        "score": 3,
+        "zone": "5e, 6e et 7e arrondissements (Saint-Germain, Rive gauche)",
+        "prospect": {
+          "name": "The Blue Tree (L'Arbre Bleu)",
+          "website": "",
+          "area": "5e - 4 rue de Candolle (près du Jardin des Plantes)",
+          "style": "bohème / boutique de quartier, vitrines de saison",
+          "price_signal": "",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "aucun site confirmé",
+          "site_weakness": "Aucun site ni Instagram trouvé ; Le Bonbon ne donne pas de compte Instagram pour cette boutique, alors qu'il en donne pour les autres.",
+          "detail_reel": "Petite boutique d'angle dont les fleurs débordent sur le trottoir et grimpent sur la façade. Vitrines de saison, des citrouilles d'Halloween aux haies en forme de lapin à Pâques.",
+          "sources": [
+            "https://en.lebonbon.fr/paris/tops-fashion/spring-is-here-so-here-is-the-top-list-of-florists-in-paris",
+            "https://myfrenchcountryhomemagazine.com/mfch-staff-favorites-our-favorite-florists-in-paris/"
+          ]
+        },
+        "controleur": "Existe d'après Le Bonbon (The Blue Tree, 4 rue de Candolle, 5e, tél. 01 45 35 76 30) et My French Country Home (L'Arbre Bleu, petite boutique d'angle du 5e). Le Bonbon donne l'Instagram des boutiques voisines dans sa liste, mais pas celui-ci : signe d'une présence en ligne faible ou absente. Aucun site, Instagram ni email confirmé. Aucune des pages n'a pu être ouverte directement (ENOTFOUND), et l'activité en 2026 n'est pas confirmée. Boutique de quartier : profil faible pour 1 500 EUR, tier C. Le guide French Glimpses, cité par la recherche, parle d'une jeune équipe éco-responsable en circuit court, mais le place dans le 6e, ce qui contredit les autres sources."
+      },
+      {
+        "tier": "C",
+        "score": 3,
+        "zone": "8e, 16e et 17e arrondissements (beaux quartiers)",
+        "prospect": {
+          "name": "Un peu beaucoup",
+          "website": "",
+          "area": "16e - 18 rue Pierre Guérin (Auteuil)",
+          "style": "créateur végétal, particuliers, entreprises et collectivités",
+          "price_signal": "",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "aucun site trouvé",
+          "site_weakness": "Aucun site officiel ni réseau social trouvé ; présence limitée à des annuaires, dont un donne une autre adresse",
+          "detail_reel": "Se présente comme « fleuriste et créateur d'émotion avant tout » ; équipe de François Lequesne, installée depuis plus de 20 ans dans le 16e, qui mêle végétal, pierre et verre (evous, 2015)",
+          "sources": [
+            "https://www.evous.fr/paris/16eme-Arrondissement/Guide-Paris-16e/Se-mettre-au-vert-Paris-16e/Fleuristes-et-jardineries-Paris-16e/Un-peu-beaucoup-Fleuriste-Paris-75016,1188845.html",
+            "https://www.justacote.com/metro-michel-ange-auteuil/fleuriste/",
+            "https://www.koifaire.com/ile-de-france/paris,16eme,arrondissement-75016/boutiques/fleuristes-287/"
+          ]
+        },
+        "controleur": "L'adresse 18 rue Pierre Guérin (16e) est confirmée par evous, justacote et tendancehotellerie. Une fiche Koifaire donne une autre adresse (148 avenue de Versailles), ce qui ajoute un doute. Le détail d'accroche est exact mais tiré d'une fiche evous de 2015. Aucun site, aucun Instagram, aucun email trouvés. Rien ne confirme une activité en 2026 : tier C."
+      },
+      {
+        "tier": "C",
+        "score": 3,
+        "zone": "8e, 16e et 17e arrondissements (beaux quartiers)",
+        "prospect": {
+          "name": "La Marguerite à Paris",
+          "website": "https://www.lamargueriteaparis.com",
+          "area": "17e - 106 rue Cardinet",
+          "style": "classique de quartier, ateliers floraux, mariages, abonnements",
+          "price_signal": "bouquets à partir de 10 EUR, compositions à partir de 30 EUR, roses à partir de 1,50 EUR (PagesJaunes) : gamme accessible",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "inconnu",
+          "site_weakness": "NON VÉRIFIÉ : le site n'a pas pu être ouvert depuis l'environnement",
+          "detail_reel": "Propose la livraison le jour même, des abonnements floraux pour particuliers et des ateliers de décoration florale",
+          "sources": [
+            "https://www.pagesjaunes.fr/pros/56059921",
+            "https://fr.mappy.com/poi/56b27de29191b046ffb1b410",
+            "https://www.118712.fr/professionnels/WkRRW15cHwA"
+          ]
+        },
+        "controleur": "L'adresse 106 rue Cardinet (17e) et le domaine lamargueriteaparis.com sont confirmés par 118712, Mappy et PagesJaunes. Le détail d'accroche est exact : livraison le jour même et ateliers (PagesJaunes). Prix accessibles (bouquets dès 10 EUR, compositions dès 30 EUR, roses dès 1,50 EUR) : profil de quartier, peu probable à 1 500 EUR. Le site n'a pas pu être ouvert, sa faiblesse n'est donc pas vérifiée. Aucun email, formulaire ou Instagram trouvé."
+      },
+      {
+        "tier": "C",
+        "score": 3,
+        "zone": "9e, 10e et 18e arrondissements (Pigalle, canal Saint-Martin, Montmartre)",
+        "prospect": {
+          "name": "Muse",
+          "website": "",
+          "area": "18e, 4 rue Burq (métro Abbesses, Montmartre)",
+          "style": "romantique / bohème, artisan de quartier",
+          "price_signal": "bouquet à partir de 30 EUR (Do It in Paris), petites compositions dès 5 EUR (Hip Paris). Sources anciennes.",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "aucun site trouvé",
+          "site_weakness": "Aucun site, email ni Instagram trouvé. Présence en ligne limitée aux annuaires et à des articles de 2015. Ouverture actuelle à confirmer : Mappy affiche « Fermé actuellement ».",
+          "detail_reel": "Échoppe romantique de Majid Mohammad au pied de la Butte, aux compositions bohèmes dans l'esprit de Montmartre. Vitrine fournie, palettes de couleurs inhabituelles et vases vintage (Yonder, Do It in Paris).",
+          "sources": [
+            "https://www.yonder.fr/les-tops/shopping/les-13-meilleurs-fleuristes-de-paris-2015/muse-lechoppe-romantique",
+            "https://www.doitinparis.com/fr/muse-le-fleuriste-poetique-19740",
+            "https://hipparis.com/muse-montmartres-neighborhood-flower-shop/",
+            "https://fr.mappy.com/activite/fleuriste/75018-paris",
+            "https://www.bottin.fr/annuaire/fleuriste-a-paris-18-75118.htm"
+          ]
+        },
+        "controleur": "Adresse cohérente sur plusieurs sources : 4 rue Burq, 75018, métro Abbesses. Fondé par Majid Mohammad (Yonder 2015, Do It in Paris, Hip Paris). Toutes ces sources sont anciennes. Mappy affiche « Fermé actuellement » sans date, ce qui peut être un simple horaire. Bottin indique 4,9/5 sur plus de 40 votes. L'activité actuelle n'est pas confirmée, d'où le tier C. Aucun site, email, Instagram ni formulaire trouvé. Seul contact public : un téléphone de 2015 (01 46 06 52 49), possiblement périmé et hors des canaux autorisés. Prix d'entrée bas : bouquet à partir de 30 EUR (Do It in Paris), compositions dès 5 EUR (Hip Paris). C'est un profil de quartier, peu compatible avec un site à 1 500 EUR. Le détail d'accroche est exact. Attention : l'article French Glimpses de 2025 parle d'un autre Muse, dans le 6e."
+      },
+      {
+        "tier": "C",
+        "score": 3,
+        "zone": "Créateurs floraux, ateliers d'art floral pour événements et mariages, et abonnements floraux indépendants basés à Paris",
+        "prospect": {
+          "name": "Thyrse",
+          "website": "https://thyrseparis.com",
+          "area": "Paris (adresse non trouvée)",
+          "style": "Studio floral créateur entre mode, art et design : installations botaniques et collaborations artistiques",
+          "price_signal": "",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "Non vérifié (site inaccessible depuis l'outil)",
+          "site_weakness": "NON OBSERVÉE : site inaccessible (DNS/proxy). Activité 2025-2026 non confirmée",
+          "detail_reel": "Fondé en 2020 par Domitille Basso, ancienne brodeuse chez Saint Laurent ; installations botaniques et collaboration avec le Palais de Tokyo, selon Time Out",
+          "sources": [
+            "https://www.timeout.fr/paris/shopping/fleuristes"
+          ]
+        },
+        "controleur": "Une seule source trouvée : le guide Time Out des fleuristes. Il confirme une fondation en 2020 par Domitille Basso, ancienne brodeuse chez Saint Laurent, un studio entre mode, art et design, des installations botaniques et une collaboration avec le Palais de Tokyo, ainsi que le site thyrseparis.com. Aucune adresse, aucun horaire, aucun Instagram et aucun email trouvés. Activité 2025-2026 non confirmée. Le site n'a pas pu être ouvert. Profil créatif intéressant, mais le doute sur l'activité et l'absence de tout contact vérifié justifient un tier C. Pour une fiche à source unique, le fondateur doit d'abord confirmer à la main que le studio est actif."
+      },
+      {
+        "tier": "C",
+        "score": 2.5,
+        "zone": "13e, 14e et 15e arrondissements",
+        "prospect": {
+          "name": "L'Atelier des Fleurs (Véronique Vallauri)",
+          "website": "https://www.latelier-veronique-vallauri.fr/",
+          "area": "Paris 14e (56 rue Pernety, angle rue de l'Ouest)",
+          "style": "fleuriste de quartier créative, ateliers floraux pour enfants",
+          "price_signal": "atelier enfant à 45 EUR par enfant (Citizen Kid)",
+          "instagram": "@veroniquevallauri (selon la fiche reçue)",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "inconnue",
+          "site_weakness": "Non vérifiée (site bloqué). Présence en ligne faible.",
+          "detail_reel": "Installée rue Pernety depuis 1997 ; propose des ateliers floraux pour enfants où chacun repart avec sa création (Citizen Kid). En 2018, le quartier l'a aidée à rouvrir après une attaque (Aleteia).",
+          "sources": [
+            "https://www.efficity.com/achat-immobilier/fonds-de-commerce_57-m2_paris_75014_29024109/",
+            "https://fr.aleteia.org/2018/02/01/ils-ont-presque-sauve-la-fleuriste-du-xive/",
+            "https://www.citizenkid.com/sortie/atelier-veronique-vallauri-paris-a1045098"
+          ]
+        },
+        "controleur": "J'ai un DOUTE SUR L'ACTIVITÉ. Une annonce Efficity, non datée, met en vente pour 60 000 EUR le fonds de commerce d'un fleuriste 'L'Atelier des Fleurs' à l'angle de la rue Pernety et de la rue de l'Ouest, 'établi depuis 1997'. Ça correspond exactement à ce commerce. En 2018, Aleteia racontait qu'elle avait dû fermer quatre mois après une attaque au cocktail Molotov, puis qu'une cagnotte Ulule l'avait aidée. Citizen Kid parle d'ateliers floraux pour enfants au 56 rue Pernety, 45 EUR par enfant. Elle a une faible présence en ligne et aucun email générique. Il faut savoir si la boutique est vendue ou fermée avant tout contact."
+      }
+    ],
+    "kits": [
+      {
+        "prospect": {
+          "name": "Akiko Usami",
+          "website": "https://www.akiko-usami.com/",
+          "area": "Paris 14e (26 rue de Plaisance selon Bridebook ; la fiche reçue disait 26 rue Pernety, à confirmer)",
+          "style": "luxe / créateur : fleuriste japonaise et artiste Ikebana, style 'wafuka', mariages et grands hôtels",
+          "price_signal": "aucun prix publié ; d'après Pen Online, ses bouquets sont dans de grands hôtels parisiens et des mariages élégants",
+          "instagram": "",
+          "email_pro": "contact@akiko-usami.com (donnée par l'équipe de prospection, non revérifiée car le site est bloqué)",
+          "contact_form": "https://www.akiko-usami.com/contact/",
+          "site_platform": "WordPress probable (non confirmé)",
+          "site_weakness": "Non vérifiée directement : site bloqué ici et non indexé par la recherche site:. Selon la fiche reçue, les réalisations ne portent qu'un numéro (N°562...). À contrôler avant l'envoi.",
+          "detail_reel": "Le style 'wafuka', qui mêle influences japonaises et françaises (Homo Faber) ; atelier lancé à Paris en 2012 ; des bouquets présents dans de grands hôtels parisiens et des mariages élégants (Pen Online).",
+          "sources": [
+            "https://bridebook.com/fr/wedding-florists/akiko-usami-paris-ile-de-france-frQgG6mBXv",
+            "https://www.homofaber.com/en/artisans/akiko-usami-flower-designing-france",
+            "https://pen-online.com/arts/a-japanese-ikebana-artist-in-france/"
+          ]
+        },
+        "tier": "A",
+        "score": 7,
+        "zone": "13e, 14e et 15e arrondissements",
+        "controleur": "Elle existe bien : Bridebook, Homo Faber et Pen Online la décrivent comme fleuriste japonaise et artiste Ikebana à Paris, créatrice du style 'wafuka', atelier lancé en 2012, avec des bouquets placés dans de grands hôtels parisiens et des mariages. C'est un profil haut de gamme et indépendant. Je CONTESTE l'adresse : Bridebook la place au 26 rue de Plaisance (75014), pas au 26 rue Pernety. Ça reste dans le 14e, mais il faut l'écrire juste. Je n'ai pas pu vérifier moi-même l'email contact@ ni la faiblesse du site : WebFetch et curl sont bloqués (DNS) pour tous les domaines, et la recherche site: ne renvoie aucune page d'akiko-usami.com. Le fondateur doit ouvrir le site avant d'envoyer, pour confirmer l'adresse email et que le site n'est pas déjà animé. Instagram introuvable.",
+        "sources": [
+          "https://www.akiko-usami.com/",
+          "https://www.homofaber.com/en/artisans/akiko-usami-flower-designing-france",
+          "https://bridebook.com/fr/wedding-florists/akiko-usami-paris-ile-de-france-frQgG6mBXv",
+          "https://pen-online.com/arts/a-japanese-ikebana-artist-in-france/"
+        ],
+        "kit": {
+          "name": "Akiko Usami",
+          "channel_first": "Commencer par l'email pro contact@akiko-usami.com. C'est le canal le plus direct pour un atelier haut de gamme qui travaille pour des mariages et de grands hôtels. Cette adresse n'a pas été revérifiée et le site était bloqué pour nous. Avant d'envoyer, ouvrez https://www.akiko-usami.com/ et vérifiez quatre choses. 1) L'adresse email figure bien sur le site. 2) La page d'accueil n'est pas déjà animée. 3) L'atelier est bien au 26 rue de Plaisance (75014) et non rue Pernety. Ne citez pas l'adresse dans le message. 4) Regardez comment les réalisations sont présentées (la fiche reçue parle de simples numéros, N°562..., mais ce point n'a pas été contrôlé). Ne mentionnez jamais ce point dans un message tant que vous ne l'avez pas vu vous-même. Si l'email n'apparaît pas sur le site, passez par le formulaire https://www.akiko-usami.com/contact/ avec le même texte. Nous n'avons trouvé aucun compte Instagram. Le DM ne sert que si vous en trouvez un sur son site.",
+          "accroche_utilisee": "Son style 'wafuka', qui mêle influences japonaises et françaises (source : Homo Faber), et ses bouquets présents dans de grands hôtels parisiens et des mariages élégants (source : Pen Online).",
+          "idee_3d": "Une page d'accueil comme une démonstration d'Ikebana en direct. Au centre, une vraie composition wafuka d'Akiko Usami, prise en photo puis animée de façon réaliste, tourne lentement sur un fond très épuré, crème ou papier washi. Au fil du scroll, la composition se construit tige après tige, comme sous la main de l'artiste. Une branche se déplie, puis quelques pétales tombent et dévoilent le titre en typographie géante « wafuka ». Plus bas, deux vitrines défilent en 3D : une pour les compositions de mariage, une pour les compositions réalisées pour les hôtels. Les futurs mariés et les hôtels peuvent voir chaque pièce sous tous les angles.",
+          "email_subject": "Votre style wafuka, en mouvement",
+          "email_body": "Bonjour Madame Usami,\n\nVotre style wafuka mêle l'Ikebana et le bouquet français, et vos bouquets sont présents dans de grands hôtels parisiens et dans des mariages élégants. Je m'appelle [Prénom] et je dirige [Nom de l'agence], une jeune agence qui crée des sites animés en 3D.\n\nVoici mon idée : une de vos compositions tourne lentement au centre de votre page d'accueil, puis se construit tige après tige quand on fait défiler la page. Les futurs mariés et les hôtels verraient votre geste avant même de vous rencontrer.\n\nPour vous montrer : (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste)\n\nLe site est livré en 14 jours.\n\nJe vous envoie une maquette 3D gratuite de votre page d'accueil ?\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous ne souhaitez plus recevoir de message de ma part, répondez simplement « non ».",
+          "dm_instagram": "Bonjour Madame Usami, je suis [Prénom] de [Nom de l'agence]. Votre style wafuka mérite de bouger : imaginez une de vos compositions qui tourne en 3D sur votre page d'accueil et se construit tige après tige au scroll. (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste) Je vous envoie une maquette gratuite ?",
+          "relance_j3": "Bonjour Madame Usami,\n\nJe me permets de revenir vers vous au sujet de la maquette 3D. Si cela vous intéresse, vous pouvez choisir vous-même la composition à mettre en scène, par exemple une pièce faite pour un mariage ou pour un hôtel. Je la réalise avec vos propres photos, sans aucun engagement de votre part.\n\nJe vous l'envoie ?\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous ne souhaitez plus recevoir de message de ma part, répondez simplement « non ».",
+          "relance_j7": "Bonjour Madame Usami,\n\nUn dernier message de ma part. Les couples qui préparent leur mariage pour la saison 2027 cherchent déjà leurs prestataires. Nous livrons un site en 14 jours : votre page d'accueil pourrait montrer vos compositions de mariage en 3D, avec le mot « wafuka » écrit en très grand au-dessus de vos créations.\n\nLa maquette gratuite reste à votre disposition si vous le souhaitez.\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous ne souhaitez plus recevoir de message de ma part, répondez simplement « non »."
+        },
+        "corrections": [
+          "Les relances J3 et J7 et la relance J7 en particulier supposent une activité saisonnière qui n'est pas dans la fiche. L'email dit « il peut être en ligne avant Noël et la Saint-Valentin », la relance J7 parle de « commandes de Noël » et de « vos compositions de Saint-Valentin », et l'idée 3D montre une « vitrine des compositions de saison (Noël, puis Saint-Valentin) ». Rien dans la fiche ne dit qu'Akiko Usami vend des compositions de Noël ou de Saint-Valentin. Elle travaille pour des mariages et de grands hôtels. Cet argument est inventé et générique (on peut l'envoyer à n'importe quel fleuriste). Il faut le retirer, ou le remplacer par un calendrier qu'on peut défendre (par exemple la saison des mariages 2027), ou bien le garder seulement après avoir vérifié sur son site qu'elle vend des pièces de saison.",
+          "L'email généralise la source. « se voit dans chaque composition que vous placez dans les grands hôtels parisiens » : Pen Online dit seulement que ses bouquets sont présents dans de grands hôtels parisiens et dans des mariages élégants. « Chaque composition » et « que vous placez » vont plus loin que le fait. Formulation proposée : « Votre style wafuka, qui mêle l'Ikebana et le bouquet français, et vos bouquets présents dans de grands hôtels parisiens... ». Il faut aussi citer les mariages, puisque l'accroche les mentionne.",
+          "L'idée 3D s'appuie sur une faiblesse du site qui n'est pas vérifiée : « au lieu d'une simple photo numérotée ». La fiche dit que ce point n'a pas été contrôlé (site bloqué). Le commercial ne doit pas reprendre cet argument tant qu'il n'a pas ouvert le site. Il faut ajouter ce contrôle à la liste du channel_first, ou retirer la phrase.",
+          "Le calendrier de la relance J7 est arbitraire et peut induire en erreur : « il faut le lancer vers la mi-novembre, puisque nous livrons en 14 jours ». Avec une livraison en 14 jours, un lancement à la mi-novembre ne se déduit pas de « avant les commandes de Noël », d'autant que rien ne dit qu'elle prend des commandes de Noël. C'est une fausse urgence. Il vaut mieux s'en tenir au fait simple : livraison en 14 jours.",
+          "Le kit ne pose pas de problème de tiret long. La phrase pour ne plus être recontacté figure bien à la fin des trois emails. Le lien de démo est présent et exact dans l'email et dans le DM. Les placeholders sont conformes. Aucun client ni résultat n'est inventé. Ces points sont validés, mais les quatre problèmes ci-dessus bloquent l'envoi en l'état."
+        ]
+      },
+      {
+        "prospect": {
+          "name": "Désirée (café-fleuriste)",
+          "website": "https://www.desireefleurs.fr",
+          "area": "11e, 5 rue de la Folie-Méricourt (Oberkampf). Deuxième boutique au 96 rue de Meaux (19e)",
+          "style": "Créateur et écoresponsable : fleurs 100 % françaises et de saison, café-fleuriste, ateliers d'art floral le week-end, kits de jardinage urbain",
+          "price_signal": "Prix non observé (site inaccessible)",
+          "instagram": "@desireefleurs",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "Shopify (d'après une newsletter de 2023, pas revérifié)",
+          "site_weakness": "NON VÉRIFIÉ : le site est bloqué par le proxy. Le fondateur doit le regarder lui-même avant l'envoi. S'il est déjà soigné ou animé, rétrograder la fiche",
+          "detail_reel": "La cofondatrice refuse de vendre des roses à la Saint-Valentin parce qu'elles sont hors saison en février, et propose à la place des renoncules, des anémones ou des scabieuses (Reporterre). C'est l'accroche pour une vitrine 3D des compositions de saison avant le 14 février",
+          "sources": [
+            "https://reporterre.net/Saint-Valentin-les-fleurs-de-saison-a-offrir",
+            "https://www.parisselectbook.com/2025/02/17/desiree-cafe-fleuriste-une-adresse-cosy-a-decouvrir/",
+            "https://frenchglimpses.com/2022/05/19/a-charming-ecological-florist-in-paris/",
+            "https://parisjetaime.com/shopping/desiree-p2621",
+            "https://www.district-immo.com/en/desiree-the-florist-cafe/"
+          ]
+        },
+        "tier": "B",
+        "score": 6,
+        "zone": "11e, 12e et 20e arrondissements (Bastille, Oberkampf, Belleville)",
+        "controleur": "Existe et indépendant : café-fleuriste fondé en 2017 par Audrey Venant et Mathilde Bignon, 5 rue de la Folie-Méricourt (11e), deuxième boutique au 96 rue de Meaux (19e) depuis juillet 2020 (recherches qui citent parisjetaime, district-immo, frenchglimpses). Aucune annonce de fermeture trouvée et un article de février 2025 (parisselectbook) parle encore du lieu, mais aucune source de 2026 ne confirme que la boutique du 11e est ouverte. Accroche vérifiée : Reporterre cite la cofondatrice, qui refuse la rose en février parce qu'elle est hors saison et la remplace par des renoncules, des anémones ou des scabieuses. Contact : aucun email générique trouvé ; seul le compte Instagram @desireefleurs est confirmé par un tiers (frenchglimpses), d'où le tier B. Je n'ai pas pu vérifier la faiblesse du site : desireefleurs.fr, paris.fr et les annuaires sont bloqués (ENOTFOUND, CONNECT 403). Le site Shopify peut donc être correct, ce qui fait baisser le score. Bon profil créatif et écoresponsable, avec de la vente en ligne : le site compte pour eux, donc ils ont des raisons de payer pour un meilleur site.",
+        "sources": [
+          "https://www.desireefleurs.fr (bloqué ENOTFOUND / 403)",
+          "https://www.paris.fr/pages/des-fleurs-ou-un-cafe-chez-desiree-emportez-les-deux-15829 (bloqué)",
+          "https://reporterre.net/Saint-Valentin-les-fleurs-de-saison-a-offrir (via recherche)",
+          "https://www.parisselectbook.com/2025/02/17/desiree-cafe-fleuriste-une-adresse-cosy-a-decouvrir/ (via recherche)",
+          "https://frenchglimpses.com/2022/05/19/a-charming-ecological-florist-in-paris/ (via recherche)",
+          "https://parisjetaime.com/shopping/desiree-p2621 (via recherche)"
+        ],
+        "kit": {
+          "name": "Désirée (café-fleuriste)",
+          "channel_first": "Instagram (@desireefleurs) en premier. Aucun email pro et aucun formulaire n'ont été trouvés, et le compte Instagram est le seul contact confirmé par une source tierce (frenchglimpses). L'email ci-dessous sert seulement si le fondateur trouve une adresse pro sur le site, dans les mentions légales ou la bio Instagram. Avant tout envoi, le fondateur doit ouvrir desireefleurs.fr lui-même : le site n'a pas pu être vérifié. S'il est déjà soigné ou animé, il faut rétrograder la fiche ou changer d'angle. Il doit aussi regarder si les dernières publications Instagram confirment que la boutique du 11e est toujours ouverte.",
+          "accroche_utilisee": "La cofondatrice refuse de vendre des roses à la Saint-Valentin parce qu'elles sont hors saison en février. Elle propose à la place des renoncules, des anémones ou des scabieuses (cité par Reporterre).",
+          "idee_3d": "Une vitrine 3D « la Saint-Valentin sans roses ». Au centre de la page d'accueil, un vrai bouquet de Désirée (renoncules, anémones, scabieuses, photographié en boutique) pivote lentement en photoréaliste. Une typographie géante l'accompagne : « Pas de roses en février ». Au scroll, les pétales tombent et le bouquet laisse place, une par une, aux compositions de chaque saison, avec le nom des fleurs françaises qui les composent. En bas de page, deux entrées : les ateliers d'art floral du week-end, et les deux boutiques (Folie-Méricourt et rue de Meaux).",
+          "email_subject": "Pas de roses en février",
+          "email_body": "Bonjour,\n\nJe suis [Prénom], fondateur de [Nom de l'agence], une jeune agence qui crée des sites internet en 3D.\n\nJ'ai lu dans Reporterre que vous refusez de vendre des roses en février parce qu'elles sont hors saison, et que vous proposez des renoncules, des anémones ou des scabieuses.\n\nVotre page d'accueil pourrait le raconter : vos vraies compositions de saison qui pivotent en 3D, et des pétales qui tombent au fil du scroll. Nous livrons en 14 jours, donc le site peut être en ligne avant Noël, et bien avant le 14 février.\n\nMa démo : (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste)\n\nJe vous envoie une maquette 3D gratuite de votre page d'accueil ?\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous ne souhaitez plus recevoir de message de ma part, répondez simplement « stop ».",
+          "dm_instagram": "Bonjour l'équipe Désirée ! J'ai lu que vous refusez les roses en février et que vous proposez des renoncules et des anémones à la place. J'aimerais en faire une vitrine 3D pour votre page d'accueil : vos vraies compositions qui pivotent, des pétales qui tombent au scroll. Livraison en 14 jours, donc en ligne avant les fêtes. (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste) Je vous envoie une maquette gratuite ? [Prénom], [Nom de l'agence]",
+          "relance_j3": "Bonjour, je reviens vers vous au sujet de la maquette 3D. Je précise un point : je la réalise avec vos propres photos, celles de vos compositions et de vos deux boutiques, Folie-Méricourt et rue de Meaux. Vous voyez donc tout de suite votre vraie page d'accueil, pas un modèle générique. Elle est gratuite et ne vous engage à rien. Je vous l'envoie ? [Prénom], [Nom de l'agence], [Téléphone]. Si vous ne souhaitez plus être recontactés, dites-le-moi simplement et je n'écrirai plus.",
+          "relance_j7": "Bonjour, c'est mon dernier message. Une idée en plus : la même page pourrait aussi présenter vos ateliers d'art floral du week-end, avec une composition qui se construit au fil du scroll. Pour être en ligne avant la Saint-Valentin sans stress, il faudrait lancer le projet d'ici début janvier. Si le sujet vous intéresse, je reste disponible pour un appel de 10 minutes au [Téléphone]. Belle saison à vous, [Prénom], [Nom de l'agence]. Si vous ne souhaitez plus être recontactés, répondez « stop » et je n'écrirai plus."
+        },
+        "corrections": []
+      },
+      {
+        "prospect": {
+          "name": "Tiffany Levain (Maison Tiffany Levain)",
+          "website": "https://www.tiffany-levain.fr/",
+          "area": "Paris 15e (35 boulevard Pasteur selon Le Bonbon ; une mention ambiguë du 5e, à confirmer)",
+          "style": "créateur / artisan : fleurs fraîches, plantes grasses et plantes fleuries, événementiel, abonnements pour entreprises",
+          "price_signal": "selon la fiche reçue (Sessile, non revérifié) : bouquets dès 50 à 55 EUR, création dès 120 EUR",
+          "instagram": "@maison_tiffany_levain",
+          "email_pro": "contact@tiffany-levain.fr (donnée par l'équipe de prospection, non revérifiée)",
+          "contact_form": "",
+          "site_platform": "site maison en pages .html statiques (d'après la fiche reçue, non revérifié)",
+          "site_weakness": "Non vérifiée directement (site bloqué). Selon la fiche reçue : site vitrine statique, la vente en ligne passe par Sessile.",
+          "detail_reel": "Livraisons régulières de producteurs d'Île-de-France, d'Italie et d'Équateur, et un large choix de plantes grasses et de plantes fleuries (Le Bonbon).",
+          "sources": [
+            "https://en.lebonbon.fr/paris/tops-fashion/spring-is-here-so-here-is-the-top-list-of-florists-in-paris",
+            "https://www.lebonbon.fr/paris/les-tops-mode/le-printemps-arrive-voici-le-top-des-fleuristes-a-paris/"
+          ]
+        },
+        "tier": "B",
+        "score": 6,
+        "zone": "13e, 14e et 15e arrondissements",
+        "controleur": "Le guide Le Bonbon cite Tiffany Levain au 35 boulevard Pasteur (15e), avec un compte Instagram @maison_tiffany_levain : la fiche disait à tort qu'il n'y avait pas d'Instagram. Le même article évoque pourtant un lieu 'dans le 5e'. C'est sans doute une confusion avec l'entrée voisine (The Blue Tree, 4 rue de Candolle), mais il faut confirmer que la boutique est toujours dans le 15e. J'ai pu confirmer les fleurs d'Île-de-France, d'Italie et d'Équateur. Je n'ai pas pu vérifier l'email contact@, les pages .html ni les prix Sessile, car tous les sites sont bloqués ici. Je la passe en B à cause du doute sur l'adresse et parce que l'email n'est pas vérifié.",
+        "sources": [
+          "https://www.tiffany-levain.fr/",
+          "https://en.lebonbon.fr/paris/tops-fashion/spring-is-here-so-here-is-the-top-list-of-florists-in-paris"
+        ],
+        "kit": {
+          "name": "Tiffany Levain (Maison Tiffany Levain)",
+          "channel_first": "D'abord un email à contact@tiffany-levain.fr. C'est le seul contact pro dont on dispose, aucun formulaire n'est connu, et la règle donne la priorité à l'email. Calendrier fixe, un seul message par jour et par personne : J0 premier email, J3 relance email, J5 DM Instagram à @maison_tiffany_levain (compte confirmé par Le Bonbon) seulement si aucune réponse n'est arrivée, J7 dernière relance email. L'adresse email n'est pas vérifiée : si le premier email revient en erreur, on arrête les emails, on envoie le DM tout de suite à la place, et il n'y a pas de relance J3 ni J7 par email. Les messages ne citent pas l'arrondissement (15e ou 5e, pas encore tranché), pas les prix Sessile (non vérifiés) et ne disent rien de la qualité de son site actuel (non vérifiée, le site est bloqué). On n'a pas de lien de démo : chaque message propose la maquette gratuite de sa page d'accueil, réalisée avec ses propres photos, animées de façon réaliste.",
+          "accroche_utilisee": "Les arrivages réguliers de fleurs venues de producteurs d'Île-de-France, d'Italie et d'Équateur, et le grand choix de plantes grasses et de plantes fleuries (source : Le Bonbon, info confirmée par le contrôleur). L'email et le DM s'ouvrent sur ce détail.",
+          "idee_3d": "Une page d'accueil intitulée « D'Île-de-France, d'Italie et d'Équateur ». Au centre, une composition de la Maison faite à partir de ses propres photos, animées de façon réaliste : effet de profondeur, léger mouvement de la lumière et des feuillages, sans rotation complète du bouquet (un vrai tour à 360 degrés demanderait une prise de vue sous tous les angles, ce qui n'est pas prévu dans la maquette). Au scroll, des pétales tombent et la page avance en trois étapes, une par origine, chacune avec un mot géant (« Île-de-France », « Italie », « Équateur »). En bas de page, une vitrine des compositions de saison (Noël, puis Saint-Valentin) et des plantes grasses et plantes fleuries posées sur des socles animés. Un dernier bloc présente les abonnements pour entreprises avec un bouton de contact. La maquette n'affiche aucun lien vers Sessile ni vers une boutique en ligne tant que ce point n'est pas confirmé avec elle.",
+          "email_subject": "Île-de-France, Italie, Équateur : vos fleurs en 3D ?",
+          "email_body": "Bonjour Madame Levain,\n\nDans Le Bonbon, j'ai lu que vos fleurs arrivent de producteurs d'Île-de-France, d'Italie et d'Équateur, et que vous proposez un grand choix de plantes grasses et de plantes fleuries.\n\nJe m'appelle [Prénom] et je viens de fonder [Nom de l'agence], un studio qui crée des sites internet en 3D.\n\nJ'imagine une page d'accueil qui raconte ces trois origines. Vos compositions s'animent à l'écran et des pétales tombent quand on fait défiler la page.\n\nNoël puis la Saint-Valentin arrivent vite. Nous livrons un site en 14 jours, il peut donc être en ligne avant les fêtes.\n\nVoulez-vous que je vous envoie une maquette gratuite de votre page d'accueil, réalisée avec vos propres photos, animées de façon réaliste ?\n\nBien à vous,\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous ne souhaitez plus recevoir de message de ma part, répondez simplement « non merci » et je ne vous écrirai plus.",
+          "dm_instagram": "Bonjour ! Dans Le Bonbon, j'ai lu que vos fleurs arrivent de producteurs d'Île-de-France, d'Italie et d'Équateur. Je suis [Prénom], de [Nom de l'agence], un studio qui crée des sites en 3D. Imaginez un de vos bouquets qui s'anime à l'écran, avec des pétales qui tombent quand on fait défiler la page. Voulez-vous que je vous prépare une maquette gratuite de votre page d'accueil, réalisée avec vos propres photos, animées de façon réaliste ? Nous livrons un site en 14 jours, donc avant Noël. Si ce n'est pas pour vous, dites-le-moi et je ne vous relancerai pas.",
+          "relance_j3": "Bonjour Madame Levain,\n\nJe reviens vers vous avec une idée de plus pour la maquette. Il y aurait une vitrine de vos compositions de saison et de vos plantes grasses, et juste en dessous une rubrique claire pour vos abonnements entreprises, au moment où les entreprises préparent leurs fêtes de fin d'année.\n\nVoulez-vous que je vous envoie cette maquette gratuite de votre page d'accueil, réalisée avec vos propres photos, animées de façon réaliste ? Elle ne vous engage à rien.\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous ne souhaitez plus recevoir de message de ma part, répondez « non merci » et je ne vous écrirai plus.",
+          "relance_j7": "Bonjour Madame Levain,\n\nC'est mon dernier message. Un repère de calendrier : comme nous livrons en 14 jours, un projet lancé à la mi-novembre est en ligne début décembre, à temps pour Noël, et il sert ensuite pour la Saint-Valentin.\n\nSi l'idée vous tente, répondez simplement « oui » et je prépare la maquette gratuite de votre page d'accueil, réalisée avec vos propres photos, animées de façon réaliste.\n\nBelle saison à la Maison,\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous ne souhaitez plus recevoir de message de ma part, répondez « non merci » et je ne vous recontacterai pas."
+        },
+        "corrections": [
+          "Ouverture de l'email : la règle demande que le message s'ouvre sur le détail réel du commerce. Or le premier paragraphe est une présentation générique (« Je m'appelle [Prénom] et je viens de fonder [Nom de l'agence]... »), et le détail Le Bonbon n'arrive qu'au deuxième paragraphe. Correction : commencer par « Dans Le Bonbon, j'ai lu que vos fleurs arrivent de producteurs d'Île-de-France, d'Italie et d'Équateur... », puis placer la présentation de l'expéditeur juste après (la règle CNIL reste respectée).",
+          "Promesse technique trop forte et invérifiable : l'email promet « l'une de vos vraies compositions tourne au centre de l'écran », l'idée 3D parle d'une rotation « photoréaliste », et la relance J7 dit « il me suffit de quelques photos ». Faire tourner un vrai bouquet en 3D réaliste demande une photogrammétrie ou une série de prises sous tous les angles, pas quelques photos. Correction : rester sur la formule exacte de la démo (« une maquette gratuite de votre page d'accueil, réalisée avec vos propres photos, animées de façon réaliste ») et ne pas promettre une rotation sur 360 degrés à partir de quelques photos.",
+          "Calendrier des canaux contradictoire : channel_first prévoit d'envoyer le DM Instagram s'il n'y a pas de réponse au bout de 3 jours, alors que la relance email J3 part aussi à J3. La prospecte recevrait deux messages le même jour sur deux canaux. Il faut fixer un ordre clair : par exemple le DM seulement si l'email revient en erreur, ou le DM à J5 entre la relance J3 et la relance J7.",
+          "DM Instagram : « méritent mieux qu'une photo fixe » laisse entendre que son site ou son Instagram est pauvre, alors que la faiblesse du site n'a pas été vérifiée (site bloqué, fiche non revérifiée). C'est une affirmation implicite sans fondement. Il faut la remplacer par une formule neutre (« imaginez un de vos bouquets qui s'anime à l'écran »).",
+          "Objet « Vos fleurs d'Équateur, en 3D ? » : il isole l'Équateur, la seule origine lointaine (fleurs importées par avion), alors que le texte met en avant les trois origines. Pour une fleuriste qui valorise aussi ses producteurs d'Île-de-France, cet objet risque d'être mal reçu. Un objet plus sûr : « Île-de-France, Italie, Équateur : vos fleurs en 3D ? » ou « Vos arrivages de fleurs, en 3D ? ».",
+          "Lien de démo : aucun lien n'est inventé, ce qui est correct. En revanche, la formule imposée (« réalisée avec leurs propres photos, animées de façon réaliste ») n'est reprise qu'en partie : la mention « animées de façon réaliste » manque dans l'email, le DM et les relances.",
+          "idee_3d : « la boutique en ligne qu'elle utilise déjà » s'appuie sur Sessile, une information non revérifiée. Ce n'est pas dans les messages, mais la maquette ne doit pas afficher de lien vers Sessile tant que ce point n'est pas confirmé.",
+          "Points vérifiés sans problème : l'accroche correspond au detail_reel (Le Bonbon) ; il n'y a ni prix, ni client inventé, ni chiffre de résultat (seul le délai de 14 jours est cité, et il est autorisé) ; aucun tiret long ; seuls les placeholders autorisés sont utilisés ; la phrase pour ne plus être recontacté termine bien l'email et les deux relances ; les longueurs sont correctes (email d'environ 130 mots, DM d'environ 75 mots) ; le message n'est pas générique."
+        ]
+      },
+      {
+        "prospect": {
+          "name": "Georges François Fleurs (Sumire)",
+          "website": "https://georges-francois.fr/",
+          "area": "Paris 14e (36-38 rue Delambre, Montparnasse)",
+          "style": "institution haut de gamme depuis 1963 : mariages, clients professionnels, cours d'art floral, lien avec le Japon",
+          "price_signal": "",
+          "instagram": "",
+          "email_pro": "[adresse retirée : dépôt public] (affichée sur sa page Facebook selon la fiche reçue, à recouper)",
+          "contact_form": "",
+          "site_platform": "inconnue",
+          "site_weakness": "Non observée : le fondateur doit ouvrir le site avant tout envoi.",
+          "detail_reel": "Artisan fleuriste depuis 1963 à Montparnasse ; selon un avis client, beaucoup de Japonais viennent en formation longue sous la direction de Sumire et de M. François (Justacote).",
+          "sources": [
+            "https://www.cylex-locale.fr/entreprises/georges-fran%c3%a7ois-fleurs-13115332.html",
+            "https://www.justacote.com/paris-75014/fleuriste/"
+          ]
+        },
+        "tier": "B",
+        "score": 6,
+        "zone": "13e, 14e et 15e arrondissements",
+        "controleur": "Je confirme : 36(-38) rue Delambre (14e), artisan fleuriste depuis 1963, bouquets de mariage, clients professionnels, cours d'art floral, et l'avis Justacote sur les stagiaires japonais formés par Sumire et M. François. Les annuaires indiquent aussi qu'il a un Instagram et un Facebook, mais je ne connais pas le nom du compte Instagram. Profil haut de gamme. La faiblesse du site n'est pas observée (site bloqué) et le seul email est une gmail affichée sur Facebook : elle est au nom du commerce, donc générique, mais à recouper. Je le passe en B tant que le site n'a pas été vu.",
+        "sources": [
+          "https://georges-francois.fr/",
+          "https://www.cylex-locale.fr/entreprises/georges-fran%c3%a7ois-fleurs-13115332.html",
+          "https://www.justacote.com/paris-75014/fleuriste/"
+        ],
+        "kit": {
+          "name": "Georges François Fleurs (Sumire)",
+          "channel_first": "Email d'abord, à [adresse retirée : dépôt public]. C'est le seul contact écrit trouvé, et elle porte le nom du commerce : c'est une adresse générique, adaptée à une prospection B2B. Aucun formulaire de contact connu. Aucun compte Instagram n'a été trouvé : le DM ne sert que si le fondateur trouve et vérifie un compte officiel, et il part alors à J+3 si l'email reste sans réponse, jamais le même jour. BLOCAGE AVANT ENVOI (rien ne part tant que ces trois points ne sont pas cochés) : 1) le fondateur confirme que l'adresse [adresse retirée : dépôt public] apparaît bien sur la page Facebook officielle du commerce (la fiche reçue le dit, mais cela n'a pas été recoupé) ; 2) le fondateur ouvre georges-francois.fr et vérifie que rien ne contredit le message (le site n'a pas été consulté) ; 3) le fondateur vérifie le nom complet de Sumire et de M. François. Tant que ce n'est pas fait, on garde la formule neutre « Bonjour Madame, Monsieur ».",
+          "accroche_utilisee": "Artisan fleuriste rue Delambre depuis 1963. Un avis client sur Justacote raconte que beaucoup de Japonais viennent suivre une longue formation chez eux, à Paris, sous la direction de Sumire et de M. François.",
+          "idee_3d": "Une page d'accueil sobre, dans l'esprit japonais. Au centre, une de leurs vraies compositions, photographiée sous plusieurs angles, pivote lentement de façon photoréaliste, sous le titre géant « Depuis 1963 ». Au scroll, ses pétales se détachent et tombent doucement. Ils ouvrent trois sections : les compositions de saison, les bouquets de mariage, et les cours d'art floral, qui attirent des élèves venus du Japon. Chaque section est illustrée par leurs propres photos animées (photos déjà publiées si elles existent, sinon quelques photos fournies par le commerce).",
+          "email_subject": "Rue Delambre, des élèves venus du Japon",
+          "email_body": "Bonjour Madame, Monsieur,\n\nUn avis client raconte que des élèves venus du Japon suivent chez vous, rue Delambre, une longue formation en art floral. Une maison de 1963 qui attire des élèves venus du Japon mérite une page d'accueil vivante.\n\nJe suis [Prénom], de [Nom de l'agence], une jeune agence de sites web 3D.\n\nL'idée : l'une de vos vraies compositions pivote au centre de l'écran et ses pétales tombent au fil du défilement.\n\nDémo : (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste)\n\nLivré en 14 jours, le site serait en ligne avant Noël et la Saint-Valentin.\n\nJe vous envoie une maquette 3D gratuite de votre page d'accueil ?\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nUn simple « stop » en réponse et je ne vous écris plus.",
+          "dm_instagram": "Bonjour, j'ai lu que des élèves venus du Japon suivent une longue formation chez vous, rue Delambre. Imaginez une de vos compositions qui pivote en 3D sur votre site, pétales qui tombent au scroll. Démo : (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste). Je vous en prépare une ? [Prénom], [Nom de l'agence]",
+          "relance_j3": "Bonjour Madame, Monsieur,\n\nJe me permets une relance courte. Pour la maquette, vous n'avez presque rien à préparer : je peux partir des photos que vous avez déjà publiées, ou de quelques photos de vos compositions que vous m'enverriez. Si vous préférez que j'utilise un bouquet de mariage ou une création en particulier, il suffit de me dire laquelle.\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nUn simple « stop » en réponse et je ne vous écris plus.",
+          "relance_j7": "Bonjour Madame, Monsieur,\n\nDernier message de ma part. J'avais aussi pensé à une section dédiée à vos cours d'art floral, pour que vos futurs élèves, y compris ceux qui viennent du Japon pour se former chez vous, voient d'un coup d'oeil votre manière de travailler. Si le moment n'est pas le bon avant les fêtes, je comprends tout à fait. La proposition de maquette gratuite reste ouverte.\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nUn simple « stop » en réponse et je ne vous écris plus."
+        },
+        "corrections": [
+          "Email order breaks the personalisation rule: the body opens with the agency introduction ('Je suis [Prénom], de [Nom de l'agence]...'), not with the real detail about the shop. Fix: put the Justacote detail (Japanese students on long training courses, rue Delambre, since 1963) in the first sentence, then introduce the sender.",
+          "Factual stretch in the email: 'Une maison de 1963 qui transmet son art jusqu'au Japon' and the subject 'Rue Delambre, jusqu'au Japon' go beyond the record. The record only says Japanese students come to Paris to train. It does not say the shop teaches or works in Japan. Rephrase, for example 'qui attire des élèves venus du Japon'.",
+          "Relance J7: 'vos futurs élèves, à Paris comme au Japon' repeats the same stretch, implying a presence or clientele in Japan that the record does not show. Rephrase it as students who come from Japan.",
+          "Relance J3 assumes something nobody checked: 'je pars des photos de vos compositions déjà publiées'. The site was not visited, no Instagram account was found and there is no source on what they publish. Make it conditional ('à partir des photos que vous avez déjà publiées, ou de quelques photos que vous m'enverriez'), or confirm the photos exist before sending.",
+          "channel_first contains an unsourced claim: 'les annuaires en signalent un [Instagram], sans le nom'. The record has instagram empty and none of the sources (Cylex, Justacote) is quoted for it. Remove it or add the source.",
+          "The greeting 'Madame Sumire' is risky. Sumire is a Japanese given name, so 'Madame' plus a first name sounds odd or even awkward. The founder needs to check the person's full name, or use a neutral greeting ('Bonjour Sumire, Monsieur François' or 'Bonjour Madame, Monsieur').",
+          "The contact address is still unconfirmed (gmail address said to appear on Facebook according to the record received, to cross-check), and the site has not been looked at. Block the send until the founder has confirmed both. The kit mentions this check, but it must be a hard blocker.",
+          "Checked and OK: the demo link is present and exact in both the email and the DM; the opt-out sentence is the last line of the email and of both follow-ups; no long dash; no price; no invented client, result or figure; lengths are fine (email about 110 words, short DM); the 14-day delivery before Christmas is realistic (today is 17/10)."
+        ]
+      },
+      {
+        "prospect": {
+          "name": "Boule de Neige",
+          "website": "https://bouledeneige.fr/",
+          "area": "Paris 15e (19-21 rue de Lourmel, métro Dupleix)",
+          "style": "artisan créatif, bouquets champêtres de saison",
+          "price_signal": "selon la fiche reçue (non revérifié) : bouquets à 55, 70 et 90 EUR",
+          "instagram": "",
+          "email_pro": "",
+          "contact_form": "https://bouledeneige.fr/pages/contact",
+          "site_platform": "Shopify probable (non confirmé)",
+          "site_weakness": "Non vérifiée directement (site bloqué). Selon la fiche reçue : boutique générique, URL de produits copiées.",
+          "detail_reel": "La boutique dit choisir les meilleurs producteurs pour la qualité de ses compositions et livrer à domicile à l'heure, selon les disponibilités de la personne qui reçoit (Evous).",
+          "sources": [
+            "https://www.justacote.com/paris-75000/fleuriste/",
+            "https://www.evous.fr/paris/shopping/Les-meilleurs-fleuristes-a-Paris,1176708.html"
+          ]
+        },
+        "tier": "B",
+        "score": 5.5,
+        "zone": "13e, 14e et 15e arrondissements",
+        "controleur": "Justacote et Evous confirment la boutique au 19-21 rue de Lourmel (15e, métro Dupleix et Avenue Émile Zola). Evous parle de fleurs choisies chez de bons producteurs et de livraison à domicile. Elle a déjà une boutique en ligne avec des prix (sans doute Shopify), donc un site correct. Le seul contact est un formulaire. Je n'ai pas pu vérifier les URL de produits 'copie', les prix ni la phrase 'plus de 20 ans' : site bloqué et non indexé. Instagram introuvable.",
+        "sources": [
+          "https://bouledeneige.fr/",
+          "https://www.justacote.com/paris-75000/fleuriste/",
+          "https://www.evous.fr/paris/shopping/Les-meilleurs-fleuristes-a-Paris,1176708.html"
+        ],
+        "kit": {
+          "name": "Boule de Neige",
+          "channel_first": "Formulaire de contact (https://bouledeneige.fr/pages/contact). Aucun email pro n'a été trouvé et le compte Instagram est introuvable, donc le formulaire est le seul canal vérifié. On colle l'objet en première ligne du message. Le DM Instagram reste prêt au cas où le fondateur trouve le compte en boutique ou sur Google Maps. Avant l'envoi, le fondateur ouvre le site lui-même : il était bloqué pendant la vérification. Il confirme que le formulaire marche et regarde si la boutique prend des commandes en ligne. Les messages sont écrits au conditionnel sur ce point, donc ils restent justes dans les deux cas.",
+          "accroche_utilisee": "Boule de Neige (19-21 rue de Lourmel, Paris 15e) dit choisir ses fleurs chez de bons producteurs pour la qualité de ses compositions, et livrer à domicile à l'heure qui arrange la personne qui reçoit (source : Evous).",
+          "idee_3d": "La page d'accueil s'ouvre sur un vrai bouquet champêtre de saison de Boule de Neige. On le détoure à partir de quelques photos que la boutique nous envoie, puisque le site n'a pas pu être vérifié. Il pivote lentement au centre, sous un titre géant « Boule de Neige ». Au scroll, des pétales tombent et le bouquet laisse la place à une vitrine des compositions de saison : Noël d'abord, puis la Saint-Valentin. La page se termine sur un bloc « livré à l'heure de la personne qui reçoit ». Ce bloc renvoie vers leur boutique en ligne si elle existe (à vérifier avant l'envoi), sinon vers leur téléphone et l'adresse rue de Lourmel.",
+          "email_subject": "Boule de Neige : vos bouquets champêtres en mouvement",
+          "email_body": "Bonjour,\n\nChez Boule de Neige, rue de Lourmel dans le 15e, vous choisissez vos fleurs chez de bons producteurs et vous livrez à l'heure qui arrange la personne qui reçoit. Je l'ai lu sur Evous, et ce soin mérite d'être vu.\n\nJe suis [Prénom], de [Nom de l'agence], une jeune agence de sites internet 3D.\n\nMon idée : votre page d'accueil s'ouvre sur un de vos vrais bouquets champêtres qui pivote, et des pétales tombent au fil du scroll. Vos clients verraient vos compositions avant même de vous contacter.\n\nDémo : (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste)\n\nNoël approche. Nous livrons en 14 jours, donc votre page peut être en ligne avant les fêtes.\n\nJe vous prépare une maquette 3D gratuite de votre page d'accueil ?\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nPour ne plus être recontacté, répondez « stop ».",
+          "dm_instagram": "Bonjour ! Chez Boule de Neige, rue de Lourmel, vos fleurs viennent de bons producteurs et sont livrées à l'heure de la personne qui reçoit. Je suis [Prénom], de [Nom de l'agence], agence de sites 3D. Mon idée : votre accueil s'ouvre sur un de vos vrais bouquets qui pivote, avec des pétales qui tombent. Démo : (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste). Prêt en 14 jours, avant Noël. Je vous prépare une maquette gratuite ?",
+          "relance_j3": "Bonjour,\n\nJe reviens vers vous au sujet de la maquette 3D pour Boule de Neige. Un point que je n'ai pas précisé : si vous prenez des commandes en ligne, votre boutique actuelle reste en place. La page 3D se pose devant et mène vers vos bouquets, sans rien changer à vos commandes. Sinon, elle présente vos compositions et invite à vous appeler ou à passer rue de Lourmel. Pour la maquette, il me suffit de quelques photos de vos compositions.\n\nJe vous la prépare ?\n\n[Prénom], [Nom de l'agence], [Téléphone]\n\nPour ne plus être recontacté, répondez « stop ».",
+          "relance_j7": "Bonjour,\n\nDernier message de ma part au sujet de Boule de Neige. Pour être en ligne avant Noël, il faut démarrer d'ici fin novembre, puisque nous livrons en 14 jours. Le même site peut ensuite passer à une vitrine Saint-Valentin sans tout refaire.\n\nSi le moment ne s'y prête pas, aucun souci. Sinon, je peux lancer la maquette gratuite de votre page d'accueil dès que vous me dites oui. Quelques photos de vos compositions suffisent.\n\n[Prénom], [Nom de l'agence], [Téléphone]\n\nPour ne plus être recontacté, répondez « stop »."
+        },
+        "corrections": [
+          "Email (email_body) : il ne commence pas par le détail réel du commerce. La première phrase est une présentation de l'agence (« Je suis [Prénom], de [Nom de l'agence]… »), et le fait réel n'arrive qu'en deuxième phrase. La règle demande d'ouvrir sur le détail. Il faut inverser : ouvrir sur Boule de Neige, ses producteurs et sa livraison à l'heure du destinataire, puis se présenter juste après.",
+          "Email trop générique, il pourrait partir chez un autre fleuriste. Le corps ne nomme jamais « Boule de Neige » ni la rue de Lourmel ou le 15e, alors que l'accroche_utilisee les contient. « Bons producteurs » et « livraison à l'heure qui arrange » sont des arguments que beaucoup de fleuristes parisiens mettent en avant. Il faut nommer la boutique (et le quartier) dans la phrase d'ouverture pour que le message ne serve qu'à elle.",
+          "DM Instagram : même défaut. Il s'ouvre sur « Bonjour, [Prénom] de [Nom de l'agence] » au lieu du détail réel, et ne nomme pas Boule de Neige. On peut l'envoyer tel quel à n'importe quel fleuriste qui livre.",
+          "Email : « Noël et la Saint-Valentin approchent » est forcé à la date d'envoi (mi-octobre 2026), car la Saint-Valentin est à 4 mois. Mieux vaut parler de Noël seul et garder la Saint-Valentin pour la relance J7, qui le fait déjà correctement.",
+          "Affirmations non vérifiées sur la boutique en ligne. relance_j3 (« votre boutique en ligne actuelle reste en place… sans rien changer à vos commandes ») et idee_3d (« renvoie vers leur boutique en ligne actuelle ») affirment qu'une boutique en ligne avec commandes existe. Or le site n'a pas pu être vérifié (bloqué, Shopify « probable »). Soit on garde la vérification avant envoi déjà prévue dans channel_first et on adapte ces phrases si la boutique n'existe pas, soit on les formule au conditionnel (« si vous prenez des commandes en ligne… »).",
+          "relance_j7 : « la maquette gratuite de votre page d'accueil est prête à être lancée » laisse entendre qu'une maquette existe déjà, ce qui est faux. Il faut écrire par exemple « je peux lancer la maquette gratuite dès que vous me dites oui ».",
+          "Petite incohérence : idee_3d dit que le bouquet est « détouré à partir de leurs photos » (donc les photos du site), alors que relance_j3 demande « quelques photos de vos compositions ». Il faut choisir une seule version, de préférence la demande de photos puisque le site n'a pas été vérifié.",
+          "Points conformes, pour mémoire : l'accroche correspond au fait Evous de la fiche. Le lien de démo est exact dans l'email et dans le DM. Aucun tiret long. Aucun prix, client, résultat ni chiffre inventé (les 14 jours sont autorisés). La phrase « stop » est bien à la fin de l'email et des deux relances. Les longueurs sont correctes."
+        ]
+      },
+      {
+        "prospect": {
+          "name": "L'Atelier Yann-H2o",
+          "website": "https://yann-h2o.com/",
+          "area": "Paris 11e (6 rue Pache, métro Voltaire)",
+          "style": "Artisan fleuriste et décoration florale de mariage",
+          "price_signal": "Atelier de composition florale à 60 EUR par personne (Funbooker)",
+          "instagram": "@yann.h2o",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "Non vérifié (site inaccessible depuis l'outil)",
+          "site_weakness": "NON OBSERVÉE : site inaccessible (DNS/proxy). À regarder à la main",
+          "detail_reel": "Artisan fleuriste au 6 rue Pache (11e), ouvert du mardi au samedi de 10h à 20h, qui fait aussi de la décoration florale de mariage et des ateliers de composition florale (60 EUR par personne sur Funbooker)",
+          "sources": [
+            "https://www.118712.fr/fiches/WUNXW1VXHQU",
+            "https://www.lebonbon.fr/paris/les-tops-mode/le-printemps-arrive-voici-le-top-des-fleuristes-a-paris/",
+            "https://fr.gaultmillau.com/artisans/l-atelier-de-yann",
+            "https://www.funbooker.com/fr/annonce/atelier-bouquet-de-fleurs-fraiches-a-paris-11eme/voir"
+          ]
+        },
+        "tier": "B",
+        "score": 5,
+        "zone": "Créateurs floraux, ateliers d'art floral pour événements et mariages, et abonnements floraux indépendants basés à Paris",
+        "controleur": "Existe : artisan fleuriste au 6 rue Pache, 75011 (métro Voltaire), ouvert du mardi au samedi de 10h à 20h, site yann-h2o.com et Instagram @yann.h2o, d'après la fiche 118712 vue dans les résultats de recherche. Tél. 07 88 96 03 63 selon Le Bonbon. Également référencé par Gault&Millau (L'Atelier de Yann). Activité mariage confirmée (décoration florale de mariage). L'abonnement floral pour particuliers, hôtels et entreprises n'est PAS confirmé : je l'ai retiré de l'accroche. Un atelier de composition florale à 60 EUR par personne est proposé sur Funbooker. Aucun email pro trouvé, donc contact par Instagram seulement. Le site n'a pas pu être ouvert, donc la faiblesse et la plateforme ne sont pas vérifiées. Un petit atelier de quartier avec une activité mariage : budget plausible, sans plus.",
+        "sources": [
+          "https://yann-h2o.com/",
+          "https://yann-h2o.com/fleuriste-mariage-paris/",
+          "https://www.118712.fr/fiches/WUNXW1VXHQU",
+          "https://www.lebonbon.fr/paris/les-tops-mode/le-printemps-arrive-voici-le-top-des-fleuristes-a-paris/",
+          "https://fr.gaultmillau.com/artisans/l-atelier-de-yann",
+          "https://www.funbooker.com/fr/annonce/atelier-bouquet-de-fleurs-fraiches-a-paris-11eme/voir"
+        ],
+        "kit": {
+          "name": "L'Atelier Yann-H2o",
+          "channel_first": "Instagram (@yann.h2o) en premier. Nous n'avons trouvé ni email pro ni formulaire de contact, et l'outil n'a pas pu ouvrir le site. Le DM est donc le seul canal écrit vérifié. Avant l'envoi, le fondateur ouvre @yann.h2o et yann-h2o.com à la main. Il vérifie s'il y a des photos de mariages et des compositions de saison, et il cherche une adresse email. S'il en trouve une, il envoie l'email ensuite. Nous n'utilisons aucun numéro de téléphone, car la fiche n'en contient pas.",
+          "accroche_utilisee": "Artisan fleuriste au 6 rue Pache (Paris 11e, métro Voltaire), qui fait aussi de la décoration florale de mariage et des ateliers de composition florale (60 EUR par personne sur Funbooker).",
+          "idee_3d": "Une page d'accueil construite autour d'un vrai bouquet de l'atelier. Il est photographié sous plusieurs angles et animé de façon photoréaliste. Il pivote lentement au centre, sous « Yann-H2o » écrit en très grandes lettres. Au scroll, des pétales tombent et le bouquet laisse la place à deux scènes. 1) Mariage : une arche ou un centre de table, tiré de leurs propres décorations, qui se construit fleur après fleur. 2) Ateliers : des mains qui assemblent une composition, avec un bouton pour réserver un atelier. On ajoute une troisième scène seulement si l'atelier fait des compositions de saison, ce qu'il faut vérifier sur Instagram : une vitrine qui tourne comme un présentoir. En bas : l'adresse rue Pache et les horaires (du mardi au samedi, de 10h à 20h).",
+          "email_subject": "Votre atelier de la rue Pache, en 3D",
+          "email_body": "Bonjour,\n\nVotre atelier du 6 rue Pache fait aussi la décoration florale de mariage et des ateliers de composition (60 EUR par personne sur Funbooker).\n\nJe suis [Prénom], de [Nom de l'agence], une jeune agence de sites web en 3D.\n\nImaginez un de vos vrais bouquets qui pivote au centre de votre page d'accueil, avec des pétales qui tombent au scroll. Juste en dessous, vos mariages et vos ateliers, avec un bouton pour réserver.\n\nExemple : (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste)\n\nNous livrons en 14 jours : si l'on commence en novembre, le site est en ligne avant Noël.\n\nJe vous la prépare ?\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous ne voulez plus de messages de ma part, répondez « stop ».",
+          "dm_instagram": "Bonjour, votre atelier de la rue Pache fait aussi les mariages et des ateliers de composition à 60 EUR. Je suis [Prénom], de [Nom de l'agence] (sites web 3D). Une idée pour votre page d'accueil : un de vos bouquets qui pivote en 3D, avec des pétales qui tombent au scroll. Démo : (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste). Nous livrons en 14 jours, donc en ligne avant Noël si l'on commence en novembre. Je vous prépare la maquette ?",
+          "relance_j3": "Bonjour, vos ateliers de composition à 60 EUR rue Pache pourraient avoir leur propre scène dans la maquette : des mains qui assemblent un bouquet, et un bouton pour réserver directement. Je vous la prépare avec vos photos ? [Prénom], [Nom de l'agence]. Si vous ne voulez plus de messages, répondez « stop ».",
+          "relance_j7": "Bonjour, une dernière idée pour l'atelier de la rue Pache. Si vous faites des compositions pour Noël, la maquette pourrait les montrer dans une vitrine qui tourne comme un présentoir. Nous livrons en 14 jours, donc le site serait en ligne avant les fêtes si l'on commence en novembre. Si l'idée vous plaît, un simple « oui » suffit. C'est mon dernier message. [Prénom], [Nom de l'agence], [Téléphone]. Si vous ne voulez plus de messages, répondez « stop »."
+        },
+        "corrections": [
+          "Ouverture non conforme (email) : le corps commence par « Je suis [Prénom], de [Nom de l'agence]... » et non par le détail réel du commerce. La règle demande que le message s'ouvre sur ce détail. Il faut inverser : d'abord « Votre atelier du 6 rue Pache fait aussi la décoration de mariage et des ateliers de composition (60 EUR sur Funbooker)... », puis la présentation de l'expéditeur.",
+          "Ouverture non conforme (DM Instagram) : même problème, le DM commence par « Je suis [Prénom] de [Nom de l'agence] (sites web 3D) » au lieu du détail réel.",
+          "DM, affirmation inexacte : « Vos mariages rue Pache ». Les mariages ne se tiennent pas rue Pache, c'est l'adresse de la boutique. Il faut écrire par exemple « Vos décorations de mariage » ou « Votre atelier de la rue Pache, qui fait aussi les mariages ».",
+          "DM, observation non vérifiée : « Vos mariages... m'ont inspiré une idée » laisse croire que l'expéditeur a vu leurs réalisations de mariage. Or ni le site ni le compte Instagram n'ont été consultés. À reformuler sans prétendre avoir vu leur travail, ou à valider à la main sur @yann.h2o avant l'envoi.",
+          "DM, engagement non conditionné : « En ligne avant Noël » est une promesse de date ferme, alors que tout dépend du moment de leur réponse et de l'envoi des photos. Il faut le rattacher aux 14 jours, par exemple « livré en 14 jours, donc en ligne avant Noël si l'on commence en novembre ».",
+          "channel_first, fait absent de la fiche : le numéro « 07 88 96 03 63, d'après Le Bonbon » n'est pas dans les données du prospect (aucun champ téléphone). C'est aussi un numéro de portable, donc peut-être personnel. Il faut le retirer ou le vérifier à la main avant de le mentionner.",
+          "Email, redondance qui affaiblit le message : la ligne « Exemple : (aucun lien : proposer une maquette gratuite...) » est suivie juste après de « Je vous envoie une maquette 3D gratuite de votre page d'accueil ? ». C'est la même offre deux fois. On garde le texte de démo exact imposé, mais on peut alléger la question finale (par exemple « Je vous la prépare ? »).",
+          "Relances J3 et J7, début générique : « Bonjour, je me permets de revenir vers vous » et « Bonjour, dernier message de ma part » s'enverraient à n'importe quel commerce. Mieux vaut ouvrir directement sur le détail (ateliers à 60 EUR / compositions de saison de la rue Pache).",
+          "Relance J7, présupposé non sourcé : « vos compositions de saison » et la vitrine Noël/Saint-Valentin supposent que l'atelier fait des collections saisonnières. La fiche ne le dit pas. À formuler au conditionnel ou à vérifier sur Instagram.",
+          "Points conformes vérifiés : l'accroche correspond à la fiche (6 rue Pache, 11e, Voltaire, mariage, ateliers à 60 EUR sur Funbooker). Le lien de démo est présent et exact dans l'email et dans le DM. Aucun tiret long. Aucun faux client, résultat ou avis. Pas de prix dans le premier email (les 60 EUR sont leur propre tarif, pas le nôtre). La phrase « stop » est bien à la fin de l'email et des deux relances. Les longueurs sont raisonnables. Seuls les placeholders autorisés sont utilisés."
+        ]
+      },
+      {
+        "prospect": {
+          "name": "Ateliers Flash Fleurs",
+          "website": "https://ateliersflashfleurs.com/",
+          "area": "Paris 15e (4 rue Bausset, angle rue Maublanc)",
+          "style": "fleuriste de quartier / atelier de compositions",
+          "price_signal": "selon la fiche reçue (Sessile, non revérifié) : bouquets d'environ 49 à 75 EUR",
+          "instagram": "",
+          "email_pro": "admin@ateliersflashfleurs.com (à confirmer sur le site)",
+          "contact_form": "",
+          "site_platform": "inconnue",
+          "site_weakness": "Non vérifiée : le numéro factice '01 XX XX XX XX' et l'écart d'horaires viennent seulement de la fiche reçue. À contrôler avant d'en faire l'accroche.",
+          "detail_reel": "Fleuriste de la rue Bausset, à l'angle de la rue Maublanc, de bon conseil selon un avis client (Justacote).",
+          "sources": [
+            "https://www.justacote.com/paris-75000/fleuriste/"
+          ]
+        },
+        "tier": "B",
+        "score": 4.5,
+        "zone": "13e, 14e et 15e arrondissements",
+        "controleur": "Justacote confirme un 'Atelier Flash Fleurs' au 4 rue Bausset (15e, à l'angle de la rue Maublanc). Un avis le décrit comme un fleuriste de quartier sympathique, de bon conseil, qui fait parfois des remises. Le profil est surtout de quartier. Je n'ai pas pu vérifier le numéro de remplissage '01 XX', les horaires, l'email admin@ ni le lien avec Interflora et Sessile : la recherche site: ne renvoie rien et le site est bloqué. L'email admin@ est une adresse générique, à garder seulement si le site l'affiche bien.",
+        "sources": [
+          "https://ateliersflashfleurs.com/",
+          "https://www.justacote.com/paris-75000/fleuriste/"
+        ],
+        "kit": {
+          "name": "Ateliers Flash Fleurs",
+          "channel_first": "Commencer par l'email pro, admin@ateliersflashfleurs.com, car on ne connaît ni Instagram ni formulaire. Il faut faire trois vérifications avant l'envoi. 1) L'adresse : vérifiez qu'elle figure bien sur ateliersflashfleurs.com. Le contrôleur n'a pas pu la confirmer et c'est une adresse générique. Si le site ne l'affiche pas, passez à l'atelier du 4 rue Bausset ou appelez le numéro affiché sur place ou sur la fiche Google, puis envoyez le mail à l'adresse qu'ils vous donnent. 2) L'avis : le seul lien dont on dispose (https://www.justacote.com/paris-75000/fleuriste/) est une page de catégorie générique. Retrouvez la fiche Justacote propre à l'atelier et l'avis « de bon conseil » avant l'envoi. Si vous ne le trouvez pas, retirez la mention de l'avis dans l'email et le DM. La première phrase de l'email devient alors : « Bonjour, votre atelier de la rue Bausset, à l'angle de la rue Maublanc, est un fleuriste de quartier du 15e. » Le reste ne change pas. 3) Un détail propre à l'atelier : si vous passez devant ou consultez le site, notez un détail réel (une composition signature, la vitrine de l'angle) et ajoutez-le en une phrase après l'accroche. Sans détail constaté, n'ajoutez rien. Le DM Instagram ne sert que si un compte apparaît sur la fiche Google, sur le site ou en vitrine : le champ instagram est vide aujourd'hui. N'utilisez pas le numéro factice '01 XX' ni l'écart d'horaires comme accroche, rien n'est vérifié.",
+          "accroche_utilisee": "L'emplacement réel de l'atelier, 4 rue Bausset à l'angle de la rue Maublanc (Paris 15e), et un avis client publié sur Justacote qui le décrit comme un fleuriste de bon conseil. L'avis doit être retrouvé sur la fiche Justacote précise de l'atelier avant l'envoi, sinon on le retire et on garde seulement l'adresse.",
+          "idee_3d": "Une page d'accueil en vitrine de quartier. Au centre, une vraie composition de l'atelier, prise en photo sous plusieurs angles, pivote lentement de façon photoréaliste. Au scroll, ses pétales se détachent et tombent doucement jusqu'à une étagère qui montre les compositions de saison : bouquets de Noël, puis Saint-Valentin. Le nom de l'atelier s'affiche en typographie géante, et en bas de page on trouve l'adresse 'angle Bausset / Maublanc' avec un bouton pour commander ou appeler.",
+          "email_subject": "Votre atelier, à l'angle Bausset / Maublanc",
+          "email_body": "Bonjour,\n\nVotre atelier de la rue Bausset, à l'angle de la rue Maublanc, est décrit par un avis client publié sur Justacote comme un fleuriste de bon conseil.\n\nJe suis [Prénom], de [Nom de l'agence] : nous créons des sites animés en 3D.\n\nPour votre atelier, j'imagine une page d'accueil avec un de vos vrais bouquets qui pivote au centre, puis ses pétales qui tombent au scroll. Ce serait votre vitrine de l'angle Bausset / Maublanc, visible en ligne.\n\nDémo : (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste)\n\nNoël approche : livré en 14 jours, le site serait en ligne avant les fêtes, et prêt pour la Saint-Valentin.\n\nJe vous envoie une maquette 3D gratuite de votre page d'accueil ?\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous préférez ne plus être contacté, répondez simplement « stop ».",
+          "dm_instagram": "Bonjour, un avis client publié sur Justacote vous décrit comme un fleuriste de bon conseil, rue Bausset. Je suis [Prénom], de [Nom de l'agence], nous créons des sites animés en 3D. J'imagine un de vos bouquets qui pivote en 3D sur votre site, en ligne avant Noël. (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste) Je vous en prépare une maquette gratuite ?",
+          "relance_j3": "Bonjour,\n\nJe me permets une courte relance au sujet de votre atelier de la rue Bausset. La maquette serait faite avec vos propres photos de compositions, sans engagement : vous la regardez, puis vous décidez. Je la prépare ?\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous préférez ne plus être contacté, répondez simplement « stop ».",
+          "relance_j7": "Bonjour,\n\nC'est mon dernier message. Si l'on démarre début novembre, avec une livraison en 14 jours, votre site est en ligne avant les commandes de Noël et prêt pour la Saint-Valentin. Je peux aussi passer à l'atelier, rue Bausset, pour vous montrer la maquette sur mon téléphone en cinq minutes.\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous préférez ne plus être contacté, répondez simplement « stop »."
+        },
+        "corrections": [
+          "Ouverture de l'email non conforme : le corps commence par « Je suis [Prénom], de [Nom de l'agence] : nous créons des sites animés en 3D. » La règle exige que le message s'ouvre sur le détail réel du commerce. Il faut mettre en tête la phrase sur l'atelier de la rue Bausset, à l'angle de la rue Maublanc, puis faire suivre la présentation, par exemple : « Bonjour, votre atelier de la rue Bausset, à l'angle de la rue Maublanc, est décrit par un client sur Justacote comme un fleuriste de bon conseil. Je suis [Prénom], de [Nom de l'agence]... »",
+          "La source de l'accroche n'est pas traçable : le seul lien fourni (https://www.justacote.com/paris-75000/fleuriste/) est une page de catégorie générique, pas la fiche de cet atelier. L'avis « de bon conseil » n'est donc pas vérifiable alors que l'email et le DM le citent comme un fait. Il faut retrouver l'avis sur la fiche Justacote précise de l'atelier avant l'envoi, sinon retirer la mention de l'avis. Le channel_first demande de vérifier l'email et le numéro, mais pas cet avis : il faut l'ajouter.",
+          "Attribution floue dans l'email : « Un client décrit votre atelier... » peut se lire comme un client de l'agence, ce qui irait contre la règle de ne pas inventer de clients, l'agence étant jeune. Il faut écrire « Un avis client publié sur Justacote décrit votre atelier... ».",
+          "Message à la limite du générique : une fois le nom de rue retiré, « fleuriste de bon conseil » et « un bouquet qui pivote, des pétales qui tombent » peuvent s'envoyer à n'importe quel fleuriste. Le seul élément propre à ce commerce est l'adresse. C'est acceptable faute d'autre fait vérifié, mais il faudrait renforcer avec un détail constaté sur place ou sur le site (une composition signature, la vitrine de l'angle) une fois l'accroche vérifiée.",
+          "Formulation trompeuse sur le calendrier : on est le 17 octobre 2026 et « Noël et la Saint-Valentin approchent » exagère pour la Saint-Valentin, qui tombe dans quatre mois. Il faut garder Noël comme échéance et présenter la Saint-Valentin comme la suite, par exemple : « Noël approche : livré en 14 jours, le site serait en ligne avant les fêtes, et prêt pour la Saint-Valentin. »",
+          "DM Instagram en français peu naturel : « Un client vous dit de bon conseil, rue Bausset » est incorrect. Il faut écrire « Un avis client vous décrit comme un fleuriste de bon conseil, rue Bausset. » Il faut aussi y corriger l'attribution de l'avis comme dans l'email, et ne l'utiliser que si un compte Instagram est trouvé (le champ instagram est vide).",
+          "La relance J3 est générique : rien n'y rattache le message à cet atelier, alors que « vos propres photos de compositions » vaudrait pour n'importe quel fleuriste. Il faut y ajouter un rappel du détail réel, par exemple « pour votre atelier de la rue Bausset »."
+        ]
+      },
+      {
+        "prospect": {
+          "name": "Le Renard Fleuriste",
+          "website": "",
+          "area": "Paris 13e (187 ter rue de Tolbiac)",
+          "style": "créateur éco-responsable, fleurs françaises de saison (d'après la fiche reçue, non revérifié)",
+          "price_signal": "",
+          "instagram": "@renard.fleuriste (à confirmer)",
+          "email_pro": "",
+          "contact_form": "",
+          "site_platform": "aucun site (seulement une page Linktree selon la fiche reçue)",
+          "site_weakness": "Aucun site propre trouvé : rien n'apparaît dans la recherche hors annuaires.",
+          "detail_reel": "Non vérifié : compositions à base de fleurs françaises de saison (fiche reçue). Seule l'adresse au 187 ter rue de Tolbiac est confirmée.",
+          "sources": [
+            "https://trouver-ouvert.fr/paris/choisy-flor-52376"
+          ]
+        },
+        "tier": "B",
+        "score": 4.5,
+        "zone": "13e, 14e et 15e arrondissements",
+        "controleur": "Un annuaire (trouver-ouvert) confirme Le Renard Fleuriste au 187 ter rue de Tolbiac (13e) et le donne comme en activité. Il n'a pas de site propre, ce qui est une opportunité, mais on ne peut le joindre que par Instagram, d'où le tier B. Je n'ai pas pu confirmer le compte @renard.fleuriste ni le prénom Théo : la recherche ne trouve rien et Linktree est bloqué. J'ai retiré le Linktree du champ formulaire, car ce n'est pas un formulaire de contact. Il faut confirmer le compte Instagram et le détail d'accroche avant l'envoi.",
+        "sources": [
+          "https://linktr.ee/renard.fleuriste",
+          "https://trouver-ouvert.fr/paris/choisy-flor-52376"
+        ],
+        "kit": {
+          "name": "Le Renard Fleuriste",
+          "channel_first": "Instagram, en DM, mais seulement après trois vérifications. On n'a ni email pro ni formulaire, et le Linktree signalé par la fiche n'en est pas un. (1) Vérifier que le nom et l'adresse vont ensemble. La seule source (https://trouver-ouvert.fr/paris/choisy-flor-52376) désigne un commerce appelé « Choisy Flor », pas « Le Renard Fleuriste ». Le 187 ter rue de Tolbiac n'est donc pas une adresse confirmée du Renard Fleuriste : ce peut être une autre boutique ou un ancien nom. Il faut chercher le nom et l'adresse ensemble (Google Maps, Pages Jaunes, bio Instagram). Tant que ce n'est pas confirmé, aucun message ne cite l'adresse, et les messages ci-dessous ne la citent pas. (2) Vérifier que @renard.fleuriste est bien le compte de cette boutique : même nom, et si possible même adresse ou mêmes photos de vitrine. (3) Pendant cette vérification, noter un détail réel de leur travail : une composition précise publiée récemment, ou la vitrine. Ajouter ce détail en une phrase juste après la première phrase du DM et de l'email, avec ses vrais mots (exemple de forme : « J'ai vu votre bouquet ... publié cette semaine »). Ne rien envoyer sans ce détail. Si le compte ne peut pas être confirmé, le plus sûr est de passer à la boutique, de laisser une carte et de demander l'email pro. L'email et les relances servent dès qu'on a cette adresse. Le prénom Théo n'est pas confirmé : on ne l'utilise pas. Le style « fleurs françaises de saison » n'est pas vérifié : on ne l'utilise pas tant qu'on ne l'a pas vu dans leurs publications.",
+          "accroche_utilisee": "Le nom du commerce lui-même, « Le Renard Fleuriste », qui sert de base à l'idée 3D (un renard fait de fleurs) et rend le message impossible à envoyer à un autre fleuriste, plus le constat de recherche : aucun site au nom du Renard Fleuriste, seulement des annuaires. L'adresse du 187 ter rue de Tolbiac n'est pas utilisée, car la source désigne « Choisy Flor ». Le style « de saison » n'est pas utilisé. Un détail réel vu sur leur Instagram doit être ajouté avant envoi (voir channel_first, étape 3).",
+          "idee_3d": "Une page d'accueil qui joue sur le nom de la boutique. Au chargement, un renard en 3D, composé de pétales et de feuillages, se tient au centre de l'écran. Au fil du scroll, il se défait pétale par pétale et les pétales se posent pour former l'une des vraies compositions de la boutique, montrée en photo animée de façon réaliste. Les photos viennent des publications déjà présentes sur leur compte Instagram (une fois le compte confirmé) : la boutique n'a rien à fournir pour la maquette. Le nom « Le Renard » s'affiche en typographie géante derrière. Plus bas, une vitrine de leurs compositions que l'on change à chaque fête : Noël d'abord, puis la Saint-Valentin. On termine sur un bouton pour commander ou appeler, et sur l'adresse une fois qu'elle est confirmée.",
+          "email_subject": "Un renard en fleurs pour Le Renard Fleuriste",
+          "email_body": "Bonjour,\n\nEn cherchant Le Renard Fleuriste, je n'ai trouvé aucun site à votre nom, seulement des annuaires.\n\nJe suis [Prénom], fondateur de [Nom de l'agence], une jeune agence qui crée des sites 3D animés. Votre nom m'a donné une idée : une page d'accueil où un renard fait de pétales se défait au fil du scroll pour laisser place à l'une de vos compositions. Personne d'autre ne pourrait avoir cette page.\n\nPour vous montrer, je préfère partir de votre travail : (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste)\n\nJe la prépare à partir des photos déjà publiées sur votre Instagram, vous n'avez rien à fournir. Je livre en 14 jours : la page peut être en ligne avant Noël.\n\nJe vous envoie cette maquette gratuite ?\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous ne souhaitez plus recevoir de message de ma part, répondez simplement « stop ».",
+          "dm_instagram": "Bonjour, [Prénom] de [Nom de l'agence], une jeune agence de sites 3D. Je n'ai trouvé aucun site au nom du Renard Fleuriste. Idée : un renard fait de pétales qui se défait au scroll pour révéler l'une de vos compositions. (aucun lien : proposer une maquette gratuite de leur page d'accueil réalisée avec leurs propres photos, animées de façon réaliste) Je la fais avec les photos de votre compte, vous n'avez rien à fournir. Je vous l'envoie avant Noël ? Répondez « stop » si vous ne voulez plus de messages.",
+          "relance_j3": "Bonjour,\n\nJe me permets un petit rappel au sujet du renard en pétales pour votre page d'accueil. J'ajoute une idée : juste en dessous, une vitrine de vos compositions que l'on change à chaque fête, le bouquet de Noël maintenant, celui de la Saint-Valentin en février. Vos clients verraient tout de suite quoi commander.\n\nJe vous prépare la maquette gratuite ?\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous ne souhaitez plus être recontacté, répondez simplement « stop ».",
+          "relance_j7": "Bonjour,\n\nC'est mon dernier message. Je peux faire la maquette uniquement à partir des photos déjà publiées sur votre Instagram : vous n'avez rien à préparer et cela ne vous engage à rien. Avec une livraison en 14 jours, il reste encore le temps d'être en ligne avant Noël.\n\nSi cela vous intéresse, une simple réponse suffit.\n\n[Prénom]\n[Nom de l'agence]\n[Téléphone]\n\nSi vous ne souhaitez plus être recontacté, répondez simplement « stop »."
+        },
+        "corrections": [
+          "L'accroche repose peut-être sur une mauvaise fiche. La seule source est https://trouver-ouvert.fr/paris/choisy-flor-52376, dont l'adresse (slug) désigne un commerce appelé « Choisy Flor », pas « Le Renard Fleuriste ». Rien ne prouve que le 187 ter rue de Tolbiac soit l'adresse du Renard Fleuriste : ce peut être une autre boutique, ou un ancien nom. L'email ouvre pourtant sur « je trouve bien votre boutique au 187 ter rue de Tolbiac ». Si c'est faux, on part sur une fausse affirmation dès la première phrase. Il faut vérifier que le nom et l'adresse vont ensemble avant tout envoi, et ajouter cette vérification à channel_first, qui ne vérifie aujourd'hui que le compte Instagram.",
+          "Le message est encore générique. Le seul détail réel est l'adresse, plus le fait de ne pas avoir de site, ce qui vaut pour des centaines de commerces. Rien ne montre qu'on a regardé le travail de la boutique. Le message pourrait partir chez n'importe quel fleuriste de la rue de Tolbiac en changeant juste le nom. Il faut un détail vérifié de la boutique (une composition vue sur Instagram, la vitrine) avant d'envoyer, ou au minimum une étape écrite pour le récupérer pendant la vérification Instagram.",
+          "Contradiction dans la relance J3. accroche_utilisee dit que le style « de saison » n'est pas vérifié et n'apparaît pas dans les messages. Or la relance J3, comme idee_3d, parle de « vos compositions de saison ». Il faut retirer « de saison » ou le vérifier d'abord.",
+          "La source des photos est incohérente. idee_3d parle d'une composition « prise en photo dans la boutique ». La relance J7 dit au contraire « uniquement à partir de photos de vos compositions, vous n'avez rien à préparer ». Il faut préciser d'où viennent les photos (par exemple leurs publications Instagram), sinon « rien à préparer » sonne faux.",
+          "Le DM Instagram n'a pas de phrase pour ne plus être recontacté. La règle ne l'exige que pour les emails, mais le DM est le premier canal, donc il vaut mieux ajouter une courte formule de sortie (« répondez stop si vous ne voulez plus de messages »).",
+          "Le champ accroche_utilisee_note vaut « - » : c'est du remplissage. Il faut le remplir ou le supprimer.",
+          "Les points conformes : le lien de démo est présent et exact dans l'email et le DM. Il n'y a aucun tiret long, aucun faux client, chiffre ou résultat, et aucun prix. La phrase « stop » est bien à la fin de l'email et des deux relances. Les seuls placeholders sont ceux autorisés, et les longueurs sont correctes."
+        ]
+      }
+    ],
+    "rejected": [
+      {
+        "name": "Vertige (dans le monde d'Agathe)",
+        "zone": "1er, 2e, 3e et 4e arrondissements (Marais, centre)",
+        "reasons": "Les seules sources datent de 2012 à 2015 (Yonder 2015, un blog japonais 2012). Je n'ai trouvé ni site, ni Instagram, ni la moindre trace d'activité après 2015. Il ne faut pas la confondre avec « Vertiges Fleuriste » au 139 avenue de Villiers (17e), ni avec VERT'TIGES à Issy-les-Moulineaux. La boutique est introuvable aujourd'hui et peut-être fermée, donc keep=false. Elle redeviendrait intéressante seulement si une fiche Google récente confirme qu'elle est ouverte."
+      },
+      {
+        "name": "Rambert Rigaud",
+        "zone": "5e, 6e et 7e arrondissements (Saint-Germain, Rive gauche)",
+        "reasons": "Une seule source, Yonder, datée de février 2015 : 2 rue de l'Université, 75007, tél. 01 77 32 98 61. Les recherches ciblées (« Rambert Rigaud » fleurs) ne trouvent aucune autre trace : pas de site, pas d'Instagram, pas de fiche annuaire, pas de mention récente. On ne peut pas confirmer qu'elle existe encore, presque 11 ans plus tard. Aucun contact conforme à la règle. Je la classe introuvable aujourd'hui : keep=false, sauf si une vérification Google Maps à la main prouve qu'elle est encore active."
+      },
+      {
+        "name": "Thyrse",
+        "zone": "9e, 10e et 18e arrondissements (Pigalle, canal Saint-Martin, Montmartre)",
+        "reasons": "Une seule source (Time Out) mentionne Thyrse, fondé en 2020 par Domitille Basso, et l'extrait est tronqué : ni adresse ni arrondissement. Deux recherches ciblées n'ont donné ni adresse, ni Instagram, ni fiche annuaire. Le site thyrseparis.com est inaccessible (DNS ENOTFOUND, proxy 403). Il est donc impossible de confirmer que le studio est dans le 9e, le 10e ou le 18e, ou que le site lui appartient. Le détail « ancienne brodeuse chez Saint Laurent » n'apparaît pas en entier dans les extraits consultés : non confirmé. Fiche hors zone ou introuvable en l'état : keep=false. À rouvrir seulement si une vérification manuelle place le studio dans la zone."
+      }
+    ]
+  }
+}

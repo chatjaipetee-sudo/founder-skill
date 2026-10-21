@@ -1,0 +1,281 @@
+{
+  "_source": "résultat du workflow Vérifier en ligne les 25 fleuristes de la liste : site, contact public, email générique et faiblesse du site",
+  "resultat": [
+    {
+      "name": "Akiko Usami",
+      "site_ok": false,
+      "site_checked": "https://www.akiko-usami.com/ (injoignable : erreur DNS getaddrinfo ENOTFOUND, aucune page lue ; recherche web faite à la place)",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Site annoncé injoignable (le domaine ne résout pas), donc pas de site en ligne vérifiable. Aucune trace de site officiel dans la recherche web. Adresse 26 rue de Plaisance, 75014 relevée uniquement sur un annuaire de mariage (Bridebook), sans lien vers un site. Les profils Homo Faber et PEN Online décrivent une fleuriste ikebana/mariage, sans boutique confirmée.",
+      "score": 4,
+      "note": "(1) Le site annoncé ne répond pas ; l'identité de la fleuriste (Akiko Usami, ikebana, Paris) est confirmée par des sources tierces (Homo Faber, PEN Online, Bridebook), mais pas par un site. (2) Aucun email publié trouvé : vide. (3) Aucune page contact accessible : vide. (4) Aucun Instagram confirmé : vide. (5) Pas de site à évaluer ; le manque de site en ligne est la vraie faiblesse, mais l'activité semble surtout orientée mariages et événements, ce qui réduit la chance d'achat. (6) Score 4/10 : un site 3D à 1 500 EUR a un intérêt si elle a une présence en ligne à construire, mais l'activité semble sur commande/mariage et aucun canal de contact n'est vérifié. Sources : https://bridebook.com/fr/wedding-florists/akiko-usami-paris-ile-de-france-frQgG6mBXv ; https://www.homofaber.com/fr/artisans/akiko-usami-flower-designing-france ; https://pen-online.com/arts/a-japanese-ikebana-artist-in-france/"
+    },
+    {
+      "name": "Désirée (café-fleuriste)",
+      "site_ok": false,
+      "site_checked": "https://www.desireefleurs.fr (WebFetch: ENOTFOUND, le domaine ne résout pas ; https://desireefleurs.fr/contact également ENOTFOUND). Le site n'est donc pas vérifiable depuis cet environnement.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "",
+      "score": 5,
+      "note": "(1) Site non vérifiable : desireefleurs.fr ne résout pas (ENOTFOUND) ; le domaine est cité comme site officiel par Le Bonbon et Time Out via WebSearch, mais je n'ai pas pu charger la page, donc l'identité du site n'est pas confirmée directement. (2) Aucune adresse email générique relevée : vide. (3) Page contact non atteignable : vide. (4) Instagram @desireefleurs non confirmé : vide. (5) Faiblesse du site : impossible à évaluer, rien d'inventé ; \"site déjà soigné\" non vérifiable. (6) Score 5/10, faible confiance : l'activité est réelle (café-fleuriste ouvert en 2017, 5 rue de la Folie-Méricourt, 11e, selon Paris je t'aime, Le Bonbon, French Glimpses), et l'absence de site accessible serait un argument pour un site 3D, mais le score ne peut pas être affiné sans voir le site. Infos de contexte WebSearch (non vérifiées sur le site lui-même) : téléphone 09 81 02 52 13 (Le Bonbon, Time Out) ; second point de vente 96 rue de Meaux (19e) ; horaires divergents selon les sources. Sources : https://parisjetaime.com/shopping/desiree-p2621 ; https://en.lebonbon.fr/paris/tops-fashion/spring-is-here-so-here-is-the-top-list-of-florists-in-paris ; https://frenchglimpses.com/2022/05/19/a-charming-ecological-florist-in-paris/ ; https://www.timeout.fr/paris/shopping/fleuristes. Recommandation : relancer la vérification du site depuis un accès réseau normal avant tout envoi."
+    },
+    {
+      "name": "Tiffany Levain",
+      "site_ok": false,
+      "site_checked": "https://www.tiffany-levain.fr/ (WebFetch : erreur DNS, getaddrinfo ENOTFOUND, le domaine ne résout pas). Aucune page contact vérifiable.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "@maison_tiffany_levain (annoncé et relevé dans un guide Le Bonbon, non confirmé sur un site de la boutique)",
+      "weakness": "Site injoignable (domaine non résolu), donc impossible d'évaluer le design. Aucune faiblesse visuelle vérifiable. Pas de site fonctionnel, ce qui est un besoin possible. Incohérence d'adresse : le guide Le Bonbon indique le 35 boulevard Pasteur (15e) dans une section et le 5e (rue de Candolle) dans une autre, donc la localisation est à confirmer.",
+      "score": 4,
+      "note": "Fleuriste identifié par des sources tierces seulement : Le Bonbon (https://www.lebonbon.fr/paris/les-tops-mode/le-printemps-arrive-voici-le-top-des-fleuristes-a-paris/) mentionne 35 boulevard Pasteur 15e (tél. 01 43 06 33 36) et @maison_tiffany_levain ; une autre entrée de la même liste place la boutique rue de Candolle, 5e (tél. 01 45 35 76 30). Aucune adresse email générique trouvée, la recherche n'en a pas retourné : champ vide. Score 4/10 : besoin possible (pas de site joignable), mais existence et adresse actuelle non confirmées, et le signal d'achat dépend de la vérification téléphonique ou Instagram. Étapes suivantes : appeler les numéros, vérifier la localisation actuelle sur Google Maps et Instagram. Ne pas utiliser d'adresse personnelle."
+    },
+    {
+      "name": "Georges François Fleurs",
+      "site_ok": false,
+      "site_checked": "https://georges-francois.fr/ (WebFetch: getaddrinfo ENOTFOUND, aussi sur www.georges-francois.fr). Site injoignable : le nom de domaine ne résout pas. Aucune page contact ni contenu du site n'a pu être lu.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "",
+      "score": 2,
+      "note": "(1) Site non vérifié : le domaine georges-francois.fr ne résout pas depuis l'outil de lecture (ENOTFOUND, sur les variantes avec et sans www). Une recherche web indique que le site existe dans des annuaires (118712 : www.georges-francois.fr), donc le site est peut-être en panne ou en cours de refonte ; à revérifier. (2) Email : aucun trouvé ; la recherche n'en a pas révélé, donc vide. (3) Page contact : introuvable (site injoignable). (4) Instagram : un annuaire (118712) indique un compte Instagram, mais aucun handle exact n'a pu être lu dans les pages capturées : vide, non confirmé. (5) Faiblesse : impossible à évaluer, site non lisible ; vide. (6) Score 2/10 : seul le contexte est connu (boutique parisienne établie, fondée en 1963 selon sa description, activité mariages et décoration) ; l'adresse diffère : la recherche donne 36 rue Delambre, 75014 Paris, et non 14 rue Delambre comme annoncé. Sans site lisible ni faiblesse vérifiée, aucun argument de vente 3D ne tient. Sources consultées : https://www.justacote.com/paris-75014/fleuriste/ ; https://www.cylex-locale.fr/entreprises/georges-fran%c3%a7ois-fleurs-13115332.html ; https://www.118712.fr/professionnels/WkNUX1BdGAc (ces deux dernières pages n'ont pas pu être rouvertes par WebFetch : ENOTFOUND, mais les extraits de recherche ont été utilisés)."
+    },
+    {
+      "name": "Debeaulieu",
+      "site_ok": true,
+      "site_checked": "https://www.debeaulieu-paris.com",
+      "email": "contact@debeaulieu-paris.com",
+      "contact_url": "https://www.debeaulieu-paris.com/contact",
+      "instagram": "https://www.instagram.com/debeaulieuparis",
+      "weakness": "Aucune faiblesse majeure confirmée : le site est une boutique Shopify structurée (pages Boutique, Studio, Galerie, Savoir-faire, Presse, Contact) avec une h1 propre et une page de contact complète. Limites observées uniquement : pas de contenu 3D ni d'expérience immersive visible, et la page d'accueil brute ne contient qu'une balise img (visuels probablement chargés en JavaScript), donc la qualité visuelle n'a pas pu être évaluée entièrement. Le thème exact n'est pas identifiable depuis le HTML.",
+      "score": 3,
+      "note": "Site confirmé : Debeaulieu Paris, \"Boutique et Studio Floral\", 30 rue Henry Monnier, 75009 Paris (correspond à la zone). Téléphone +33 1 45 26 78 68 (page contact). Email générique publié sur la page contact : contact@debeaulieu-paris.com (aussi order@ affiché comme \"Mail:\" dans le pied de page ; marie@ est un prénom personnel et a été écarté). Instagram confirmé sur le site (home et contact) : instagram.com/debeaulieuparis. Horaires affichés : lundi-samedi 10h-20h, dimanche matin 10h-14h. Note méthodologique : WebFetch a échoué (ENOTFOUND) alors que curl via le proxy renvoie 200 ; les données ont été extraites du HTML brut téléchargé dans /tmp/claude-0/-home-user-founder-skill/e194ed5a-4b14-5c6b-a410-642293f2c0f1/scratchpad/debeaulieu/ (home.html, contact.html). Score 3/10 : site déjà assez développé et fleuriste à identité forte, donc peu de douleur évidente pour un site 3D à 1 500 EUR ; un contact par email générique est possible. Les sources annoncées (email, Instagram, formulaire) étaient vides, et les trois éléments ont été trouvés sur le site lui-même."
+    },
+    {
+      "name": "Boule de Neige",
+      "site_ok": false,
+      "site_checked": "https://bouledeneige.fr/ (WebFetch : erreur DNS, getaddrinfo ENOTFOUND bouledeneige.fr ; page contact https://bouledeneige.fr/pages/contact non atteignable non plus)",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "",
+      "score": 2,
+      "note": "(1) Le site ne répond pas : le nom de domaine bouledeneige.fr ne se résout pas (erreur DNS sur l'accueil et sur la page contact). Impossible de confirmer que c'est bien le site du fleuriste. (2) Aucune adresse email publiée vérifiable : vide. (3) Page contact non vérifiée (URL annoncée, non atteignable) : vide. (4) Aucun Instagram confirmé : vide. (5) Faiblesse non évaluable faute d'accès au site : vide. Seule vérification positive : une recherche web (WebSearch) cite Boule de Neige au 19-21 rue de Lourmel, Paris 15e, dans un guide de fleuristes evous.fr (https://www.evous.fr/paris/shopping/Les-meilleurs-fleuristes-a-Paris,1176708.html), sans téléphone, horaires ni site à jour ; un article evous.fr de 2015 sur la rue (https://www.evous.fr/Rue-de-Lourmel-75015-Paris,205703) mentionne aussi la boutique. Le commerce existe donc probablement, mais l'absence de site joignable peut signifier un site fermé, à refaire ou une simple erreur de domaine annoncé : à vérifier sur Google Maps avant tout contact. Score 2/10 : sans site en ligne vérifiable, le pitch d'un site 3D à 1 500 EUR (qui suppose un site existant à améliorer) n'a pas de base ; à reconsidérer si le site réel est retrouvé, ou comme prospect « création de site » plutôt que « refonte 3D »."
+    },
+    {
+      "name": "Castor Fleuriste",
+      "site_ok": false,
+      "site_checked": "https://castor-fleuriste.com (et www.castor-fleuriste.com) : échec DNS (getaddrinfo ENOTFOUND) sur les deux variantes. Page contact non atteignable.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Site inaccessible : le domaine annoncé ne résout pas (DNS introuvable), donc impossible de juger le site lui-même. Aucun constat vérifiable sur le design. Une recherche secondaire cite le domaine castor-fleuriste.com, ce qui suggère un site qui existait mais n'est plus joignable à ce jour.",
+      "score": 5,
+      "note": "(1) Identité : le fleuriste existe bien, 14 rue Debelleyme, 75003 (Bottin, Time Out), propriétaire Louis-Géraud Castor, ancien marchand d'art, boutique reconnue dans la mode et le design (L'Officiel USA, floristsreview). Mais le site annoncé ne répond pas, donc non confirmé directement. (2) Aucun email trouvé, ni sur le site (inaccessible) ni dans les recherches : vide. (3) Page contact : non trouvée. (4) Instagram : @castorfleuriste est cité par floristsreview.com (liste 2022) mais non vérifié sur Instagram, donc vide par règle. (5) Faiblesse réelle : non vérifiable, site injoignable ; ne pas la conclure sans accès. (6) Score 5/10 : la boutique est établie et haut de gamme (bouquets 120 à 500 EUR selon Time Out), ce qui rend un site 3D à 1 500 EUR plausible, mais le site est hors ligne et l'absence d'email et d'Instagram vérifiés réduit les moyens de contact. Sources : https://www.bottin.fr/fiche-locale/bdgdihfddhbgfdfcgdhj--castor-fleuriste--paris-03.htm ; https://floristsreview.com/?p=877633 ; https://lofficielusa.com/travel-living/florist-louis-geraud-castor-fleuriste-paris ; https://www.timeout.fr/paris/shopping/fleuristes"
+    },
+    {
+      "name": "Maison Stéphane Chapelle (Paris 1er, rue de Richelieu)",
+      "site_ok": false,
+      "site_checked": "https://www.stephanechapelle.com/ et https://www.stephanechapelle.fr/ : échec DNS (ENOTFOUND), aucun site officiel trouvé via WebSearch",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Non évaluable : aucun site officiel accessible ou identifié. Ne pas conclure à un site faible ou soigné.",
+      "score": 2,
+      "note": "(1) Site : aucun site officiel accessible. Les deux domaines devinés ne résolvent pas. Les recherches renvoient uniquement des guides et articles tiers (pariszigzag, lebonbon, yonder, evous, thursd, frenchglimpses) qui confirment l'existence du fleuriste Stéphane Chapelle, rue de Richelieu (75001), et un second atelier boulevard Raspail (14e). Adresse indiquée : 29 rue de Richelieu. Téléphone relevé dans les guides (01 42 60 65 66), non vérifié sur un site de la boutique. (2) Email : vide, aucune adresse générique publiée par la boutique n'a été trouvée. (3) Page contact : vide. (4) Instagram : non confirmé. Un article Thursd crédite des photos au compte @maisonstephanechapelle, à vérifier directement sur Instagram ; il n'est pas renseigné ici. (5) Faiblesse : non évaluable faute de site. (6) Score 2/10 : la maison est établie (clients cités : Dior, Chanel, Hermès, selon Thursd) et une vitrine 3D pourrait avoir du sens, mais sans site ni email publié, l'accès au décideur et le besoin réel sont inconnus. Sources : https://www.pariszigzag.fr/lieux-insolites/les-plus-beaux-fleuristes-de-paris/ ; https://www.yonder.fr/les-tops/shopping/les-13-meilleurs-fleuristes-de-paris-2015/stephane-chapelle-le-gout-du-luxe ; https://www.lebonbon.fr/paris/lifestyle/livraison-fleurs-paris-adresse/ ; https://thursd.com/articles/flower-shops-of-paris"
+    },
+    {
+      "name": "Moulié",
+      "site_ok": false,
+      "site_checked": "https://www.moulie.fr/en/ (échec DNS, getaddrinfo ENOTFOUND ; https://moulie.fr/ et https://www.moulie.fr/contact également en échec)",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Non vérifiable : moulie.fr n'est pas joignable depuis ma vérification (DNS introuvable), donc impossible de confirmer un site, un visuel ou un thème. Aucune faiblesse constatée, et \"site déjà soigné\" non établi.",
+      "score": 3,
+      "note": "Le fleuriste existe bien à l'adresse indiquée (8 place du Palais-Bourbon, 75007 Paris) selon plusieurs annuaires : téléphone 01 45 51 78 43, société MOULIE SAS (SIREN 316 696 350), histoire de la maison (fondée 1870 par Alexandre Savart, reprise par Henri Moulié en 1978, fournisseur des ministères et ambassades). Les sources trouvées divergent sur certaines dates (1978/1979/1985). Moulié n'a pas pu être confirmé comme site web : moulie.fr apparaît dans l'index de recherche mais n'est pas joignable. Aucune adresse email générique publiée par la boutique, aucune page contact et aucun Instagram confirmé : laissés vides, rien n'a été trouvé sur le site lui-même. Les emails trouvés (ex. AFAR) ne sont pas ceux de la boutique et ont été écartés. Score bas (3/10) : prospect établi et haut de gamme, sans site vérifiable ; à réévaluer si moulie.fr redevient accessible. Sources : https://www.jardinsdefrance.org/moulie-fleurs-lart-maniere/ , https://annuaire-entreprises.data.gouv.fr/entreprise/moulie-316696350 , https://www.yonder.fr/les-tops/shopping/les-13-meilleurs-fleuristes-de-paris-2015/moulie-savart-au-service-du-roi , https://acceslibre.beta.gouv.fr/app/75-paris/a/fleuriste/erp/moulie-2/"
+    },
+    {
+      "name": "Lachaume",
+      "site_ok": true,
+      "site_checked": "https://maisonlachaume.com/ (répond en HTTP 200 ; pages vérifiées : /pages/contact, /pages/la-boutique, /en/pages/la-maison). Le site est bien celui de Lachaume Paris : 103 Rue du Faubourg Saint-Honoré, 75008 Paris, figurant sur la page La Boutique.",
+      "email": "contact@lachaume.com",
+      "contact_url": "https://maisonlachaume.com/pages/contact",
+      "instagram": "https://www.instagram.com/lachaume.fleurs/ (lien présent sur la page d'accueil du site)",
+      "weakness": "Aucune faiblesse structurelle évidente : site Shopify (thème standard, boutique lachaume-paris.myshopify.com) avec photos de bouquets, témoignages et histoire de la maison. Faiblesses plausibles mais non vérifiées : pas de mise en scène 3D ni de visite immersive de la boutique, page contact réduite à un formulaire sans téléphone affiché. Le site est globalement soigné.",
+      "score": 2,
+      "note": "Le WebFetch a échoué (ENOTFOUND sur tous les domaines, y compris Wikipedia et PagesJaunes), donc les vérifications ont été faites avec curl via le proxy : maisonlachaume.com répond en 200. Email générique trouvé sur la page La Boutique (Email : contact@lachaume.com), pas sur la page contact qui ne contient qu'un formulaire. Aucun numéro de téléphone trouvé dans le texte des pages consultées. Horaires publiés : lundi 9h-18h, mardi/jeudi/vendredi 8h30-19h, mercredi 9h-19h, samedi 8h30-17h. Score bas : site déjà soigné, boutique en ligne fonctionnelle, Shopify standard, peu de signal d'achat pour un site 3D à 1 500 EUR. Source de l'adresse aussi confirmée par Wikipedia FR et Interflora (résultats de recherche, non ouverts).",
+      "contact_url_placeholder": "n/a"
+    },
+    {
+      "name": "L'Atelier Yann-H2o",
+      "site_ok": false,
+      "site_checked": "https://yann-h2o.com/ (et https://www.yann-h2o.com/contact) : échec DNS (getaddrinfo ENOTFOUND) sur les deux. Le site n'a pas pu être lu, donc son contenu n'est pas vérifié. La page contact n'a pas pu être lue non plus.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "@yann.h2o (confirmé par une fiche annuaire : instagram.com/yann.h2o, et un post embarqué dans un guide Le Bonbon ; non vérifié directement sur Instagram)",
+      "weakness": "Site injoignable : le domaine annoncé ne résout pas (DNS introuvable), donc pas de site en ligne vérifiable. Aucune faiblesse de design ne peut être constatée, faute d'accès. Pas de formulaire ni d'email publié trouvé dans les sources.",
+      "score": 4,
+      "note": "Identité : la boutique existe (fleuriste artisan, showroom, 25 ans d'expérience, horaires mar-sam 10h-20h selon 118712.fr et Le Bonbon). Écart d'adresse : l'annonce indique \"11 rue Pache\", mais les sources (annuaire 118712, Funbooker, Le Bonbon) donnent 6 rue Pache, 75011 Paris, parfois \"6b\". Téléphone publié selon Le Bonbon : 07 88 96 03 63 (non vérifié sur le site). Aucune adresse email générique trouvée : champ laissé vide plutôt que devinée. Score 4/10 : le fleuriste est actif (Instagram, presse, ateliers) mais le site annoncé est en panne, ce qui peut signaler un besoin, sans preuve de budget pour 1 500 EUR. À revérifier : le domaine peut être mort ou mal écrit, et le contenu du site reste inconnu. Sources : https://www.118712.fr/fiches/WUNXW1VXHQU ; https://www.lebonbon.fr/paris/les-tops-mode/le-printemps-arrive-voici-le-top-des-fleuristes-a-paris/ ; https://www.funbooker.com/fr/annonce/atelier-bouquet-de-fleurs-fraiches-a-paris-11eme/voir"
+    },
+    {
+      "name": "Ateliers Flash Fleurs",
+      "site_ok": true,
+      "site_checked": "https://ateliersflashfleurs.com/ (répond en HTTP 200 via curl ; WebFetch a renvoyé ENOTFOUND, donc contenu lu par curl)",
+      "email": "admin@ateliersflashfleurs.com",
+      "contact_url": "https://ateliersflashfleurs.com/#contact",
+      "instagram": "",
+      "weakness": "site déjà soigné : site sur mesure (pas de générateur détecté), titre \"Artisan fleuriste à Paris 15e\", balisage JSON-LD FloristCourse/LocalBusiness, contenu en plusieurs langues, 39 images, bouton de commande WhatsApp. Lacunes réelles seulement : tout tient sur une page d'accueil avec ancre #contact, pas de lien Instagram ni de réseau social détecté, pas de visuel 3D ou interactif.",
+      "score": 3,
+      "note": "(1) Le site répond et correspond bien à un fleuriste : nom \"Ateliers Flash Fleurs\", \"Artisan fleuriste à Paris 15e\". Le JSON-LD donne l'adresse 4 rue Bausset (même rue, 75015), et une recherche indépendante (justacote.com) donne aussi \"4 rue Bausset\" pour \"Atelier Flash Fleurs\". (2) La seule adresse email publiée sur le site est admin@ateliersflashfleurs.com (zone contact et pied de page, et JSON-LD). Ce n'est pas une adresse personnelle mais une adresse de rôle ; aucune adresse contact@, bonjour@ ou hello@ n'est publiée. Les adresses vous@email.com et destinataire@email.com sont des placeholders de formulaire, à écarter. (3) Pas de page contact séparée : la section est à l'ancre https://ateliersflashfleurs.com/#contact. Le site publie aussi un téléphone (+33 1 48 42 76 23, dans le JSON-LD) et un WhatsApp (+33 6 44 10 06 82). (4) Aucun Instagram ni autre réseau social trouvé sur le site : champ laissé vide. (5) Le site n'est pas faible : il est soigné. Le score reflète ça. (6) Score 3/10 : la boutique a déjà un site propre, un bouton de commande et du balisage SEO local, donc le besoin d'un site 3D à 1 500 EUR est faible à moyen. Une piste plus forte serait une vitrine 3D des compositions si la boutique vend des bouquets sur-mesure en ligne."
+    },
+    {
+      "name": "Le Renard Fleuriste",
+      "site_ok": false,
+      "site_checked": "Aucun site web propre trouvé. Le WebFetch sur les annuaires (florajet.com, fleuristes-et-fleurs.com, linktr.ee/renard.fleuriste) a échoué (erreur DNS), donc aucune page de la boutique n'a pu être lue. Une recherche web n'a trouvé aucun site officiel.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Pas de site web propre trouvé : la boutique n'apparaît que sur des annuaires (Florajet, Fleuristes-et-fleurs, Mafleuriste, Bottin). Aucun élément visuel vérifiable de sa présence en ligne hors annuaires. Note : une fiche annuaire indique l'adresse 187 ter rue de Tolbiac, 75013 Paris, à confirmer.",
+      "score": 3,
+      "note": "Vérification incomplète. (1) Aucun site trouvé : ni site officiel ni page contact. (2) Email : vide, aucune adresse générique publiée trouvée. (3) Page contact : vide. (4) Instagram : @renard.fleuriste NON confirmé. Un lien linktr.ee titré \"renard.fleuriste\" apparaît dans la recherche, mais la page n'a pas pu être ouverte. (5) Faiblesse : pas de site propre, seulement des annuaires. Ce n'est pas un site \"soigné\" au sens du critère. (6) Score 3/10 : la boutique a une bonne réputation en annuaire (4,9/5 sur environ 70 avis selon Bottin, à vérifier) et une présence sociale probable, mais sans site à remplacer le besoin de site 3D est moins évident, et il faudrait confirmer une présence Instagram active. Sources consultées : florajet.com (fiche Le Renard Fleuriste), fleuristes-et-fleurs.com, mafleuriste.net, bottin.fr, linktr.ee/renard.fleuriste (résultats de recherche seulement, pages non ouvertes)."
+    },
+    {
+      "name": "Gilles Pothier (fleuriste, 16e)",
+      "site_ok": false,
+      "site_checked": "Aucun site officiel annoncé ni trouvé. Recherches WebSearch sur \"Gilles Pothier fleuriste avenue Raymond Poincaré Paris 16\" et \"gilles-pothier.fr fleuriste Paris contact email\" : aucun domaine propre n'apparaît. Une tentative WebFetch sur la fiche Yelp a échoué (erreur DNS), sans contenu exploitable.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Aucun site web trouvé : la boutique n'a pas de présence web propre repérable, seulement des annuaires (Yelp, Petit Futé, Blooms, Alentoor, Yonder, Pages Jaunes). Impossible de qualifier un site soigné ou non. Pas de visuel ni de formulaire constatés, faute de site.",
+      "score": 4,
+      "note": "Fleuriste identifié à 97 avenue Raymond Poincaré, 75116 Paris (Yelp, Yonder, Petit Futé, annuaire accessibilité) : téléphone 01 40 67 71 71 (Yelp, Yonder), second numéro 01 40 67 72 11 (Alentoor). Horaires annoncés par Blooms : 8h30-20h lun.-sam. Activité ancienne : installé depuis 1990 (BnF), MOF 1994, champion Interflora 1997 (Yonder, 2015). Aucun site ni email ni Instagram confirmés ; l'email doit être vérifié directement auprès de la boutique, et l'identité de la fiche Blooms/Alentoor est cohérente (Alentoor indique un code postal 75106, probablement une coquille pour 75116). Score 4/10 : besoin de visibilité en ligne probable (absence de site repérée) mais budget et intérêt non vérifiés."
+    },
+    {
+      "name": "Adele (fleuriste, 17e, rue Poncelet)",
+      "site_ok": false,
+      "site_checked": "https://adele-artisan-fleuriste.fr (et https://www.adele-artisan-fleuriste.fr) : erreur de résolution DNS (getaddrinfo ENOTFOUND). Aucune page n'a pu être lue. Page contact : non vérifiable.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "",
+      "score": 2,
+      "note": "(1) Site non vérifié : le domaine annoncé ne répond pas (DNS introuvable). La boutique existe : annuaires 118712 (https://www.118712.fr/professionnels/WkpXWlBWHAg) et acceslibre (https://acceslibre.beta.gouv.fr/app/75-paris/a/fleuriste/erp/adele/) la situent au 10 rue Poncelet, 75017 Paris, et citent le domaine adele-artisan-fleuriste.fr, sans confirmation par le site lui-même. (2) Aucune adresse email générique trouvée sur le site (inaccessible) ni dans les résultats de recherche : vide. (3) Page contact : inconnue, vide. (4) Instagram : aucun trouvé ni confirmé, vide. (5) Faiblesse : non évaluable, aucune page lue ; ne pas la déduire. (6) Score 2/10 : domaine mort ou mal renseigné, aucune preuve d'un site actif à remplacer. Téléphones divergents selon les annuaires (01 46 22 00 19 sur acceslibre ; +33 6 19 35 74 06 sur Cylex), à vérifier. Horaires annuaire : lun-sam 9h-20h, dim 9h-14h. Piste pour la suite : vérifier le domaine, ou prospecter par téléphone/visite à la boutique pour obtenir un email générique."
+    },
+    {
+      "name": "Fragrance",
+      "site_ok": false,
+      "site_checked": "https://fragrance.paris (et https://www.fragrance.paris) : erreur DNS (getaddrinfo ENOTFOUND), site injoignable",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Non vérifiable : le site annoncé ne répond pas (domaine introuvable). Aucune faiblesse observée sur le site. Les annuaires (Bottin, The Shopkeepers, Doitinparis) confirment l'existence du fleuriste au 14 rue Saint-Sébastien, 75011, mais pas de page web fonctionnelle.",
+      "score": 3,
+      "note": "(1) Le site annoncé ne répond pas (DNS introuvable sur fragrance.paris et www.fragrance.paris), donc impossible de confirmer qu'il s'agit bien du fleuriste. Une recherche web confirme un fleuriste et salon de thé \"Fragrance\" au 14 rue Saint-Sébastien, 75011, fondé en 2018 selon Doitinparis, mais aucune page officielle n'a été lue. (2) Aucune adresse email générique trouvée : vide. (3) Aucune page contact trouvée : vide. (4) Aucun Instagram confirmé : vide (une chaîne \"fragrancefleursthes\" apparaît dans un listing sans plateforme identifiée, non retenue). (5) Faiblesse non vérifiable, le site est absent ou hors ligne ; à revérifier plus tard. (6) Score 3/10 : l'absence de site fonctionnel peut signaler un besoin, mais le prospect n'est pas qualifié tant que le site annoncé n'est pas joignable ou que le domaine n'est pas confirmé. Sources : https://www.bottin.fr/fiche-locale/iaedijcacfcgjjfedcb--fragrance-rr-fleurs-et-thes--paris.htm ; https://theshopkeepers.com/shops/fragrance/paris-store/ ; https://www.doitinparis.com/fr/fleuristes-eco-responsable-paris-25682"
+    },
+    {
+      "name": "Odorantes (fleuriste, 9 rue Madame, 75006 Paris)",
+      "site_ok": false,
+      "site_checked": "https://odorantes-paris.com (et https://www.odorantes-paris.com/) : erreur DNS (ENOTFOUND), aucun site répondant. Le domaine est cité par Mapstr et paris-fleuristes.com mais ne résout pas.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Pas de site web fonctionnel vérifiable : le domaine publié par des annuaires ne répond pas. Présence en ligne limitée aux annuaires et guides (Goop, Evous, Justacote, Alentoor, Mapstr). Le site ne peut pas être jugé sur son design ; \"site déjà soigné\" non vérifiable.",
+      "score": 4,
+      "note": "Fleuriste réel et établi (9 rue Madame, 75006 ; tél. 01 42 84 03 00 publié par les annuaires ; fondé en 2002 selon la recherche, gérants Emmanuel Sammartino et Christophe Hervé). Aucune adresse email générique ni compte Instagram trouvés dans les sources : champs laissés vides, rien inventé. Horaires contradictoires selon les annuaires (lun-ven 9h-12h/14h-18h vs 8h30-20h tous les jours). Score 4/10 : l'absence de site fonctionnel est un argument réel pour une agence de sites 3D, mais la boutique est connue par le bouche-à-oreille et la presse, et son budget n'est pas connu. À re-vérifier : le domaine peut avoir changé ou être en maintenance ; une recherche Instagram directe et l'appel au 01 42 84 03 00 restent à faire pour l'email et le compte Instagram."
+    },
+    {
+      "name": "Flor 50 (fleuriste, Paris 13e, boulevard de l'Hôpital)",
+      "site_ok": false,
+      "site_checked": "https://www.flor-50.fr/ (WebFetch : erreur DNS, getaddrinfo ENOTFOUND www.flor-50.fr ; https://www.flor-50.fr/livraison-paris : même erreur). Aucune page du site n'a pu être lue. Recherche web : seule une source d'annuaire (trouver-ouvert.fr/paris/flor-50-89120) mentionne le commerce, à 50 boulevard de l'Hôpital, 75013 Paris, avec des horaires indiqués (07:30-21:00 en semaine et samedi, 08:00-20:00 le dimanche, horaires à confirmer). Aucun site propre, aucun Instagram et aucun formulaire trouvés. Les URL annoncées ne sont donc pas vérifiables.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Non vérifiable : le site annoncé ne résout pas (erreur DNS), donc aucune faiblesse de site ne peut être constatée. Ce n'est ni \"site déjà soigné\" ni une preuve de site faible. La seule présence en ligne trouvée est une fiche d'annuaire (trouver-ouvert.fr).",
+      "score": 2,
+      "note": "(1) Le site ne répond pas : erreur DNS sur www.flor-50.fr, donc le site n'est pas confirmé comme étant celui du fleuriste. Seule une fiche d'annuaire confirme l'existence du commerce à l'adresse indiquée (https://trouver-ouvert.fr/paris/flor-50-89120). (2) Aucune adresse email générique publiée par la boutique n'a pu être trouvée : champ vide. L'adresse annoncée [adresse retirée : dépôt public] n'est pas générique (domaine de fournisseur d'accès) et n'est pas confirmée sur un support de la boutique, elle n'est donc pas reprise. (3) Page contact : introuvable, champ vide. Le formulaire annoncé (/livraison-paris) est aussi injoignable. (4) Instagram : aucun compte confirmé, champ vide. (5) Faiblesse réelle : non constatable. (6) Score 2/10 : site injoignable, aucune présence web propre, et le commerce n'a qu'une fiche d'annuaire. Une vérification manuelle (Google Maps, fiche Google Business, réseaux sociaux) est nécessaire avant tout contact. Un site 3D à 1 500 EUR n'est pas pertinent tant que le site actuel n'est pas vérifié."
+    },
+    {
+      "name": "Frédéric Garrigues Fleuriste",
+      "site_ok": false,
+      "site_checked": "aucun site trouvé (site non annoncé ; recherches web uniquement)",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Aucun site propre identifié : pas de site officiel trouvé dans les résultats de recherche, donc impossible de juger le visuel ou le thème. Présence en ligne limitée aux annuaires (evous.fr, e-pro.fr, guide-floral.com, koifaire.com) et à un blog de 2014 ; l'entreprise n'a pas de vitrine web vérifiable.",
+      "score": 4,
+      "note": "Adresse confirmée par plusieurs annuaires : 2 rue Saint-Gilles, 75003 Paris (quartier Marais, métro Chemin Vert), téléphone 01 48 87 99 27, SIREN 480 119 320 (registre cité par e-pro). Activité : styliste floral et atelier de création (mariages, baptêmes, événements privés, cours d'art floral). Aucun site, email ou Instagram publié trouvé ; WebFetch non lancé car aucune URL de site n'a été annoncée ni trouvée. Le score 4 reflète un besoin réel de présence web (aucune vitrine visible) mais un petit budget potentiel et un flou sur la vraie activité boutique vs atelier événementiel ; à vérifier par appel ou Google Business avant tout contact. Sources : https://www.evous.fr/Frederic-Garrigues-Fleuriste-Paris-75003,1121419.html ; https://commerce.e-pro.fr/paris/frederic-garrigues_f2032358 ; https://www.lamarieeauxpiedsnus.com/fleurs/frederic-garrigues-styliste-de-fleurs/ ; https://www.koifaire.com/ile-de-france/frederic,garrigues-44953.html ; http://www.guide-floral.com/fleuriste/fleuriste-paris/frederic-garrigues-s5.html"
+    },
+    {
+      "name": "The Blue Tree (L'Arbre Bleu), 4 rue de Candolle, 75005 Paris",
+      "site_ok": false,
+      "site_checked": "Aucun site officiel trouvé. Tentatives : fleuriste-paris5.fr/boutique-fleuriste-paris-5-larbre-bleu/ (ENOTFOUND, domaine injoignable), sessile.fr/en/trouvez-votre-fleuriste/l-arbre-bleu/ (ENOTFOUND), facebook.com/p/Larbre-bleu-100064023463560/ (ENOTFOUND), justacote.com (ENOTFOUND). Recherches WebSearch : pas de site propre identifié. Adresse confirmée par plusieurs annuaires : 4 rue de Candolle, 75005 Paris, tél. 01 45 35 76 30 (source : pagesjaunes.fr/pros/09544115 et autres annuaires).",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Aucun site officiel trouvé ni accessible : la présence en ligne se limite à des annuaires et fiches tiers (PagesJaunes, Sessile, justacote, byflox). Pas de visuel ni de formulaire propres à la boutique vérifiables. Le site n'a pas pu être évalué directement, donc la faiblesse ne peut être confirmée.",
+      "score": 4,
+      "note": "Identité : \"The Blue Tree\" est le nom anglais de L'Arbre Bleu, fleuriste éco-responsable au 4 rue de Candolle (5e), confirmé par plusieurs annuaires (WebSearch). Email : rien de vérifié sur un site de la boutique ; une fiche tierce (snippet de recherche, non ouverte) cite [adresse retirée : dépôt public], qui est une adresse Gmail nominative à la boutique, non publiée sur un site propre et non vérifiée, donc laissée vide. Instagram non confirmé (aucun lien trouvé). Horaires indicatifs seulement : 9h-20h, dimanche 19h, selon un agrégateur mis à jour le 04/02/2026. Score 4/10 : boutique de quartier avec très peu de présence web propre, donc un besoin réel mais un budget et un site existant inconnus ; à re-vérifier avec un accès réseau fonctionnel vers le site et la page contact."
+    },
+    {
+      "name": "Un Peu Beaucoup",
+      "site_ok": false,
+      "site_checked": "https://www.unpeubeaucoup.fr/ (introuvable : erreur DNS, ENOTFOUND). Aucun autre site officiel trouve dans les recherches.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Aucun site officiel verifiable : l'adresse 18 rue Pierre Guerin (75016) et le numero 01 45 20 06 41 apparaissent dans des annuaires, mais aucun site de la boutique n'a pu etre ouvert. Les sources se contredisent (thursd.com le place dans le 7e, Koifaire indique 148 avenue de Versailles). Le handle @unpeubeaucoup n'est mentionne qu'une fois, sans verification. Faiblesse du site non evaluable faute de site accessible.",
+      "score": 3,
+      "note": "Fleuriste etabli (plus de 20 ans selon un annuaire), mais presence web introuvable : aucun site, aucune page contact, aucune adresse email generique publiee verifiee. Les deux fetch sur les annuaires et sur le site supposé ont echoue (erreur DNS), donc rien n'a pu etre lu directement. Avant tout demarchage : verifier manuellement l'existence d'un site (ou l'absence) et le compte Instagram. Note: Interflora Floranges est annonce a la meme adresse (18 rue Pierre Guerin), a ne pas confondre. Score bas car sans site existant, le besoin d'un site 3D a 1 500 EUR n'est pas demontre et le budget n'est pas evident."
+    },
+    {
+      "name": "La Marguerite",
+      "site_ok": false,
+      "site_checked": "https://www.lamargueriteaparis.com (et https://lamargueriteaparis.com) : erreur DNS \"getaddrinfo ENOTFOUND\", le domaine ne résout pas. Vérification par recherche web : aucun résultat ne pointe vers ce domaine.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Site annoncé injoignable (domaine ne résout pas), donc aucune faiblesse visuelle vérifiable. Le commerce existe bien : 106 rue Cardinet, 75017 Paris (Mappy, PagesJaunes, 118712), avec un numéro 09 54 40 15 30 indiqué par une fiche d'accessibilité, mais aucun site fonctionnel confirmé.",
+      "score": 3,
+      "note": "Fleuriste réel (106 rue Cardinet, Paris 17e, société créée en 2015 selon 118712) mais le site annoncé ne répond pas : impossible de confirmer que c'est bien son site ni de lire sa page contact. Email générique non vérifiable : rien trouvé dans les sources accessibles, donc vide. Instagram non confirmé, vide. Une piste existe quand même : un commerce sans site fonctionnel peut être un argument de vente, mais il faut d'abord vérifier auprès de la boutique (Facebook mentionné par une annuaire, non confirmé). Score bas (3/10) car la base n'est pas vérifiable. Recheck manuel conseillé avant contact. Les résultats cités (Mappy, PagesJaunes, 118712, acceslibre) sont des annuaires, pas le site de la boutique. Sources : https://fr.mappy.com/poi/56b27de29191b046ffb1b410 ; https://www.118712.fr/professionnels/WkRRW15cHwA ; https://www.pagesjaunes.fr/pros/56059921"
+    },
+    {
+      "name": "Muse (fleuriste, 4 rue Burq, 75018 Paris)",
+      "site_ok": false,
+      "site_checked": "https://muse.paris/ (cité par Time Out) : échec DNS (ENOTFOUND). Essayés aussi : https://muse-montmartre.fr, https://muse-montmartre.com : échec DNS. Aucun site joignable confirmé.",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "Non vérifiable : aucun site de la boutique n'a pu être chargé, donc pas de faiblesse de site constatée. Ne pas présumer de site statique ou de thème standard. Le fait notable : aucun site web joignable pour une boutique notée 4,9/5 (source agrégateur, plus de 40 avis).",
+      "score": 3,
+      "note": "(1) Le site n'a pas été confirmé : les trois domaines testés ne résolvent pas. Time Out cite https://muse.paris/, qui ne répond pas non plus. Ce fleuriste correspond bien à Muse, 4 rue Burq, 75018 (adresse et téléphone 01 46 06 52 49 concordants sur plusieurs annuaires, dont Yonder 2015, Do It In Paris, HipParis, justacote). (2) Email : vide, aucune adresse générique publiée sur un site joignable ni dans les sources trouvées. (3) Page contact : vide, aucune page accessible. (4) Instagram : vide, aucun compte confirmé dans les résultats. (5) Faiblesse : non vérifiable, voir weakness. (6) Score 3/10 : la boutique a une réputation forte et apparemment pas de site fonctionnel, ce qui laisse une vraie place pour un site, mais le manque de données (site injoignable, pas de réseaux confirmés, activité ancienne d'après les sources de 2015) et la boutique établie sans signal digital vérifiable réduisent la probabilité d'achat à 1 500 EUR. Sources : justacote (muse-2522720), Yonder 2015, hipparis, Time Out (mention muse.paris), Mapstr. Données de plusieurs sources anciennes : à vérifier par téléphone avant contact. Résultats pour la fondation divergent (2010 selon Mapstr, 2013 selon un autre annuaire)."
+    },
+    {
+      "name": "Thyrse",
+      "site_ok": true,
+      "site_checked": "https://thyrseparis.com (répond en HTTPS via curl ; redirige vers www.thyrseparis.com/ ; WebFetch ne résout pas le domaine, la page a donc été lue via curl). Pages lues : accueil, /personal, /commissioned. /contact répond 404. Titre : \"Thyrse | Floral Studio\", meta description : \"Thyrse is a floral studio at the crossroads of fashion, art and design...\" Fleuriste confirmé : Domitille Basso, studio fondé en 2020 (source secondaire : Time Out Paris, citée par recherche web).",
+      "email": "",
+      "contact_url": "",
+      "instagram": "",
+      "weakness": "site déjà soigné : site éditorial épuré, logo SVG sur mesure, galerie d'images, carrousel Swiper, références de maisons de mode. Pas de faiblesse technique évidente. Points secondaires seulement : pas de page contact (404 sur /contact), aucun email ni lien Instagram visible sur le site, pas de visuel 3D ni de parcours d'achat (ce n'est pas une boutique en ligne).",
+      "score": 2,
+      "note": "Site vérifié et correspondant au fleuriste Thyrse (Paris). Aucune adresse email ni Instagram publiée sur le site ; laissés vides. Le fichier de photo \"@ilyafoodstorie\" dans la page Commissioned est un crédit de photographe, pas le compte Instagram de Thyrse : non retenu. Le positionnement est un studio d'art floral pour la mode et les maisons (Prada, Hermès, Balenciaga, Palais de Tokyo selon Time Out), sans boutique en ligne ni prise de commande visible : un site 3D à 1 500 EUR a peu de prise sur un besoin qui semble déjà couvert. Score bas (2/10). Les fichiers de travail sont dans /tmp/claude-0/-home-user-founder-skill/e194ed5a-4b14-5c6b-a410-642293f2c0f1/scratchpad/ (thyrse_home.html, thyrse_personal.html, thyrse_commissioned.html, thyrse_contact.html, thyrse_index.js)."
+    },
+    {
+      "name": "L'Atelier des Fleurs (Véronique Vallauri)",
+      "site_ok": false,
+      "site_checked": "https://www.latelier-veronique-vallauri.fr/ (ENOTFOUND, aussi sans www : ENOTFOUND)",
+      "email": "\"\"",
+      "contact_url": "\"\"",
+      "instagram": "\"\"",
+      "weakness": "Site annoncé introuvable : le nom de domaine ne résout pas (erreur DNS sur les deux variantes). Aucun site de la boutique n'est vérifiable. Aucune faiblesse de site ne peut être constatée. Les recherches donnent une boutique Véronique Vallauri au 56 rue Pernety (ateliers enfants, source tierce Citizen Kid), mais l'adresse 14 rue Pernety du brief n'est pas confirmée et l'identité avec \"L'Atelier des Fleurs\" non plus. Une annonce de cession de fonds \"L'Atelier des Fleurs\" à rue Pernety / rue de l'Ouest existe aussi, sans mention de Véronique Vallauri. Un article Aleteia de 2018 évoque une fleuriste Véronique du rue Pernety fermée après une attaque. Statut actuel inconnu.",
+      "score": 1,
+      "note": "(1) Non : le site annoncé ne répond pas (DNS). Identité non confirmée par un site propre. (2) Email générique publié par la boutique : aucun trouvé, vide. (3) Page contact : aucune trouvée, vide. (4) Instagram confirmé : non, vide (@veroniquevallauri non vérifié). (5) Faiblesse : impossible à constater, pas de site accessible. (6) Score 1/10 : sans site fonctionnel, statut d'activité incertain (cession de fonds signalée, fermeture 2018), et adresse du brief non concordante avec les sources (56 vs 14 rue Pernety). Sources tierces : https://www.citizenkid.com/sortie/atelier-veronique-vallauri-paris-a1045098 ; https://fr.aleteia.org/2018/02/01/ils-ont-presque-sauve-la-fleuriste-du-xive/ ; https://www.efficity.com/achat-immobilier/fonds-de-commerce_57-m2_paris_75014_29024109/"
+    }
+  ]
+}
