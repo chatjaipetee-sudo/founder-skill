@@ -1,0 +1,127 @@
+<title>Drip Bottle 3D</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;600&family=JetBrains+Mono:wght@400&display=swap">
+<style>
+/* Layout: one fixed WebGL stage behind scroll-driven chapters; giant type sits behind the product */
+:root{
+  --bg:#ece8e1; --fg:#141312; --muted:#6d6862; --accent:#c4471d; --line:#d4cec5;
+  --display:"Anton",Impact,"Arial Narrow",sans-serif;
+  --body:"Manrope",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);overflow-x:hidden}
+#stage{position:fixed;inset:0;z-index:1;pointer-events:none}
+.giant{position:fixed;inset:0;display:grid;place-items:center;z-index:0;pointer-events:none;overflow:hidden}
+.giant span{font-family:var(--display);font-size:min(34vw,420px);line-height:.8;letter-spacing:-.02em;color:var(--fg);white-space:nowrap;transition:transform .2s linear}
+nav{position:fixed;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;
+  padding-top:calc(18px + env(safe-area-inset-top,0px));padding-bottom:18px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase}
+nav b{font-family:var(--display);font-size:24px;letter-spacing:.04em;font-weight:400}
+nav a{color:var(--fg);text-decoration:none;border:1px solid var(--fg);padding:8px 14px;border-radius:99px}
+nav a:hover,nav a:focus-visible{background:var(--fg);color:var(--bg);outline:none}
+main{position:relative;z-index:3}
+section{min-height:100vh;display:flex;align-items:flex-end;padding-block:96px 48px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.card{max-width:340px;display:grid;gap:12px}
+.right{justify-content:flex-end}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1,h2{font-family:var(--display);font-weight:400;text-transform:uppercase;line-height:.95;margin:0;text-wrap:balance}
+h1{font-size:clamp(40px,6vw,72px)} h2{font-size:clamp(32px,4.5vw,56px)}
+p{margin:0;color:var(--muted);line-height:1.6;font-size:15px}
+.specs{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:8px}
+.specs div{background:var(--bg);padding:12px}
+.specs dt{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.specs dd{margin:4px 0 0;font-family:var(--display);font-size:28px;font-variant-numeric:tabular-nums}
+.buy{display:inline-flex;gap:12px;align-items:center;background:var(--fg);color:var(--bg);border:0;padding:16px 24px;border-radius:99px;font:600 15px var(--body);cursor:pointer;width:max-content}
+.buy:hover,.buy:focus-visible{background:var(--accent);outline:none}
+.progress{position:fixed;left:max(16px,env(safe-area-inset-left,0px));top:50%;z-index:5;display:grid;gap:8px;font-family:var(--mono);font-size:10px;color:var(--muted)}
+.progress i{display:block;width:2px;height:24px;background:var(--line)} .progress i.on{background:var(--fg)}
+@media (max-width:600px){.progress{display:none} section{align-items:flex-end}}
+@media (prefers-reduced-motion:reduce){.giant span{transition:none}}
+</style>
+
+<div class="giant"><span id="word">THERMO</span></div>
+<canvas id="stage" aria-hidden="true"></canvas>
+<nav><b>DRIP</b><span>Collection 02 · Steel</span><a href="#buy">Shop — €49</a></nav>
+<div class="progress" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div>
+
+<main>
+  <section><div class="card">
+    <span class="eyebrow">New · Matte Obsidian</span>
+    <h1>Sleek design. 24h cold.</h1>
+    <p>Scroll to turn the bottle. Move your cursor to light it.</p>
+  </div></section>
+  <section class="right"><div class="card">
+    <span class="eyebrow">01 — Double wall</span>
+    <h2>Vacuum steel, 0.6 mm</h2>
+    <p>Two walls of 18/8 stainless with a vacuum gap. Ice still clinks the next morning.</p>
+  </div></section>
+  <section><div class="card">
+    <span class="eyebrow">02 — Spec sheet</span>
+    <h2>Built to the gram</h2>
+    <dl class="specs">
+      <div><dt>Volume</dt><dd>750 ml</dd></div>
+      <div><dt>Weight</dt><dd>380 g</dd></div>
+      <div><dt>Cold</dt><dd>24 h</dd></div>
+      <div><dt>Hot</dt><dd>12 h</dd></div>
+    </dl>
+  </div></section>
+  <section class="right" id="buy"><div class="card">
+    <span class="eyebrow">03 — Yours</span>
+    <h2>Obsidian, €49</h2>
+    <p>Free shipping in the EU. 30-day return.</p>
+    <button class="buy" id="buyBtn" type="button">Add to bag →</button>
+  </div></section>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const canvas=document.getElementById('stage');
+const renderer=new THREE.WebGLRenderer({canvas,antialias:true,alpha:true});
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
+const scene=new THREE.Scene();
+const cam=new THREE.PerspectiveCamera(32,1,.1,100);cam.position.set(0,0,9);
+
+// Bottle profile turned on a lathe
+const pts=[[0,-2],[.78,-2],[.86,-1.9],[.88,-1.6],[.88,1],[.84,1.3],[.6,1.65],[.52,1.75],[.52,1.85],[0,1.85]].map(p=>new THREE.Vector2(p[0],p[1]));
+const body=new THREE.Mesh(new THREE.LatheGeometry(pts,96),
+  new THREE.MeshStandardMaterial({color:0x1b1a19,metalness:.6,roughness:.38}));
+const capPts=[[0,1.85],[.56,1.85],[.58,1.95],[.58,2.35],[.54,2.42],[0,2.42]].map(p=>new THREE.Vector2(p[0],p[1]));
+const cap=new THREE.Mesh(new THREE.LatheGeometry(capPts,64),
+  new THREE.MeshStandardMaterial({color:0xc4471d,metalness:.3,roughness:.5}));
+const ring=new THREE.Mesh(new THREE.TorusGeometry(.885,.012,8,96),new THREE.MeshStandardMaterial({color:0x8a8580,metalness:1,roughness:.2}));
+ring.rotation.x=Math.PI/2;ring.position.y=-1.2;
+const bottle=new THREE.Group();bottle.add(body,cap,ring);bottle.rotation.z=.18;scene.add(bottle);
+
+scene.add(new THREE.HemisphereLight(0xffffff,0x6b5f55,.7));
+const key=new THREE.DirectionalLight(0xffffff,1.4);key.position.set(4,3,5);scene.add(key);
+const rim=new THREE.PointLight(0xff8a5c,2,20);rim.position.set(-3,1,-2);scene.add(rim);
+
+function size(){const w=innerWidth,h=innerHeight;renderer.setSize(w,h,false);cam.aspect=w/h;cam.position.z=w<600?11.5:9;cam.updateProjectionMatrix()}
+addEventListener('resize',size);size();
+
+const words=['THERMO','STEEL','750ML','YOURS'];
+const word=document.getElementById('word'),bars=document.querySelectorAll('.progress i');
+let mx=0,my=0,sp=0,cur=0;
+addEventListener('pointermove',e=>{mx=e.clientX/innerWidth-.5;my=e.clientY/innerHeight-.5});
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+(function loop(t){
+  const max=document.documentElement.scrollHeight-innerHeight;
+  sp=max>0?scrollY/max:0; cur+= (sp-cur)*.08;
+  const i=Math.min(3,Math.floor(sp*3.999));
+  if(word.textContent!==words[i]){word.textContent=words[i];bars.forEach((b,k)=>b.classList.toggle('on',k===i))}
+  word.style.transform=`translateX(${(cur-.5)*-20}vw)`;
+  const side=innerWidth<600?0:Math.sin(cur*Math.PI*3)*1.6;
+  bottle.position.x+= (side-bottle.position.x)*.08;
+  bottle.position.y=(reduce?0:Math.sin(t/900)*.08)+ (innerWidth<600?.6:0);
+  bottle.rotation.y=cur*Math.PI*4+mx*.6;
+  bottle.rotation.x=my*.3+Math.sin(cur*Math.PI)*.35;
+  key.position.x=4+mx*6;key.position.y=3-my*6;
+  renderer.render(scene,cam);requestAnimationFrame(loop);
+})(0);
+
+document.getElementById('buyBtn').addEventListener('click',e=>{e.currentTarget.textContent='Added ✓'});
+</script>

@@ -1,0 +1,153 @@
+<title>Boîte de Harvey</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+:root{--bg:#f4f5f1;--surface:#fff;--ink:#1d2420;--muted:#5f6a63;--line:#dde2da;--warn:#a46a12;--good:#2f7d4f;--body:system-ui,-apple-system,sans-serif;--mono:ui-monospace,Menlo,monospace;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141815;--surface:#1c211e;--ink:#e9ece7;--muted:#a3ada6;--line:#2f3631;--warn:#e0a84e;--good:#6cc490;color-scheme:dark}}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;margin:0}
+.wrap{max-width:720px;margin:0 auto;padding-block:24px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:18px}
+h1{font-size:26px;margin:0} h3{font-size:17px;margin:0}
+.note{border-left:3px solid var(--warn);background:var(--surface);padding:12px 14px;border-radius:0 8px 8px 0}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:9px;min-width:0}
+.head{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;align-items:baseline}
+.tier{font-family:var(--mono);font-size:11px;color:var(--good)}
+.meta{font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.label{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.mail{white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;font:14px/1.5 var(--body);margin:0;overflow-wrap:anywhere}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+button{font:600 13px var(--body);border:1px solid var(--ink);background:transparent;color:var(--ink);padding:7px 13px;border-radius:99px;cursor:pointer}
+button:hover,button:focus-visible{background:var(--ink);color:var(--surface);outline:none}
+details summary{cursor:pointer;color:var(--muted);font-size:13px}
+</style>
+<div class="wrap">
+<header><h1>Boîte de Harvey, 19 octobre 2026</h1><p class="meta">6 séquences prêtes. Rien n'est envoyé : vous copiez chaque message et l'envoyez depuis votre boîte.</p></header>
+<div class="note"><b>Avant chaque envoi :</b> remplacez [Prénom] et [Téléphone] avant chaque envoi. Envoyez 2 ou 3 messages par jour, dans l'ordre. Arrêtez la séquence dès qu'une boutique répond ou demande de ne plus être contactée.</div>
+<article class="card"><div class="head"><h3>J1 · Debeaulieu</h3><span class="tier">Tier B</span></div>
+<div class="meta">Email · contact@debeaulieu-paris.com (page contact du site, vérifiée)</div><span class="label">Objet</span><pre class="mail" id="s0">vos compositions en mouvement</pre>
+<span class="label">J0</span><pre class="mail" id="m0">Bonjour,
+
+Votre boutique et studio floral de la rue Henry-Monnier a une identité forte.
+
+Je suis [Prénom], de Maison Vitura. Nous créons des sites internet animés en 3D : sur votre page d&#x27;accueil, une de vos compositions tournerait doucement, pendant que les pétales tombent au défilement.
+
+Que voit aujourd&#x27;hui un client qui découvre votre site ?
+
+Je peux vous préparer une maquette gratuite, faite avec vos photos.
+
+[Prénom]
+Maison Vitura
+[Téléphone]
+
+Pour ne plus recevoir de message de ma part, répondez simplement « stop ».</pre>
+<div class="row"><button data-copy="m0">Copier le J0</button><button data-copy="s0">Copier l objet</button></div>
+<details><summary>Relances J+3 et J+7</summary>
+<span class="label">J+3</span><pre class="mail" id="r30">Bonjour, je reviens avec une précision : la maquette peut être prête en quelques jours, et vous ne payez rien pour la voir. Souhaitez-vous que je vous l&#x27;envoie ?</pre><div class="row"><button data-copy="r30">Copier J+3</button></div>
+<span class="label">J+7</span><pre class="mail" id="r70">Bonjour, dernier message de ma part. Si une page d&#x27;accueil en mouvement vous intéresse avant les fêtes, répondez-moi simplement à cet email.</pre><div class="row"><button data-copy="r70">Copier J+7</button></div></details></article>
+<article class="card"><div class="head"><h3>J1 · Lachaume</h3><span class="tier">Tier B</span></div>
+<div class="meta">Email · contact@lachaume.com (adresse publiée sur leur site)</div><span class="label">Objet</span><pre class="mail" id="s1">une maison de 1845 en mouvement</pre>
+<span class="label">J0</span><pre class="mail" id="m1">Bonjour,
+
+Depuis 1845, la maison Lachaume, au faubourg Saint-Honoré, incarne l&#x27;élégance florale parisienne.
+
+Je suis [Prénom], de Maison Vitura. Nous créons des sites internet animés en 3D. Sur votre page d&#x27;accueil, une de vos compositions pourrait tourner doucement pendant que les pétales tombent au défilement.
+
+Avez-vous déjà vu votre maison présentée de cette façon en ligne ?
+
+Je peux vous préparer une maquette gratuite, faite avec vos propres photos.
+
+[Prénom]
+Maison Vitura
+[Téléphone]
+
+Pour ne plus recevoir de message de ma part, répondez simplement « stop ».</pre>
+<div class="row"><button data-copy="m1">Copier le J0</button><button data-copy="s1">Copier l objet</button></div>
+<details><summary>Relances J+3 et J+7</summary>
+<span class="label">J+3</span><pre class="mail" id="r31">Bonjour, je reviens avec une idée simple : une maquette gratuite de votre page d&#x27;accueil, faite avec vos photos, sans engagement. Souhaitez-vous la voir ?</pre><div class="row"><button data-copy="r31">Copier J+3</button></div>
+<span class="label">J+7</span><pre class="mail" id="r71">Bonjour, dernier message de ma part. Si vous souhaitez une page d&#x27;accueil à la hauteur de votre maison, répondez-moi simplement à cet email.</pre><div class="row"><button data-copy="r71">Copier J+7</button></div></details></article>
+<article class="card"><div class="head"><h3>J2 · Désirée (café-fleuriste)</h3><span class="tier">Tier B</span></div>
+<div class="meta">Email · bonjour@desireefleurs.fr (affiché sur leur site)</div><span class="label">Objet</span><pre class="mail" id="s2">pas de roses en février</pre>
+<span class="label">J0</span><pre class="mail" id="m2">Bonjour,
+
+Dans Reporterre, vous expliquez refuser les roses de février, hors saison, pour leur préférer renoncules et anémones.
+
+Je suis [Prénom], de Maison Vitura, une jeune agence de sites internet animés en 3D. Votre page d&#x27;accueil pourrait montrer cette exigence : vos compositions de saison qui tournent, des pétales qui tombent au défilement.
+
+Comment présentez-vous vos compositions de saison en ligne ?
+
+Je peux vous préparer une maquette gratuite, faite avec vos photos.
+
+[Prénom]
+Maison Vitura
+[Téléphone]
+
+Pour ne plus recevoir de message de ma part, répondez simplement « stop ».</pre>
+<div class="row"><button data-copy="m2">Copier le J0</button><button data-copy="s2">Copier l objet</button></div>
+<details><summary>Relances J+3 et J+7</summary>
+<span class="label">J+3</span><pre class="mail" id="r32">Bonjour, un détail utile : nous livrons en 14 jours, donc une page peut être en ligne avant Noël. Voulez-vous voir la maquette gratuite ?</pre><div class="row"><button data-copy="r32">Copier J+3</button></div>
+<span class="label">J+7</span><pre class="mail" id="r72">Bonjour, dernier message de ma part. Si la saison et les compositions de Désirée méritent une vitrine en mouvement, répondez-moi simplement à cet email.</pre><div class="row"><button data-copy="r72">Copier J+7</button></div></details></article>
+<article class="card"><div class="head"><h3>J2 · Ateliers Flash Fleurs</h3><span class="tier">Tier B</span></div>
+<div class="meta">Email · admin@ateliersflashfleurs.com (affiché sur leur site)</div><span class="label">Objet</span><pre class="mail" id="s3">votre atelier de la rue Bausset</pre>
+<span class="label">J0</span><pre class="mail" id="m3">Bonjour,
+
+Votre atelier de la rue Bausset, à l&#x27;angle de la rue Maublanc, mérite une vitrine à sa hauteur.
+
+Je suis [Prénom], de Maison Vitura. Nous créons des sites internet animés en 3D : sur votre page d&#x27;accueil, un de vos bouquets tournerait au centre, avec des pétales qui tombent au défilement.
+
+Votre site montre-t-il déjà vos créations en mouvement ?
+
+Je peux vous préparer une maquette gratuite, faite avec vos photos.
+
+[Prénom]
+Maison Vitura
+[Téléphone]
+
+Pour ne plus recevoir de message de ma part, répondez simplement « stop ».</pre>
+<div class="row"><button data-copy="m3">Copier le J0</button><button data-copy="s3">Copier l objet</button></div>
+<details><summary>Relances J+3 et J+7</summary>
+<span class="label">J+3</span><pre class="mail" id="r33">Bonjour, je reviens avec une idée concrète : une maquette gratuite de votre page d&#x27;accueil, sans engagement, livrable en 14 jours. Souhaitez-vous la voir ?</pre><div class="row"><button data-copy="r33">Copier J+3</button></div>
+<span class="label">J+7</span><pre class="mail" id="r73">Bonjour, dernier message de ma part. Si une page d&#x27;accueil en mouvement vous intéresse avant les fêtes, répondez-moi simplement à cet email.</pre><div class="row"><button data-copy="r73">Copier J+7</button></div></details></article>
+<article class="card"><div class="head"><h3>J3 · Akiko Usami</h3><span class="tier">Tier A</span></div>
+<div class="meta">Formulaire de contact · https://www.akiko-usami.com/contact/</div>
+<span class="label">J0</span><pre class="mail" id="m4">Bonjour,
+
+Votre style wafuka mêle l&#x27;ikebana et le bouquet français, et vos compositions sont présentes dans de grands hôtels parisiens.
+
+Je suis [Prénom], de Maison Vitura. Nous créons des sites internet animés en 3D : sur votre page d&#x27;accueil, une de vos compositions tournerait lentement, puis se construirait tige après tige au défilement.
+
+Votre site montre-t-il aujourd&#x27;hui vos compositions en mouvement ?
+
+Je peux vous préparer une maquette gratuite, faite avec vos photos.
+
+[Prénom]
+Maison Vitura
+[Téléphone]
+
+Pour ne plus recevoir de message de ma part, répondez simplement « stop ».</pre>
+<div class="row"><button data-copy="m4">Copier le J0</button></div>
+<details><summary>Relances J+3 et J+7</summary>
+<span class="label">J+3</span><pre class="mail" id="r34">Bonjour, je reviens avec une idée précise : une maquette gratuite de votre page d&#x27;accueil, sans engagement. Souhaitez-vous la voir ?</pre><div class="row"><button data-copy="r34">Copier J+3</button></div>
+<span class="label">J+7</span><pre class="mail" id="r74">Bonjour, dernier message de ma part. Si une page d&#x27;accueil à la hauteur de votre travail vous intéresse, répondez-moi simplement ici.</pre><div class="row"><button data-copy="r74">Copier J+7</button></div></details></article>
+<article class="card"><div class="head"><h3>J3 · Boule de Neige</h3><span class="tier">Tier B</span></div>
+<div class="meta">Formulaire de contact · https://bouledeneige.fr/pages/contact</div>
+<span class="label">J0</span><pre class="mail" id="m5">Bonjour,
+
+Chez Boule de Neige, rue de Lourmel, vos fleurs viennent de bons producteurs.
+
+Je suis [Prénom], de Maison Vitura. Nous créons des sites internet animés en 3D : sur votre page d&#x27;accueil, un de vos bouquets champêtres tournerait, avec des pétales qui tombent au défilement.
+
+Votre site montre-t-il vos bouquets en mouvement ?
+
+Je peux vous préparer une maquette gratuite, faite avec vos photos.
+
+[Prénom]
+Maison Vitura
+[Téléphone]
+
+Pour ne plus recevoir de message de ma part, répondez simplement « stop ».</pre>
+<div class="row"><button data-copy="m5">Copier le J0</button></div>
+<details><summary>Relances J+3 et J+7</summary>
+<span class="label">J+3</span><pre class="mail" id="r35">Bonjour, je reviens avec une idée concrète : une maquette gratuite de votre page d&#x27;accueil, livrable en 14 jours. Souhaitez-vous la voir ?</pre><div class="row"><button data-copy="r35">Copier J+3</button></div>
+<span class="label">J+7</span><pre class="mail" id="r75">Bonjour, dernier message de ma part. Si une page d&#x27;accueil en mouvement vous intéresse avant les fêtes, répondez-moi simplement ici.</pre><div class="row"><button data-copy="r75">Copier J+7</button></div></details></article>
+<div class="note"><b>Pas encore prêts :</b> Tiffany Levain, Georges François, Le Renard, Yann-H2o, Castor, Moulié, Adele, Odorantes et les fiches C. Il manque une adresse publique ou un compte Instagram vérifié.</div>
+</div><script>
+document.addEventListener('click',async e=>{const b=e.target.closest('button[data-copy]');if(!b)return;const el=document.getElementById(b.dataset.copy);const t=b.textContent;try{await navigator.clipboard.writeText(el.textContent);b.textContent='Copié ✓'}catch(_){const r=document.createRange();r.selectNodeContents(el);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent='Sélectionné, copiez-le'}setTimeout(()=>b.textContent=t,2000)});
+</script>

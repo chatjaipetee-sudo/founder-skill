@@ -1,0 +1,290 @@
+<title>Atelier Corolle</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,300;1,9..144,400&family=Instrument+Sans:wght@400;600&family=DM+Mono&display=swap">
+<style>
+/* Layout: one fixed WebGL bouquet behind scroll chapters; the bouquet blooms and sheds petals as the page scrolls */
+:root{
+  --bg:#e7ece1; --ink:#1b251f; --muted:#56635a; --peony:#c93f66; --leaf:#3d6a4c; --line:#c9d3c2; --paper:#f3f5ef;
+  --display:"Fraunces",Georgia,"Times New Roman",serif;
+  --body:"Instrument Sans",system-ui,-apple-system,sans-serif;
+  --mono:"DM Mono",ui-monospace,Menlo,monospace;
+  color-scheme:light;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);overflow-x:hidden}
+#stage{position:fixed;inset:0;z-index:1;pointer-events:none}
+nav{position:fixed;top:0;left:0;right:0;z-index:5;display:flex;justify-content:space-between;align-items:center;gap:12px;
+  padding-top:calc(16px + env(safe-area-inset-top,0px));padding-bottom:16px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+nav b{font-family:var(--display);font-weight:500;font-size:24px;letter-spacing:0;text-transform:none;color:var(--ink)}
+nav b i{color:var(--peony);font-style:italic;font-weight:300}
+nav a{color:var(--ink);text-decoration:none;border:1px solid var(--ink);padding:8px 14px;border-radius:99px;white-space:nowrap}
+nav a:hover,nav a:focus-visible{background:var(--ink);color:var(--paper);outline:none}
+.nav-mid{display:none}
+@media (min-width:720px){.nav-mid{display:block}}
+main{position:relative;z-index:3}
+section{min-height:100vh;display:flex;flex-direction:column;justify-content:flex-end;padding-block:110px 56px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.card{max-width:400px;display:grid;gap:14px;min-width:0}
+.right{align-items:flex-end}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--peony)}
+h1,h2{font-family:var(--display);font-weight:300;margin:0;line-height:.98;letter-spacing:-.02em;text-wrap:balance}
+h1{font-size:clamp(46px,8vw,104px)}
+h1 em,h2 em{font-style:italic;color:var(--peony)}
+h2{font-size:clamp(34px,5vw,64px)}
+p{margin:0;color:var(--muted);line-height:1.65;font-size:15px}
+.hint{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+.specs{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:6px}
+.specs div{background:var(--paper);padding:12px}
+.specs dt{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.specs dd{margin:4px 0 0;font-family:var(--display);font-size:26px;font-variant-numeric:tabular-nums}
+.stems{display:flex;flex-wrap:wrap;gap:8px}
+.stems span{font-size:13px;border:1px solid var(--line);background:var(--paper);padding:6px 12px;border-radius:99px}
+.count{font-family:var(--display);font-size:clamp(64px,12vw,140px);line-height:.9;color:var(--peony);font-variant-numeric:tabular-nums}
+.btn{display:inline-flex;gap:12px;align-items:center;background:var(--ink);color:var(--paper);border:0;padding:16px 26px;border-radius:99px;font:600 15px var(--body);cursor:pointer;width:max-content;max-width:100%}
+.btn:hover,.btn:focus-visible{background:var(--peony);outline:none}
+footer{position:relative;z-index:3;padding-block:20px calc(20px + env(safe-area-inset-bottom,0px));
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);border-top:1px solid var(--line)}
+@media (max-width:719px){.right{align-items:flex-start}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+
+<canvas id="stage" aria-hidden="true"></canvas>
+<nav>
+  <b>Atelier <i>Corolle</i></b>
+  <span class="nav-mid">Paris 11e · Livraison 7j/7</span>
+  <a href="#commande">Commander</a>
+</nav>
+
+<main>
+  <section>
+    <div class="card">
+      <span class="eyebrow">Atelier floral · Paris</span>
+      <h1>Cueillies à l'aube. <em>Chez vous avant midi.</em></h1>
+      <p>Des bouquets composés à la main chaque matin, avec les fleurs arrivées de Rungis à 5 h.</p>
+      <span class="hint">Faites défiler : le bouquet s'ouvre</span>
+    </div>
+  </section>
+
+  <section class="right">
+    <div class="card">
+      <span class="eyebrow">La composition de la semaine</span>
+      <h2>Pivoines <em>Sarah Bernhardt</em></h2>
+      <div class="stems"><span>Pivoines</span><span>Renoncules</span><span>Eucalyptus</span><span>Papier kraft</span></div>
+      <dl class="specs">
+        <div><dt>Hauteur</dt><dd>55 cm</dd></div>
+        <div><dt>Tiges</dt><dd>21</dd></div>
+        <div><dt>Tenue</dt><dd>7 jours</dd></div>
+        <div><dt>Dès</dt><dd>65 €</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section>
+    <div class="card">
+      <span class="eyebrow">Saint-Valentin</span>
+      <div class="count" id="count">J-0</div>
+      <h2>Le 14 février <em>se réserve tôt.</em></h2>
+      <p>Les commandes ferment quatre jours avant. Réservez maintenant, on livre le matin même.</p>
+    </div>
+  </section>
+
+  <section class="right" id="commande">
+    <div class="card">
+      <span class="eyebrow">Livraison Paris intra-muros</span>
+      <h2>Offrez-le <em>aujourd'hui.</em></h2>
+      <p>Commande avant 11 h, livraison l'après-midi. Un mot manuscrit glissé dans chaque bouquet.</p>
+      <button class="btn" id="order" type="button">Commander ce bouquet →</button>
+    </div>
+  </section>
+</main>
+<footer>Démo de site 3D · marque fictive</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+// Saint-Valentin countdown, in days
+(function(){
+  const now = new Date();
+  let v = new Date(now.getFullYear(), 1, 14);
+  if (v < new Date(now.getFullYear(), now.getMonth(), now.getDate())) v = new Date(now.getFullYear() + 1, 1, 14);
+  const days = Math.round((v - new Date(now.getFullYear(), now.getMonth(), now.getDate())) / 864e5);
+  document.getElementById('count').textContent = 'J-' + days;
+})();
+document.getElementById('order').addEventListener('click', e => { e.currentTarget.textContent = 'Bouquet réservé ✓'; });
+
+const canvas = document.getElementById('stage');
+const renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.outputEncoding = THREE.sRGBEncoding;
+const scene = new THREE.Scene();
+const cam = new THREE.PerspectiveCamera(34, 1, 0.1, 100);
+cam.position.set(0, 0.6, 10);
+
+scene.add(new THREE.HemisphereLight(0xfff6f0, 0x51644f, 0.9));
+const sun = new THREE.DirectionalLight(0xffffff, 0.9); sun.position.set(3, 5, 6); scene.add(sun);
+const rim = new THREE.DirectionalLight(0xffc6d6, 0.5); rim.position.set(-4, 2, -3); scene.add(rim);
+
+// A cupped petal: teardrop shape, bent along its length and across its width
+function petalGeo(w, h) {
+  const s = new THREE.Shape();
+  s.moveTo(0, 0);
+  s.bezierCurveTo(w * 0.95, h * 0.18, w * 0.8, h * 0.9, 0, h);
+  s.bezierCurveTo(-w * 0.8, h * 0.9, -w * 0.95, h * 0.18, 0, 0);
+  const g = new THREE.ShapeGeometry(s, 12);
+  const p = g.attributes.position;
+  for (let i = 0; i < p.count; i++) {
+    const x = p.getX(i), y = p.getY(i), t = y / h;
+    p.setZ(i, -0.28 * h * t * t + 0.45 * (x * x) / w);
+  }
+  g.computeVertexNormals();
+  return g;
+}
+
+const flowers = [];
+function makeFlower(colors, size) {
+  const group = new THREE.Group();
+  const layers = [];
+  const L = colors.length;
+  for (let l = 0; l < L; l++) {
+    const n = 5 + (L - 1 - l) * 2;
+    const geo = petalGeo(0.34 * size * (1 - l * 0.12), 0.62 * size * (1 - l * 0.1));
+    const mat = new THREE.MeshStandardMaterial({ color: colors[l], roughness: 0.55, side: THREE.DoubleSide });
+    const petals = [];
+    for (let k = 0; k < n; k++) {
+      const pivot = new THREE.Group();
+      pivot.rotation.y = (k / n) * Math.PI * 2 + l * 0.45;
+      const m = new THREE.Mesh(geo, mat);
+      pivot.add(m);
+      group.add(pivot);
+      petals.push(m);
+    }
+    layers.push({ petals, l, L });
+  }
+  const heart = new THREE.Mesh(new THREE.SphereGeometry(0.13 * size, 16, 12), new THREE.MeshStandardMaterial({ color: 0xf2c94c, roughness: 0.8 }));
+  heart.position.y = 0.05 * size;
+  group.add(heart);
+  flowers.push({ group, layers });
+  return group;
+}
+
+function setBloom(b) {
+  for (const f of flowers) for (const layer of f.layers) {
+    const inner = layer.l / Math.max(1, layer.L - 1);
+    const tilt = 0.08 + b * (1.35 - inner * 1.05);
+    for (const m of layer.petals) m.rotation.x = tilt;
+  }
+}
+
+const bouquet = new THREE.Group();
+scene.add(bouquet);
+const stemMat = new THREE.MeshStandardMaterial({ color: 0x3d6a4c, roughness: 0.7 });
+const leafMat = new THREE.MeshStandardMaterial({ color: 0x5c8a6a, roughness: 0.6, side: THREE.DoubleSide });
+const heads = [
+  { x: 0, y: 1.25, z: 0.2, c: [0xc93f66, 0xd9587c, 0xe98aa6, 0xf6c3d2], s: 1.15 },
+  { x: -0.95, y: 0.8, z: -0.2, c: [0xf3d4dc, 0xf7e2e7, 0xfbf0f2], s: 0.95 },
+  { x: 0.95, y: 0.75, z: -0.1, c: [0xa82c52, 0xc0436a, 0xd96f90], s: 0.95 },
+  { x: -0.45, y: 0.35, z: 0.85, c: [0xfaf3ee, 0xfdf8f4, 0xffffff], s: 0.8 },
+  { x: 0.55, y: 0.3, z: 0.8, c: [0xe25a7d, 0xec86a1, 0xf6b9c9], s: 0.8 },
+];
+const leafGeo = petalGeo(0.16, 0.7);
+for (const h of heads) {
+  const f = makeFlower(h.c, h.s);
+  f.position.set(h.x, h.y, h.z);
+  f.lookAt(h.x * 3, h.y + 4, h.z * 3);
+  f.rotateX(-Math.PI / 2);
+  bouquet.add(f);
+  const len = Math.hypot(h.x, h.y + 2.3, h.z);
+  const stem = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.045, len, 6), stemMat);
+  stem.position.set(h.x / 2, (h.y - 2.3) / 2, h.z / 2);
+  stem.lookAt(h.x, h.y, h.z);
+  stem.rotateX(Math.PI / 2);
+  bouquet.add(stem);
+}
+// eucalyptus sprigs: round leaves along thin stems
+const roundLeaf = new THREE.CircleGeometry(0.11, 12);
+const euMat = new THREE.MeshStandardMaterial({ color: 0x8fb3a1, roughness: 0.7, side: THREE.DoubleSide });
+for (let s = 0; s < 6; s++) {
+  const a = (s / 6) * Math.PI * 2 + 0.3;
+  for (let k = 0; k < 7; k++) {
+    const leaf = new THREE.Mesh(roundLeaf, euMat);
+    const r = 0.5 + k * 0.17;
+    leaf.position.set(Math.cos(a) * r, -0.4 + k * 0.2, Math.sin(a) * r);
+    leaf.rotation.set(Math.random() * 3, Math.random() * 3, 0);
+    bouquet.add(leaf);
+  }
+}
+for (let k = 0; k < 8; k++) {
+  const leaf = new THREE.Mesh(leafGeo, leafMat);
+  const a = (k / 8) * Math.PI * 2;
+  leaf.position.set(Math.cos(a) * 0.55, -0.55, Math.sin(a) * 0.55);
+  leaf.rotation.y = -a + Math.PI / 2;
+  leaf.rotation.x = 1.0;
+  bouquet.add(leaf);
+}
+// kraft paper cone and string
+const wrap = new THREE.Mesh(new THREE.CylinderGeometry(1.05, 0.22, 2.2, 28, 1, true), new THREE.MeshStandardMaterial({ color: 0xc8a57a, roughness: 0.95, side: THREE.DoubleSide }));
+wrap.position.y = -1.55;
+bouquet.add(wrap);
+const string = new THREE.Mesh(new THREE.TorusGeometry(0.42, 0.025, 8, 40), new THREE.MeshStandardMaterial({ color: 0xc93f66, roughness: 0.6 }));
+string.rotation.x = Math.PI / 2; string.position.y = -1.95;
+bouquet.add(string);
+
+// Falling petals
+const FALL = reduce ? 0 : 90;
+const fallMesh = new THREE.InstancedMesh(petalGeo(0.16, 0.28), new THREE.MeshStandardMaterial({ color: 0xe0708f, roughness: 0.55, side: THREE.DoubleSide }), Math.max(FALL, 1));
+fallMesh.count = FALL;
+scene.add(fallMesh);
+const dummy = new THREE.Object3D();
+const drops = [];
+for (let i = 0; i < FALL; i++) {
+  drops.push({ x: (Math.random() - 0.5) * 12, y: Math.random() * 12 - 5, z: (Math.random() - 0.5) * 5 - 1,
+    vy: 0.006 + Math.random() * 0.012, sway: Math.random() * 6, rx: Math.random() * 6, ry: Math.random() * 6, spin: 0.005 + Math.random() * 0.02 });
+}
+
+function size() {
+  const w = innerWidth, h = innerHeight;
+  renderer.setSize(w, h, false);
+  cam.aspect = w / h;
+  cam.position.z = w < 720 ? 13 : 10;
+  cam.updateProjectionMatrix();
+}
+addEventListener('resize', size);
+size();
+
+let mx = 0, my = 0, cur = 0;
+addEventListener('pointermove', e => { mx = e.clientX / innerWidth - 0.5; my = e.clientY / innerHeight - 0.5; });
+
+(function loop(t) {
+  const max = document.documentElement.scrollHeight - innerHeight;
+  const sp = max > 0 ? scrollY / max : 0;
+  cur += (sp - cur) * 0.08;
+  const mobile = innerWidth < 720;
+  setBloom(0.25 + 0.75 * Math.min(1, cur / 0.55));
+  const targetX = mobile ? 0 : [1.9, -1.9, 1.9, -1.6][Math.min(3, Math.round(cur * 3))];
+  bouquet.position.x += (targetX - bouquet.position.x) * 0.05;
+  bouquet.position.y = (mobile ? 1.6 : 0.2) + (reduce ? 0 : Math.sin(t / 1400) * 0.06);
+  bouquet.rotation.y = cur * Math.PI * 1.4 + mx * 0.5 + (reduce ? 0 : t * 0.00008);
+  bouquet.rotation.z = (reduce ? 0 : Math.sin(t / 2100) * 0.03) - mx * 0.08;
+  bouquet.rotation.x = 0.12 + my * 0.15;
+  bouquet.scale.setScalar(mobile ? 0.82 : 1);
+  for (let i = 0; i < FALL; i++) {
+    const d = drops[i];
+    d.y -= d.vy * (1 + cur * 1.5);
+    d.x += Math.sin(t / 900 + d.sway) * 0.004 + mx * 0.012;
+    d.rx += d.spin; d.ry += d.spin * 0.7;
+    if (d.y < -6) { d.y = 6.5; d.x = (Math.random() - 0.5) * 12; }
+    dummy.position.set(d.x, d.y, d.z);
+    dummy.rotation.set(d.rx, d.ry, 0);
+    dummy.updateMatrix();
+    fallMesh.setMatrixAt(i, dummy.matrix);
+  }
+  fallMesh.instanceMatrix.needsUpdate = true;
+  sun.position.x = 3 + mx * 6;
+  renderer.render(scene, cam);
+  requestAnimationFrame(loop);
+})(0);
+</script>
