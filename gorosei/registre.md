@@ -1,11 +1,8 @@
 # Registre du Gorosei
-
 Une ligne par élément repéré. Les identifiants ne changent jamais. Les statuts
 possibles sont expliqués dans `gorosei/README.md`.
-
 | ID | Élément | Type | Département | Priorité | Statut | Action proposée | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-
 | G-001 | Founder skill (11 skills : board, CFO, panel de 100 acheteurs...) | skill | Arsenal | haute | installé | Utiliser avant chaque nouvelle offre ou idée | github.com/Jakeschincariol/founder-skill |
 | G-002 | DG (`/dg`), chef du Gorosei | agent | Arsenal | haute | installé | Point d'entrée de toutes les demandes | `.claude/skills/dg/` |
 | G-003 | PonyTail : Claude écrit le moins de code possible | skill | Arsenal | moyenne | installé | Activer `/ponytail` pour économiser des tokens | github.com/DietrichGebert/ponytail |
@@ -32,3 +29,4 @@ possibles sont expliqués dans `gorosei/README.md`.
 | G-024 | Harvey (ethanplusai/harvey, MIT) : agent commercial qui écrit des séquences personnalisées et les valide avec une porte de contrôle déterministe | agent | Commercial | haute | installé | Vendu en mode brouillon : code dans `gorosei/harvey/` (config `harvey.yaml` sans envoi, LinkedIn désactivé) ; la skill `harvey` produit `gorosei/outbox/` ; envoi toujours fait par le fondateur | github.com/ethanplusai/harvey |
 | G-025 | Boîte de brouillons Harvey, 19 octobre 2026 : 6 messages prêts (Debeaulieu, Lachaume, Désirée, Ateliers Flash Fleurs, Akiko Usami, Boule de Neige) | projet | Commercial | haute | à évaluer | Relire, remplacer les placeholders, envoyer 2 ou 3 par jour depuis la boîte du fondateur | `gorosei/outbox/2026-10-19-boite.md` |
 | G-026 | Harvey en mode automatique (heartbeat 15 min, envoi sans validation, LinkedIn) | technique | Arsenal | basse | rejeté | Envoi automatique et LinkedIn refusés par le fondateur ; Harvey exige un ordinateur allumé et des comptes mail connectés | github.com/ethanplusai/harvey |
+| G-027 | Skill « reel-writer » (vidéo de Clio, 89 vidéos) : analyse les Reels des concurrents puis écrit des scripts en structure Hook, Tournant, Preuve, CTA | skill | Marketing et contenu | moyenne | à évaluer | Utile pour les Reels de l'agence (structure et hooks) ; ne pas copier les vidéos d'autrui ; le mécanisme « commente SETUP, je t'envoie le guide » exige une automatisation de messages Instagram soumise aux règles de Meta, à valider avant usage | vidéo, skill non vérifié |
