@@ -5,7 +5,7 @@
 
 persona:
   name: "Harvey"
-  company: "[Nom de l'agence]"
+  company: "Maison Vitura"
   role: "Directeur commercial"
   email: ""                       # volontairement vide : aucune boîte connectée
   linkedin: ""
