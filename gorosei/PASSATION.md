@@ -57,7 +57,7 @@ suivre le texte.
 
 1. `CLAUDE.md` (règles et façon de parler).
 2. `gorosei/PASSATION.md` (ce fichier, en entier).
-3. `gorosei/registre.md` (27 entrées, G-001 à G-027).
+3. `gorosei/registre.md` (30 entrées, G-001 à G-030).
 4. `gorosei/outbox/2026-10-19-boite.md` (les 6 messages prêts).
 5. `.claude/skills/dg/SKILL.md` et `.claude/skills/harvey/SKILL.md`.
 6. Lancer `bash gorosei/outils/verifier-environnement.sh`.
@@ -704,6 +704,18 @@ Corolle n'y est pas ; G-025 dit encore « remplacer [Prénom] et
   milliseconde par milliseconde pour analyser chaque donnée », « continuez »,
   puis un troisième Reel (fichier 7feae55f).
 - 14:58 Reprise : passation et `CLAUDE.md` commités.
+- 15:00-15:10 Analyse fine des 3 Reels : transcription mot par mot
+  (faster-whisper « medium », réinstallé à chaque conteneur), volume,
+  hauteur de voix et silences de chaque mot, séparation vendeur / prospect
+  par le volume, planches de 4 images par seconde horodatées. Données brutes
+  dans le dossier temporaire `ms/` (non commitées : contenu d'un autre
+  créateur). Le Reel 3 est un tutoriel « Claude Code construit un site de
+  garage dans Elementor ». Équipe de 14 agents lancée (workflow
+  `reels-milliseconde`).
+- 15:12 Registre G-028 (Reels de cold call, adopté), G-029 (passation et
+  réplication), G-030 (workflow `gorosei-mobilisation`, enregistré dans
+  `.claude/workflows/`, corrigé pour la règle 7 : photos animées, aucune 3D
+  en code, et l'email ne dit plus « 3D »).
 
 ---
 
