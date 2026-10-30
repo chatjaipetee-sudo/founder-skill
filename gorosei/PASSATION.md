@@ -728,6 +728,15 @@ Corolle n'y est pas ; G-025 dit encore « remplacer [Prénom] et
   `gorosei/fiches/2026-10-21-cold-call-technique-illegale.md`. Fiche du
   Reel 3 `gorosei/fiches/2026-10-22-claude-code-elementor.md`, registre
   G-031 (à évaluer).
+- Le fondateur dit « oui » : mobilisation relancée avec l'outil Agent
+  (13 agents en arrière-plan). 6 audits de sites vers `gorosei/audits/`,
+  vague 2 de prospection vers `gorosei/donnees/vague2-lot1..3.json`,
+  playbook dans `gorosei/commercial/` (objections et script d'appel faits ;
+  prix et offre en cours). Ensuite : maquette, relecture et email par
+  boutique dans `gorosei/maquettes/` et `gorosei/commercial/piques/`.
+  Questions ouvertes : Alice est-elle réelle (au téléphone, vrai prénom
+  obligatoire) ? Prix plancher 1 500 € à valider ? Réponse « je ne veux pas
+  être démarché » sans ligne stop : exception à valider.
 
 ---
 
