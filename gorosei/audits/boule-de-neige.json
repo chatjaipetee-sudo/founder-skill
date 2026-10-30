@@ -1,0 +1,134 @@
+{
+  "boutique": "Boule de Neige (SASU Boule de Neige), 19-21 rue de Lourmel, 75015 Paris",
+  "site": "https://bouledeneige.fr/ (https://www.bouledeneige.fr/ redirige en 301 vers lui)",
+  "date_audit": "2026-10-30",
+  "plateforme": "Shopify, thème Impact version 6.3.0 (theme_store_id 1190), nommé dans le code « Version 6.3.0 - Octobre 2024 ». Preuves : en-tête HTTP « powered-by: Shopify », objet Shopify.theme dans le code source de l'accueil. Abonnements floraux sur un autre service : https://bouledeneige.monthlee.fr/abonnements-floraux",
+  "poids_total_accueil_mo": "2,7 Mo au chargement, 4,28 Mo après défilement complet, HORS vidéo d'en-tête. La vidéo d'en-tête servie aux téléphones pèse 54,9 Mo (54 881 902 octets, en-tête content-length) ; le Chromium de test ne lit pas le H.264, elle n'est donc pas comptée. Sur un iPhone qui la lit, elle coûte environ 0,9 Mo par seconde (7,2 Mb/s).",
+  "nb_requetes": "262 à 264 au chargement, 275 à 280 après défilement (3 essais). Dont 90 à 176 fichiers du tunnel de paiement Shopify (checkout-web) préchargés dès l'accueil.",
+  "temps_chargement_mobile_s": "Événement load : 1,86 s et 2,14 s (essais 2 et 3), 6,81 s au premier essai à froid, 9,0 s en 4G lente simulée (1,6 Mb/s, 150 ms, processeur x4). Premier affichage (FCP) 0,9 à 2,7 s, plus grand élément (LCP) 1,0 à 3,6 s, CLS 0. Mesures Playwright, 390x844, deviceScaleFactor 2, depuis un serveur aux États-Unis via proxy (périphérie Cloudflare IAD) : pas une mesure depuis Paris.",
+  "erreurs_console": "0 erreur JavaScript. 1 avertissement (repli WebGL logiciel) propre au navigateur de test, pas au site. 0 requête en erreur 4xx/5xx (les requêtes interrompues sont la vidéo et des envois de statistiques).",
+  "referencement": {
+    "title": "Fleuriste Paris 15 - Boule de Neige | Bouquet de fleurs",
+    "meta_description": "Boule de Neige, votre fleuriste à Paris 15, propose des bouquets de fleurs fraîches, compositions florales sur mesure et livraisons rapides. Découvrez nos créations uniques pour toutes vos occasions !",
+    "h1": "Boule de Neige (un seul h1, le nom, sans métier ni quartier)",
+    "h2_accueil": "Bouquet de fleurs Le TOUT DOUX",
+    "textes_alternatifs": "36 images sur l'accueil : 23 alt vides, 2 alt absents. Les photos produits ont un alt (nom du bouquet). Les 11 photos d'ambiance (boutique, équipe, réalisations : STB_5412.jpg, Slide_4_3_-_21 à 26, qzd.webp, Frame_2608862, 2608863, 2608864-2, 2608843) ont alt vide.",
+    "donnees_structurees": "JSON-LD : BreadcrumbList, WebSite (SearchAction) et Organization (nom, logo, Facebook, Instagram). Aucun LocalBusiness ou Florist : ni adresse, ni horaires, ni téléphone, ni zone de livraison en données structurées.",
+    "open_graph": "présent, image https://bouledeneige.fr/cdn/shop/files/Cover_Boule_De_Neige.jpg?v=1726167557&width=2048",
+    "canonical": "https://bouledeneige.fr/",
+    "urls_produits": "Les adresses ne correspondent pas aux noms : « Bouquet de fleurs de l'été » est à /products/frissons-dautomne, « Le TOUT DOUX » à /products/bouquet-de-fleurs-lumi-copie, « L'UNI » à /products/bouquet-de-fleurs-amanite-copie, « Le PÉTILLANT » à /products/eclat-sauvage, la carte cadeau à /products/carte-cadeaux-boule-de-niege (faute).",
+    "sitemap": "https://bouledeneige.fr/sitemap.xml (inclut /pages/order, page au texte de démonstration anglais)",
+    "recherche_fleuriste_quartier": "non vérifié"
+  },
+  "hebergement": "Shopify derrière Cloudflare. DNS public (dns.google, 30/10/2026) : bouledeneige.fr A 23.227.38.65 (plage IP de Shopify). En-têtes : server: cloudflare, x-dc: gcp-us-east1, powered-by: Shopify. Mails du domaine chez IONOS (MX mx00.ionos.fr et mx01.ionos.fr). Pays de l'IP : non vérifié (adresse anycast Cloudflare).",
+  "mobile": {
+    "largeur": "pas de défilement horizontal (largeur du document 390 px pour un écran de 390 px)",
+    "hauteur_accueil": "9 380 px de haut, soit environ 11 écrans",
+    "video_en_tete": "Sur téléphone, l'en-tête (bloc sm:hidden) lit en boucle la même vidéo que sur ordinateur : 1920x1080, 61,2 s, 7,2 Mb/s, 54,9 Mo. Aucune version mobile allégée.",
+    "image_attente": "Quand la vidéo ne joue pas (cas du navigateur de test ; aussi iPhone en mode économie d'énergie, non testé), l'en-tête affiche une image 800x450 étirée dans un cadre portrait 700x1120 : flou visible sur la capture accueil-haut.png.",
+    "image_la_plus_lourde": "https://bouledeneige.fr/cdn/shop/files/Frame_2608864-2.webp?v=1714679479&width=700 : 655 Ko pour une image affichée en 350 px de large",
+    "captures": "/tmp/claude-0/-home-user-founder-skill/e194ed5a-4b14-5c6b-a410-642293f2c0f1/scratchpad/ordre/boule-de-neige/essai2/accueil-haut.png et accueil-pleine.png (copies temporaires, hors dépôt)"
+  },
+  "email_public": "contact@bouledeneige.fr, publié dans les mentions légales : https://bouledeneige.fr/policies/legal-notice (absent de l'accueil et de la page contact, qui ne propose qu'un formulaire et le 01 48 28 00 60)",
+  "defauts_verifies": [
+    {
+      "defaut": "Le bouquet mis en avant fin octobre est un bouquet d'été",
+      "preuve": "Le 30/10/2026, l'accueil, bloc « Nos sélections du moment », affiche « Bouquet de fleurs de l'été », dont la fiche dit « Apportez chez vous une fraîcheur estivale avec notre bouquet composé essentiellement de roses de jardin ». Le bloc juste au-dessus titre « Fleurs de saison ». Sources : https://bouledeneige.fr/ et https://bouledeneige.fr/products/frissons-dautomne (capture pleine-00.png)",
+      "lien_avec_valeurs": "La boutique écrit « Nous réalisons nos bouquets à partir de fleurs de saison » : sa vitrine en ligne contredit la saison."
+    },
+    {
+      "defaut": "Fautes d'orthographe visibles dans les titres de l'accueil",
+      "preuve": "Sur https://bouledeneige.fr/ : « Nous crééons des bouquets pour réenchanter votre quotidien » (gros titre sur photo), « Une équipe de fleuristes passionés », « Un fleursite proche de vous », « Chaque bouquet est conçus », « sélectionnés avec soins ». Capture pleine-03.png.",
+      "lien_avec_valeurs": "Elle se présente comme « artisan fleuriste depuis plus de 20 ans » et « fleuriste parisien d'exception » : la phrase-manifeste porte une faute."
+    },
+    {
+      "defaut": "Texte de modèle oublié dans la politique de livraison",
+      "preuve": "https://bouledeneige.fr/policies/shipping-policy : « Nos livraisons sont effectuées du mardi au dimanche, entre [Plage Horaire de Livraison]. »",
+      "lien_avec_valeurs": "La livraison à Paris (9,90 euros) est une promesse centrale de l'accueil (« Livraison rapide sur Paris ») ; le client ne lit pas les horaires de livraison."
+    },
+    {
+      "defaut": "Page en ligne avec le texte de démonstration anglais du thème Shopify",
+      "preuve": "https://bouledeneige.fr/pages/order, présente dans le sitemap : 3 fois « Pair text with an image to focus on your chosen product, collection, or blog post... », « Promote your products », « Photo Photo », et les fautes « bouquetss », « bouqtets ». Page non reliée au menu de l'accueil.",
+      "lien_avec_valeurs": "Page « Une équipe dédiée pour vos évènements » : ce sont les mariages et entreprises, la clientèle la plus soignée, qui tombent sur un brouillon."
+    },
+    {
+      "defaut": "Vidéo d'en-tête de 54,9 Mo servie telle quelle aux téléphones",
+      "preuve": "Code source de l'accueil : bloc mobile (sm:hidden) avec la source ...HD-1080p-7.2Mbps-31501708.mp4 ; HEAD : content-length 54881902 ; en-tête MP4 : 1920x1080, 61,24 s. Pas d'autre source vidéo.",
+      "lien_avec_valeurs": "La vidéo montre le geste du fleuriste (savoir-faire, « Créativité et savoir-faire »), mais sur un téléphone en 4G elle coûte environ 0,9 Mo par seconde."
+    },
+    {
+      "defaut": "Photos d'atelier et de boutique sans texte alternatif, et aucune fiche commerce local en données structurées",
+      "preuve": "Playwright sur l'accueil : 11 photos d'ambiance avec alt vide. JSON-LD : seulement BreadcrumbList, WebSite, Organization ; aucun LocalBusiness/Florist avec adresse, horaires ou téléphone.",
+      "lien_avec_valeurs": "La boutique invite à venir (« Venez nous découvrir », « Un fleuriste proche de vous ») mais ne donne pas à Google ses horaires ni son adresse sous forme lisible par les moteurs."
+    }
+  ],
+  "valeurs_et_identite": "Artisan fleuriste du 15e depuis 2000, bouquets ronds et champêtres de fleurs de saison, achetées depuis des années aux mêmes producteurs d'Île-de-France et du Sud de la France, faits à la main en boutique et livrés dans Paris. Ses mots : « Fleurs de saison », « Créativité et savoir-faire », « En direct des producteurs », « Préparé avec soin et à la commande », « Nous créons des bouquets pour réenchanter votre quotidien », « fleuriste parisien d'exception ».",
+  "faits_marque": [
+    {"fait": "Société Boule de Neige, SASU, capital 18 400 euros, siège 19 rue de Lourmel 75015 Paris, RCS Paris B 432 288 397 immatriculée le 31/07/2000", "source_url": "https://bouledeneige.fr/policies/legal-notice"},
+    {"fait": "« Artisan fleuriste depuis plus de 20 ans »", "source_url": "https://bouledeneige.fr/"},
+    {"fait": "« Nous réalisons nos bouquets à partir de fleurs de saison récoltées par des producteurs français et européens »", "source_url": "https://bouledeneige.fr/"},
+    {"fait": "« Boule de Neige travaille depuis plusieurs années avec les mêmes producteurs... Selon la saison, nous travaillons avec des producteurs d'Ile de France ainsi que du Sud de la France »", "source_url": "https://bouledeneige.fr/"},
+    {"fait": "« Chaque bouquet est conçu dans notre boutique par notre équipe » ; « Votre bouquet est entièrement réalisé par une personne de notre équipe »", "source_url": "https://bouledeneige.fr/"},
+    {"fait": "Livraison à domicile sur Paris 9,90 euros, click and collect gratuit, retrait habituellement prêt en 4 heures", "source_url": "https://bouledeneige.fr/"},
+    {"fait": "Prestations mariages, anniversaires, deuils, entreprises ; bouquets sur mesure de 50 à 300 euros (fourchettes du formulaire)", "source_url": "https://bouledeneige.fr/pages/event"},
+    {"fait": "Slogan en données structurées : « Boule de Neige, fleuriste parisien d'exception »", "source_url": "https://bouledeneige.fr/"},
+    {"fait": "Abonnements floraux proposés via Monthlee", "source_url": "https://bouledeneige.monthlee.fr/abonnements-floraux"}
+  ],
+  "kit_marque": {
+    "couleurs": {
+      "vert_sapin_boutons_bandeau": "#2E4A34 (46 74 52)",
+      "vert_tres_fonce_pied_de_page": "#182E1D (24 46 29)",
+      "creme_fond_sections": "#FBF9F7 (251 249 247)",
+      "vert_sauge_pale_badges": "#EBEFDF (235 239 223)",
+      "texte_principal": "#141915 (20 25 21) et #1A1A1A",
+      "blanc": "#FFFFFF",
+      "fond_photos_produits": "vert olive (fond de studio des photos), couleur exacte non vérifiée"
+    },
+    "typographies": "Titres : Playfair Display (serif, élégante). Texte : Inter (sans serif), graisse 300.",
+    "ton": "Chaleureux, poétique et simple ; descriptions de bouquets lyriques (« avec la grâce d'une caresse », « rouge profond comme le cœur de celui qui le reçoit »), noms de bouquets en capitales avec article : Le TOUT DOUX, L'INDOMPTABLE, Le PÉTILLANT, L'UNI, L'ARDANT, Le GIVRÉ, L'INATTENDU.",
+    "phrases_cles": [
+      "Nous créons des bouquets pour réenchanter votre quotidien.",
+      "Fleurs de saison",
+      "Créativité et savoir-faire",
+      "En direct des producteurs",
+      "Un bouquet composé à Paris par votre artisan fleuriste, Boule de Neige",
+      "Préparé avec soin et à la commande",
+      "Venez nous découvrir",
+      "Boule de Neige, fleuriste parisien d'exception"
+    ],
+    "logo": "Monogramme « B » sur carte verte (visuel carte cadeau) ; favicon https://bouledeneige.fr/cdn/shop/files/Favicon_Boule_de_Neige.png?v=1715378220"
+  },
+  "photos": [
+    {"url": "https://cdn.shopify.com/s/files/1/0824/6070/5113/files/LETOUTDOUXalamain_eed33444-e402-41a2-865a-701c4ad17464.jpg?v=1738056986", "description": "Le TOUT DOUX tenu à la main sur fond olive, 3959x5951"},
+    {"url": "https://cdn.shopify.com/s/files/1/0824/6070/5113/files/LE_TOUT_DOUX_en_vase_a784bd55-2731-4df9-be98-055acb34719e.jpg?v=1738057014", "description": "Le TOUT DOUX en vase, 3277x4370"},
+    {"url": "https://cdn.shopify.com/s/files/1/0824/6070/5113/files/L_INDOMPTABLEalamain.jpg?v=1738059282", "description": "L'INDOMPTABLE à la main (chardons, anémones), 3959x5951"},
+    {"url": "https://cdn.shopify.com/s/files/1/0824/6070/5113/files/LEPETILLANTalamain.jpg?v=1738059040", "description": "Le PÉTILLANT à la main, 3959x5951"},
+    {"url": "https://cdn.shopify.com/s/files/1/0824/6070/5113/files/L_ARDANTalamain.jpg?v=1738056545", "description": "L'ARDANT, bouquet rouge à la main, 3752x5639"},
+    {"url": "https://cdn.shopify.com/s/files/1/0824/6070/5113/files/LEGIVREalamain.jpg?v=1738057322", "description": "Le GIVRÉ, bouquet d'hiver à la main, 3959x5951"},
+    {"url": "https://cdn.shopify.com/s/files/1/0824/6070/5113/files/L_UNIalamain.jpg?v=1738059710", "description": "L'UNI, renoncules et eucalyptus à la main, 3673x5521"},
+    {"url": "https://cdn.shopify.com/s/files/1/0824/6070/5113/files/M1.jpg?v=1720377989", "description": "Bouquet de roses de jardin colorées (bouquet de l'été), 4000x5333"},
+    {"url": "https://bouledeneige.fr/cdn/shop/files/STB_5412.jpg?v=1729187392&width=2000", "description": "Photo d'ambiance de l'accueil (bandeau « Nous créons des bouquets... »), contenu exact non vérifié"},
+    {"url": "https://bouledeneige.fr/cdn/shop/files/Slide_4_3_-_21.webp?v=1714629729&width=1500", "description": "Bouquet emballé de kraft tenu en boutique (bloc « Des artisans fleuristes »)"},
+    {"url": "https://bouledeneige.fr/cdn/shop/files/Cover_Boule_De_Neige.jpg?v=1726167557&width=2048", "description": "Image de partage officielle du site (Open Graph)"},
+    {"url": "https://bouledeneige.fr/cdn/shop/videos/c/vp/c61dbd601174461d9f0a24b2abc5c638/c61dbd601174461d9f0a24b2abc5c638.HD-1080p-7.2Mbps-31501708.mp4?v=0", "description": "Vidéo d'en-tête : mains qui lient un bouquet champêtre, 1920x1080, 61 s"}
+  ],
+  "produits_signature": [
+    "Bouquet du mois Le TOUT DOUX (tulipes, anémones, gerbera, graminées, limonium) : 55 / 70 / 90 euros (S 30 cm, M 40 cm, L 50 cm)",
+    "Gamme en tailles S/M/L à 55, 70, 90 euros : L'INDOMPTABLE, Le PÉTILLANT, L'UNI, L'ARDANT, Le GIVRÉ, L'INATTENDU",
+    "Bouquet de fleurs de l'été (roses de jardin, framboisier) : 65 et 95 euros",
+    "Bouquet Nature pétillante : 55 / 70 / 90 euros",
+    "Carte cadeau de 50 à 200 euros",
+    "Bouquets sur mesure, mariages, événements, services entreprise, abonnements floraux"
+  ],
+  "infos_pratiques": {
+    "adresse": "21 rue de Lourmel, 75015 Paris (siège au 19 selon les mentions légales)",
+    "horaires": "Lundi fermé ; mardi à samedi 9h-20h ; dimanche 9h-14h (accueil du site)",
+    "telephone_boutique": "01 48 28 00 60",
+    "email": "contact@bouledeneige.fr (mentions légales)",
+    "formulaire": "https://bouledeneige.fr/pages/contact",
+    "instagram": "https://www.instagram.com/bouledeneigefleuriste/",
+    "facebook": "https://www.facebook.com/bouledeneigefleuriste/",
+    "commande_en_ligne": "oui, boutique Shopify avec panier et paiement",
+    "livraison": "Paris, 9,90 euros, mardi à dimanche, commander 1 jour à l'avance, créneau fixé par téléphone ; click and collect gratuit (prêt en 4 h environ)"
+  }
+}

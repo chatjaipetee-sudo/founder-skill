@@ -741,6 +741,8 @@ Corolle n'y est pas ; G-025 dit encore « remplacer [Prénom] et
   premier affichage à 10,6 s sur téléphone, menu invisible à l'arrivée, nom
   rempli par l'image de démonstration du thème. « Grands hôtels parisiens »
   non vérifié, aucune rue à citer. Maquette et email lancés.
+- Email Akiko Usami écrit (`gorosei/commercial/piques/akiko-usami.md`,
+  J0 74 mots, porte OK). Ne part pas avant que sa maquette existe.
 
 ---
 
