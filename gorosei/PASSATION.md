@@ -1,6 +1,6 @@
 # Passation du projet Maison Vitura (Gorosei)
 
-À jour au **22 octobre 2026, vers 15 h (UTC)**. Ce fichier est la mémoire du
+À jour au **30 octobre 2026**. Ce fichier est la mémoire du
 projet. Une nouvelle session doit le lire en entier avant de répondre au
 fondateur. Les heures sont en UTC, sauf mention contraire.
 
@@ -57,7 +57,7 @@ suivre le texte.
 
 1. `CLAUDE.md` (règles et façon de parler).
 2. `gorosei/PASSATION.md` (ce fichier, en entier).
-3. `gorosei/registre.md` (30 entrées, G-001 à G-030).
+3. `gorosei/registre.md` (31 entrées, G-001 à G-031).
 4. `gorosei/outbox/2026-10-19-boite.md` (les 6 messages prêts).
 5. `.claude/skills/dg/SKILL.md` et `.claude/skills/harvey/SKILL.md`.
 6. Lancer `bash gorosei/outils/verifier-environnement.sh`.
@@ -716,15 +716,28 @@ Corolle n'y est pas ; G-025 dit encore « remplacer [Prénom] et
   réplication), G-030 (workflow `gorosei-mobilisation`, enregistré dans
   `.claude/workflows/`, corrigé pour la règle 7 : photos animées, aucune 3D
   en code, et l'email ne dit plus « 3D »).
+- 16:03 Les 10 analystes image par image ont fini. La synthèse (3 partitions
+  et le maître de la vente) a été coupée par la limite de dépenses mensuelle
+  de l'organisation.
+
+**30/10/2026**
+- Le fondateur : « Réessayez ». Le conteneur a redémarré (outil Workflow
+  indisponible). Les 10 analyses sont relues dans le journal du workflow, et
+  la synthèse est écrite directement : partitions des appels 1 et 2, courbe
+  d'énergie et 12 règles d'Alice dans
+  `gorosei/fiches/2026-10-21-cold-call-technique-illegale.md`. Fiche du
+  Reel 3 `gorosei/fiches/2026-10-22-claude-code-elementor.md`, registre
+  G-031 (à évaluer).
 
 ---
 
 ## 9. Travail en cours et prochaines étapes
 
 **Priorité 1 : la puissance commerciale (ordre du fondateur, 21/10 soir)**
-1. Analyse fine, milliseconde par milliseconde, des Reels de cold call
-   (rythme, pauses, intonation, gestes), ajoutée à la fiche
-   `gorosei/fiches/2026-10-21-cold-call-technique-illegale.md`.
+1. Fait le 30/10 : analyse milliseconde par milliseconde des 2 appels et
+   12 règles d'Alice dans `gorosei/fiches/2026-10-21-cold-call-technique-illegale.md`.
+   À faire : les reporter dans la skill `harvey` (section « Puissance
+   d'ouverture »).
 2. Relancer la mobilisation générale (coupée par la limite d'usage) :
    audit réel des 6 sites, une maquette privée par boutique avec ses vraies
    photos (réalisme d'abord), des piques fondées sur un défaut prouvé, la

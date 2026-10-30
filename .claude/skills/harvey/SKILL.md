@@ -66,6 +66,39 @@ Alice, de Maison Vitura » dans le texte, et en signature « Alice » puis
 l'agence n'en a pas. Aucun autre placeholder. Le lien de démo ne se met pas
 dans le premier message.
 
+## Puissance d'ouverture (méthode des Reels de cold call)
+
+Le fondateur a jugé les premiers emails trop mous. La méthode vient de
+l'analyse mesurée de deux appels : `gorosei/fiches/2026-10-21-cold-call-technique-illegale.md`,
+section « Les règles d'Alice ». Lis-la avant d'écrire. Pour l'email, cela
+donne :
+
+1. **Les deux premières lignes frappent**, et tiennent dans l'aperçu de la
+   boîte de réception. Pas de formule d'introduction.
+2. **Dire tout de suite que c'est de la prospection**, ou poser une question
+   à deux options sur Alice ou sur le moment. Jamais sur une identité.
+3. **La pique** : « Je me demandais comment un fleuriste comme le vôtre ... »,
+   suivie d'un défaut **prouvé** du site (poids, lenteur sur téléphone,
+   référencement, mise en page), relié à ce que la boutique défend, avec ses
+   mots. Deux défauts au plus, en doublet « si peu de ... et si peu de ... ».
+   On vise le site, jamais la personne. Sans preuve, pas de pique.
+4. **« J'ai déjà préparé ... »** : la page d'accueil en mouvement, avec ses
+   propres photos. Seulement si la maquette existe dans `gorosei/maquettes/`.
+   Sinon, ne pas l'écrire et le signaler au fondateur.
+5. **Demander la curiosité et un temps court, pas un achat** : « Seriez-vous
+   curieuse de la voir, 5 minutes, jeudi ou vendredi ? ». Aucun prix au
+   premier message.
+6. **Finir sur la question.** Après : la signature et la ligne « stop »,
+   rien d'autre. Pas de P.S., pas de « n'hésitez pas ».
+7. **Aucun adoucissant** : pas de « je me permets », « peut-être », « petite
+   question », « si jamais ».
+8. **Réponse à un prospect** : reprendre ses mots exacts. À un reproche,
+   commencer par « Entendu. » sans s'excuser. À un oui, recopier son créneau
+   tel quel dans l'objet et la première ligne, confirmer en 3 lignes, sans
+   point d'exclamation.
+
+Signature : Alice, Commerciale senior, Maison Vitura (voir l'étape 2).
+
 ## Étape 3 : règles de qualité (non négociables)
 
 Interdits, dans tous les messages, en français comme en anglais :
