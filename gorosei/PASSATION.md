@@ -737,6 +737,10 @@ Corolle n'y est pas ; G-025 dit encore « remplacer [Prénom] et
   Questions ouvertes : Alice est-elle réelle (au téléphone, vrai prénom
   obligatoire) ? Prix plancher 1 500 € à valider ? Réponse « je ne veux pas
   être démarché » sans ligne stop : exception à valider.
+- Audit Akiko Usami fait (`gorosei/audits/akiko-usami.json`) : 6,11 Mo,
+  premier affichage à 10,6 s sur téléphone, menu invisible à l'arrivée, nom
+  rempli par l'image de démonstration du thème. « Grands hôtels parisiens »
+  non vérifié, aucune rue à citer. Maquette et email lancés.
 
 ---
 
