@@ -1,0 +1,235 @@
+{
+  "boutique": "Akiko Usami, décoratrice florale japonaise, ikebana et style wafuka, Paris 14e",
+  "site": "https://www.akiko-usami.com/",
+  "date_audit": "2026-10-30",
+  "plateforme": "WordPress 6.2.15 (balise generator), thème « air-theme2 » avec le constructeur « bm-builder », extensions All in One SEO 5.0.4 et Contact Form 7. La version courante proposée par api.wordpress.org le 30/10/2026 est 7.1.4.",
+  "poids_total_accueil_mo": 6.11,
+  "nb_requetes": 99,
+  "temps_chargement_mobile_s": 18.1,
+  "erreurs_console": [
+    "Failed to load resource: net::ERR_TUNNEL_CONNECTION_FAILED (logo demandé à test.akiko-usami.com, domaine qui n'existe pas : réponse NXDOMAIN de dns.google)",
+    "ReferenceError: gtag is not defined",
+    "Failed to load resource: 401 (reCAPTCHA Google)",
+    "requestStorageAccess: Permission denied.",
+    "Avertissement : Some critical font are not available: 3000ms timeout exceeded (fontfaceobserver du thème)"
+  ],
+  "mesure_details": {
+    "conditions": "Playwright Chromium, 390x844, deviceScaleFactor 2, depuis un serveur via proxy, sans bridage réseau : les chiffres réels sur 4G seront au moins aussi lents",
+    "ttfb_s": 2.27,
+    "premier_affichage_s": 10.55,
+    "evenement_load_s": 18.13,
+    "reseau_calme_s": 23.3,
+    "lcp_s": 20.5,
+    "repartition": "images 25 requêtes 4,0 Mo ; scripts 40 requêtes 1,43 Mo ; feuilles de style 18 ; polices 5",
+    "plus_grosses_images": [
+      "ok1-1-scaled.jpg 2560x1554 px, 720 Ko",
+      "P1047880-コピー-1-scaled.jpg 2560x1710 px, 717 Ko"
+    ],
+    "captures": [
+      "/tmp/claude-0/-home-user-founder-skill/e194ed5a-4b14-5c6b-a410-642293f2c0f1/scratchpad/ordre/akiko-usami/accueil-haut.png",
+      "/tmp/claude-0/-home-user-founder-skill/e194ed5a-4b14-5c6b-a410-642293f2c0f1/scratchpad/ordre/akiko-usami/accueil-pleine.png",
+      "/tmp/claude-0/-home-user-founder-skill/e194ed5a-4b14-5c6b-a410-642293f2c0f1/scratchpad/ordre/akiko-usami/accueil-haut-10s-iphone.png",
+      "/tmp/claude-0/-home-user-founder-skill/e194ed5a-4b14-5c6b-a410-642293f2c0f1/scratchpad/ordre/akiko-usami/accueil-designer-viewport.png",
+      "/tmp/claude-0/-home-user-founder-skill/e194ed5a-4b14-5c6b-a410-642293f2c0f1/scratchpad/ordre/akiko-usami/menu-mobile.png"
+    ]
+  },
+  "referencement": {
+    "title": "Fleuriste Mariage et Evenementiel à Paris- Akiko Usami (ni « ikebana » ni « wafuka »)",
+    "meta_description": "Accueil : « Akiko Usami, fleuriste japonaise basée à Paris, vous accompagne dans la réalisation de vos évènements personnels et professionels. » (faute : professionels). Absente sur à propos, presse, contact, ikebana, wafuka, style.",
+    "h1": "Deux h1 sur l'accueil : « Style. » et « Designer. » ; aucune page à propos, presse, contact ou style n'a de h1",
+    "textes_alternatifs": "13 photos de compositions sur l'accueil ont alt=\"\" (vide) ; seuls le logo (« Akiko Usami ») et une image nommée « home » ont un texte",
+    "donnees_structurees": "JSON-LD All in One SEO : Organization, WebSite, WebPage, BreadcrumbList ; pas de LocalBusiness ni Florist, pas d'adresse ni de téléphone",
+    "langue": "lang=\"en-US\" sur tout le site, og:locale en_US, inLanguage en-US, alors que le texte est en français",
+    "recherche_ikebana_paris": "non vérifié (le moteur de recherche disponible est limité aux États-Unis)",
+    "derniere_modification_accueil": "2023-10-16 (dateModified du JSON-LD)"
+  },
+  "hebergement": {
+    "fournisseur": "IONOS (1&1)",
+    "preuves": [
+      "Mentions légales : « Hébergeur : Ionos »",
+      "DNS public dns.google : www.akiko-usami.com et akiko-usami.com -> 217.160.0.113 (plage IONOS)",
+      "Serveurs de noms ns1064.ui-dns.biz, hostmaster.1and1.fr",
+      "En-têtes : server: Apache, x-ws-ratelimit"
+    ],
+    "pays_ip": "non vérifié"
+  },
+  "mobile": {
+    "largeur_ok": "pas de défilement horizontal (scrollWidth 390)",
+    "menu": "au chargement, le bouton menu est invisible : son conteneur .head-meta a opacity 0 tant qu'on n'a pas fait défiler la page (mesuré après 10 s, en profil iPhone et Android)",
+    "photos_ouverture": "carrousel en cadre 390x549 px CSS ; selon le chargement, fichiers de 650 px (étirés, flous) ou originaux de 2560 px (720 Ko)",
+    "boutons_trop_petits": "16 liens ou boutons de moins de 24 px"
+  },
+  "defauts_verifies": [
+    {
+      "defaut": "Sur téléphone, à l'arrivée, aucun bouton menu n'est visible : on ne voit que le logo, impossible d'atteindre Contact, Ikebana ou Wafuka sans faire défiler.",
+      "preuve": "Capture accueil-haut-10s-iphone.png (10 s après chargement, aucun menu) ; style calculé : div.head-meta opacity 0 à scrollY 0 ; le bouton apparaît seulement après défilement (accueil-haut-retour.png).",
+      "lien_avec_valeurs": "Elle parle de « sens de l'écoute » et d'une « harmonie de construction linéaire » : le premier geste du visiteur sur son site ne mène nulle part."
+    },
+    {
+      "defaut": "Son propre nom, « Akiko Usami », sous « Designer. », est rempli avec l'image de démonstration du thème, et non avec une de ses fleurs.",
+      "preuve": "Code source de l'accueil : --text-mask-background-image:url(https://www.akiko-usami.com/wp-content/uploads/2023/05/placeholder-image-01-6.jpg) ; ce fichier porte l'inscription « Mila Albrecht Placeholder image ».",
+      "lien_avec_valeurs": "Elle met en avant son « sens du détail » et un art où chaque élément est choisi (« de l'ikebana, c'est la simplicité qui m'a plu »)."
+    },
+    {
+      "defaut": "Le logo est aussi demandé à un site de test qui n'existe plus.",
+      "preuve": "Balise img src=https://test.akiko-usami.com/... ; dns.google répond NXDOMAIN pour test.akiko-usami.com ; erreur console « Failed to load resource ».",
+      "lien_avec_valeurs": "Sens du détail : un reste de chantier dans la page d'accueil."
+    },
+    {
+      "defaut": "Page d'accueil de 6,11 Mo en 99 requêtes (40 scripts), premier affichage à 10,6 s et chargement complet à 18,1 s dans notre test mobile.",
+      "preuve": "Mesure Playwright 390x844 (voir mesure_details) ; deux photos originales de 2560 px (720 Ko chacune) chargées pour un écran de 390 px.",
+      "lien_avec_valeurs": "Elle dit de l'ikebana : « parfois on utilise juste une tige » (PEN) ; son site, lui, charge tout."
+    },
+    {
+      "defaut": "Photos d'ouverture parfois floues : fichier de 650 px étiré dans un cadre de 780x1098 pixels physiques.",
+      "preuve": "Capture accueil-haut-10s-iphone.png ; data-sizes « (max-width: 480px) 320px » alors que le cadre mesure 390x549 px CSS.",
+      "lien_avec_valeurs": "Un art visuel du geste et de la ligne, montré flou."
+    },
+    {
+      "defaut": "Site déclaré en anglais (lang en-US) alors qu'il est écrit en français ; aucune description Google sur les pages Ikebana et Wafuka ; photos sans texte alternatif ; mot « ikebana » absent du titre de l'accueil.",
+      "preuve": "<html lang=\"en-US\">, og:locale en_US ; pas de meta description sur /ikebana/ et /wafuka/ ; alt=\"\" sur 13 photos.",
+      "lien_avec_valeurs": "Le style « wafuka », qu'elle a créé et nommé, n'est décrit nulle part pour Google."
+    },
+    {
+      "defaut": "Rien de daté depuis début 2024 : accueil modifié le 16/10/2023, dernières actualités en février 2024, aucune composition de saison.",
+      "preuve": "dateModified 2023-10-16 dans le JSON-LD ; liens /2024/02/n527/ et /2024/02/n529/ les plus récents.",
+      "lien_avec_valeurs": "L'ikebana, « l'expression de la nature et donc de la vie » (sa page Ikebana), vit au rythme des saisons."
+    },
+    {
+      "defaut": "Mentions légales en retard : elles disent que le site « ne recueille pas d'informations personnelles » alors qu'un formulaire demande nom et email, et que Google Ads (remarketing), Google Analytics et le pixel Facebook se chargent dès l'arrivée ; aucune bannière de consentement n'a été vue sur nos captures. Formulaire « Leave a Comment » en anglais sur cette page.",
+      "preuve": "/infos-legales/ ; requêtes mesurées vers googletagmanager.com, google.com/rmkt/collect, connect.facebook.net/fbevents.js.",
+      "lien_avec_valeurs": "Point à ne pas utiliser comme pique (sujet juridique sensible) ; information pour la maquette."
+    }
+  ],
+  "valeurs_et_identite": {
+    "resume": "Décoratrice florale née au Japon, diplômée de l'Ikenobo, installée à Paris depuis 2012, qui a inventé le « wafuka » : l'ikebana rendu plus chaleureux par les fleurs et la manière françaises.",
+    "ses_mots": [
+      "« Le wafuka se veut être un mélange osé entre le style floral asiatique et européen. Respectant les lignes imposées par l'ikebana, il amène une touche de couleur et de chaleur » (/wafuka/)",
+      "« L'ikebana est l'expression de la nature et donc de la vie » (/ikebana/)",
+      "« l'art de faire vivre les fleurs » (/style/)",
+      "« C'est la simplicité qui m'a plu dans la pratique de l'ikebana. Il ne s'agit pas uniquement de fleurs, parfois on utilise juste une tige » (PEN)",
+      "« Je trouvais que l'ikebana était trop sobre, trop triste pour mes clients français » (PEN)",
+      "« Mine can be seen on all sides, like sculptures » (Homo Faber)",
+      "« in general they just trust me. So I am free to follow my intuitions » (Homo Faber)"
+    ]
+  },
+  "faits_marque": [
+    {
+      "fait": "Diplômée de l'ikenobo, carrière débutée à Tokyo dans de grands hôtels et salles d'événements, à Paris depuis 2006, atelier créé dans le 14e en 2012",
+      "source_url": "https://www.akiko-usami.com/a-propos/"
+    },
+    {
+      "fait": "Créatrice du style « wafuka » (wafu : à la japonaise ; ka : fleur)",
+      "source_url": "https://pen-online.com/fr/culture/une-decoratrice-florale-japonaise-implantee-en-france/"
+    },
+    {
+      "fait": "Présentée par Homo Faber comme maître artisan, carrière commencée en 2005, enseigne depuis 2012, née dans la préfecture de Shizuoka",
+      "source_url": "https://www.homofaber.com/en/artisans/akiko-usami-flower-designing-france"
+    },
+    {
+      "fait": "« Compositions dans de grands hôtels parisiens » : PEN écrit « Des grands hôtels parisiens aux mariages les plus élégants de la capitale, les bouquets raffinés d'Akiko Usami sont devenus incontournables », sans nommer d'hôtel ; son site ne parle que d'hôtels à Tokyo. Non vérifié pour un hôtel précis : ne pas citer de nom.",
+      "source_url": "https://pen-online.com/fr/culture/une-decoratrice-florale-japonaise-implantee-en-france/"
+    },
+    {
+      "fait": "Page presse : Vogue Paris, Homo Faber, Grazia, M le magazine du Monde, L'Express Styles, Bridal Musings, Pen, Hanajikan, Linkaband, podcast Ikebana",
+      "source_url": "https://www.akiko-usami.com/presse/"
+    },
+    {
+      "fait": "Podcast « Flowers » de Kenzo Parfums, épisode sur l'ikebana (lien de sa page presse)",
+      "source_url": "https://podcasts-francais.fr/podcast/flowers-2/l-ikebana"
+    },
+    {
+      "fait": "Logos clients affichés sur l'accueil : Kenzo Parfums, L'Oréal, Mazda, Les Néréides, Giorgio Armani, Ippudo, india mahdavi (visibles sur la capture, non vérifiés ailleurs)",
+      "source_url": "https://www.akiko-usami.com/"
+    }
+  ],
+  "kit_marque": {
+    "couleurs": {
+      "texte_principal": "#414145",
+      "titres_et_icones": "#313139",
+      "fond": "#FFFFFF",
+      "gris_secondaires": [
+        "#ADADAD",
+        "#a0a0a0",
+        "#CCCCCC"
+      ],
+      "note": "Site presque monochrome ; les couleurs viennent des photos (rose poudré, vert tige, pêche, lavande)"
+    },
+    "typographies": [
+      "Libre Baskerville (titres, menu en capitales)",
+      "Poppins (texte, graisse légère)",
+      "Logo : AKIKO en capitales fines filaires, USAMI dessous (image)"
+    ],
+    "ton": "Vouvoiement, sobre, élégant, à la première personne sur à propos ; mots : raffiné, délicat, élégant, exception",
+    "phrases_cles": [
+      "Décoratrice florale basée à Paris, Akiko et son équipe vous accompagnent dans la création d'évènements d'exception, mariages ou professionnels.",
+      "dans un style raffiné mixant influences françaises et japonaises",
+      "dans le pur respect des traditions nippones",
+      "son sens de l'écoute et du détail",
+      "Akiko Usami, fleuriste de mariage et évènementiel à Paris depuis 2012.",
+      "l'art de faire vivre les fleurs"
+    ]
+  },
+  "photos": [
+    {
+      "url": "https://www.akiko-usami.com/wp-content/uploads/2023/05/big.jpg",
+      "description": "Bouquet de mariée pastel : pivoines, roses pêche, pois de senteur lavande (2000x1500)"
+    },
+    {
+      "url": "https://www.akiko-usami.com/wp-content/uploads/2024/03/test1.jpg",
+      "description": "Main d'Akiko posée sur une composition : rose pêche, dahlias blancs, fleurs roses (1800x1260)"
+    },
+    {
+      "url": "https://www.akiko-usami.com/wp-content/uploads/2024/03/P1047880-コピー-1-scaled.jpg",
+      "description": "Table de petit-déjeuner événementiel sous verrière, petites compositions colorées (2560x1710)"
+    },
+    {
+      "url": "https://www.akiko-usami.com/wp-content/uploads/2024/03/ok1-1-scaled.jpg",
+      "description": "Photo d'ouverture du carrousel, composition événementielle (2560x1554)"
+    },
+    {
+      "url": "https://www.akiko-usami.com/wp-content/uploads/2024/03/slide-4.jpg",
+      "description": "Photo du carrousel d'accueil (2000x1729)"
+    },
+    {
+      "url": "https://www.akiko-usami.com/wp-content/uploads/2023/05/9-1000x750.jpg",
+      "description": "Vignette IKEBANA de l'accueil : branche verte et mousse sur plateau (1000x750)"
+    },
+    {
+      "url": "https://www.akiko-usami.com/wp-content/uploads/2023/05/10-1000x750.jpg",
+      "description": "Vignette WAFUKA de l'accueil : anneau de tiges, fleurs blanches et bleues (1000x750)"
+    },
+    {
+      "url": "https://www.akiko-usami.com/wp-content/uploads/2023/05/Wafuka-2.jpg",
+      "description": "Composition wafuka, page Wafuka"
+    },
+    {
+      "url": "https://www.akiko-usami.com/wp-content/uploads/2023/05/ikebana-10-scaled.jpg",
+      "description": "Composition ikebana, page Ikebana"
+    },
+    {
+      "url": "https://www.akiko-usami.com/wp-content/uploads/2023/05/ikebana-1-scaled.jpg",
+      "description": "Composition ikebana, page Ikebana"
+    }
+  ],
+  "produits_signature": [
+    "Style wafuka (création maison)",
+    "Ikebana traditionnel",
+    "Fleurs de mariage (page composition-florale-mariage)",
+    "Événementiel pour entreprises françaises et japonaises",
+    "Décoration de vitrines",
+    "Démonstrations et cours, Flower lesson"
+  ],
+  "infos_pratiques": {
+    "adresse": "Non tranché. Le site dit seulement « mon atelier à Paris dans le 14ème » sans rue. Homo Faber : « Address upon request, Paris ». Bridebook (26 rue de Plaisance) : non vérifié, page non lisible depuis notre serveur. Rue Pernety : aucune source trouvée. Les mentions légales donnent une adresse de propriétaire à Villejuif (94), probablement privée, non reprise ici. Ne pas écrire de rue dans les messages.",
+    "telephone_professionnel": "06 99 08 67 00 (publié sur https://www.akiko-usami.com/contact/)",
+    "email": "aucun publié ; formulaire https://www.akiko-usami.com/contact/ (choix Mariage, Evènement, Cours, Autres)",
+    "horaires": "non publiés (sur rendez-vous selon Homo Faber)",
+    "instagram": "https://www.instagram.com/akiko_usami/",
+    "facebook": "https://www.facebook.com/profile.php?id=100063162854922",
+    "pinterest": "https://www.pinterest.fr/usamiakiko/",
+    "cours": "https://www.akiko-usami.com/demonstration-cours/ et https://www.akiko-usami.com/flower-lesson/",
+    "mariages": "https://www.akiko-usami.com/composition-florale-mariage/",
+    "zone": "principalement Île-de-France (accueil)"
+  }
+}
