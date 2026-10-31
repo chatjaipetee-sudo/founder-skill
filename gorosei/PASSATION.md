@@ -742,6 +742,10 @@ Corolle n'y est pas ; G-025 dit encore « remplacer [Prénom] et
 - 31/10 : demande d'installer Kapso (GitHub) pour un numéro WhatsApp :
   refusée (registre G-034). Une ligne téléphonique tenue à la main reste
   possible.
+- 31/10 : le fondateur autorise une ligne mobile sans engagement (quelques
+  euros par mois), souscrite par lui avec sa pièce d'identité, utilisée à la
+  main pour appeler et répondre. Numéro à donner ensuite, pour la signature
+  (« Tél : … ») et le script d'appel. Prénom du fondateur à donner aussi.
 - Audit Akiko Usami fait (`gorosei/audits/akiko-usami.json`) : 6,11 Mo,
   premier affichage à 10,6 s sur téléphone, menu invisible à l'arrivée, nom
   rempli par l'image de démonstration du thème. « Grands hôtels parisiens »
