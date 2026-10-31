@@ -741,6 +741,14 @@ Corolle n'y est pas ; G-025 dit encore « remplacer [Prénom] et
   premier affichage à 10,6 s sur téléphone, menu invisible à l'arrivée, nom
   rempli par l'image de démonstration du thème. « Grands hôtels parisiens »
   non vérifié, aucune rue à citer. Maquette et email lancés.
+- 31/10 : interruption par la limite d'usage (reset 1:10 UTC). Fait : audit
+  Flash Fleurs (11,7 Mo, hébergé par Netlify, société américaine), prix
+  (`playbook-prix.md`), offre « Vitrine Vivante » (`playbook-offre.md`),
+  maquette Akiko Usami (`gorosei/maquettes/akiko-usami.html`, à relire).
+  Audits Boule de Neige (Shopify, email public contact@bouledeneige.fr) et
+  Désirée, Debeaulieu, Lachaume en attente. Maquette et email Boule de Neige
+  interrompus. Prospection vague 2 interrompue (lots 1 à 3). Rien n'est
+  envoyé. Reprendre les agents restants avec SendMessage.
 - Email Akiko Usami écrit (`gorosei/commercial/piques/akiko-usami.md`,
   J0 74 mots, porte OK). Ne part pas avant que sa maquette existe.
 
