@@ -1,3 +1,5 @@
+> **Décision du fondateur (31/10/2026) : prix plancher 500 €.** Le reste de ce document compare les sources à l'ancien plancher (1 500 €) ; les paliers doivent être relus avec 500 € comme plancher.
+
 # Playbook prix de Maison Vitura
 
 À jour au **30 octobre 2026**. Département Finance (analyste prix).

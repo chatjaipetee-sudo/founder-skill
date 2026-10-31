@@ -79,7 +79,9 @@ lire les `SKILL.md` directement, à vérifier).
   **Maison Vitura** (nom choisi le 21/10/2026). Style visé : sites produits de
   luxe, objet 3D au centre, typographie géante, animations au défilement et à
   la souris. Règle : le réalisme d'abord, pas de 3D « cheap ».
-- **Offre** (valeurs par défaut du DG) : landing page 3D de 1 500 à 3 000 €,
+- **Offre** (valeurs par défaut du DG, sauf le plancher) : prix plancher 500 €
+  (fixé par le fondateur le 31/10/2026 ; le DG proposait landing page 3D de
+  1 500 à 3 000 €),
   site complet de 5 000 à 15 000 €, maintenance de 150 à 500 € par mois,
   livraison en 14 jours. Offre d'entrée : une maquette gratuite de la page
   d'accueil, faite avec les photos du commerce. La garantie « livré en
@@ -734,9 +736,9 @@ Corolle n'y est pas ; G-025 dit encore « remplacer [Prénom] et
   playbook dans `gorosei/commercial/` (objections et script d'appel faits ;
   prix et offre en cours). Ensuite : maquette, relecture et email par
   boutique dans `gorosei/maquettes/` et `gorosei/commercial/piques/`.
-  Questions ouvertes : Alice est-elle réelle (au téléphone, vrai prénom
-  obligatoire) ? Prix plancher 1 500 € à valider ? Réponse « je ne veux pas
-  être démarché » sans ligne stop : exception à valider.
+  Décisions du fondateur (31/10) : prix plancher 500 € ; réponse « je ne veux
+  pas être démarché » sans ligne stop, validée. Alice : le fondateur la dit
+  fictive. Identité d'expéditeur à trancher (voir journal du 31/10).
 - Audit Akiko Usami fait (`gorosei/audits/akiko-usami.json`) : 6,11 Mo,
   premier affichage à 10,6 s sur téléphone, menu invisible à l'arrivée, nom
   rempli par l'image de démonstration du thème. « Grands hôtels parisiens »
@@ -749,6 +751,18 @@ Corolle n'y est pas ; G-025 dit encore « remplacer [Prénom] et
   Désirée, Debeaulieu, Lachaume en attente. Maquette et email Boule de Neige
   interrompus. Prospection vague 2 interrompue (lots 1 à 3). Rien n'est
   envoyé. Reprendre les agents restants avec SendMessage.
+- 31/10 (suite) : décisions du fondateur : prix plancher 500 € ; exception
+  sans ligne stop pour un refus de démarchage, validée. Alice est dite
+  fictive. Refus de signer en son nom : un destinataire doit savoir qui
+  écrit, et le nom doit être le même au téléphone et par email. Proposé :
+  signature au vrai prénom de la personne qui répond, ou signature d'équipe
+  « Maison Vitura ». Il manque toujours le vrai prénom du fondateur.
+  WhatsApp : refusé pour l'automatisation (messages automatiques à des
+  professionnels interdits, et règle « pas d'automatisation WhatsApp ») ; une
+  ligne tenue par une personne réelle reste possible. Graphify : graphe du
+  dépôt créé (`graphify update .`, sans modèle), ignoré par git (17 Mo,
+  reconstructible). Les 4 brouillons Gmail et l'email Akiko Usami sont signés
+  Alice : ne pas les envoyer en l'état.
 - Email Akiko Usami écrit (`gorosei/commercial/piques/akiko-usami.md`,
   J0 74 mots, porte OK). Ne part pas avant que sa maquette existe.
 

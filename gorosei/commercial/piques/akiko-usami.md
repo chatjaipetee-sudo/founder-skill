@@ -1,3 +1,5 @@
+> **À NE PAS ENVOYER EN L'ÉTAT.** Signé « Alice » : identité à trancher (voir `gorosei/PASSATION.md`, journal du 31/10). Attendre aussi que la maquette existe.
+
 # Akiko Usami : piques et séquence (Alice)
 
 Date : 2026-10-30. Canal : formulaire https://www.akiko-usami.com/contact/ (le fondateur envoie lui-même, rien n'a été envoyé).

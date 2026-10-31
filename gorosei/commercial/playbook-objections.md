@@ -23,9 +23,8 @@ lui-même chaque email, un par un, après relecture.
    boutique est dans `gorosei/maquettes/`. Le 30/10/2026, ce dossier est
    vide. Tant qu'il l'est, dire à la place « je vous la prépare avec vos
    photos », et demander « vous la voulez pour jeudi ou pour vendredi ? ».
-2. **Le prix est validé.** « À partir de 1 500 € » vient de l'offre par
-   défaut du DG (`gorosei/PASSATION.md`, section 1). Le fondateur le valide
-   avant le premier usage.
+2. **Le prix est fixé.** Le fondateur a fixé le prix plancher à 500 € le
+   31/10/2026. Les réponses disent « à partir de 500 € ».
 3. **La signature est vraie.** Si Alice est un nom d'emprunt, retirer
    « Commerciale senior » (question ouverte, `gorosei/PASSATION.md`,
    section 9).
@@ -61,7 +60,7 @@ lui-même chaque email, un par un, après relecture.
 
 **À l'oral**
 
-> Combien ? À partir de 1 500 € pour la page d'accueil. Le prix exact
+> Combien ? À partir de 500 € pour la page d'accueil. Le prix exact
 > dépend de ce que vous voulez y mettre : je vous le donne quand on la
 > regarde ensemble. Elle est déjà prête, et la regarder ne vous coûte rien.
 > 5 petites minutes, avant l'ouverture ou après la fermeture ? (silence)
@@ -70,7 +69,7 @@ lui-même chaque email, un par un, après relecture.
 
 > Bonjour,
 >
-> C'est à partir de 1 500 € pour la page d'accueil. Le prix exact dépend de
+> C'est à partir de 500 € pour la page d'accueil. Le prix exact dépend de
 > ce que vous voulez y mettre.
 >
 > Votre page d'accueil est déjà prête, avec vos photos. La regarder ne vous

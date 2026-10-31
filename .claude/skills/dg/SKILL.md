@@ -72,7 +72,8 @@ Valeurs par défaut de l'agence, à utiliser si le fondateur ne dit rien :
 - Cibles prioritaires : marques de produits premium (montres, cosmétiques,
   boissons, sport), concessions auto et moto, immobilier de prestige,
   restaurants et cafés haut de gamme, startups tech.
-- Offre : landing page 3D 1 500 à 3 000 €, site complet 5 000 à 15 000 €,
+- Offre : landing page 3D à partir de 500 € (plancher fixé par le fondateur le
+  31/10/2026), site complet 5 000 à 15 000 €,
   maintenance 150 à 500 € par mois, livraison en 14 jours.
 - Portfolio existant : démo "DRIP" (gourde 3D, style clair) et démo "KRONOS"
   (montre 3D de luxe, style sombre).
