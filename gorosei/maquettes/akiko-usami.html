@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Akiko Usami, ikebana</title>
+<meta name="description" content="Akiko Usami, décoratrice florale japonaise à Paris : ikebana, style wafuka, mariages et événements. Maquette privée.">
+<meta name="robots" content="noindex, nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;1,400&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#313139; --text:#414145; --muted:#8a8a8f; --line:#CCCCCC;
+  --bg:#FFFFFF; --paper:#f7f5f1; --accent:#c99a8a; --stem:#6f7d5c;
+  --veil:rgba(255,255,255,.82);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#efece6; --text:#d6d3cd; --muted:#9a9894; --line:#3a3a40;
+    --bg:#16161a; --paper:#1d1d22; --accent:#d9ab9b; --stem:#9fae8a;
+    --veil:rgba(22,22,26,.82);
+  }
+}
+:root[data-theme="dark"]{
+  --ink:#efece6; --text:#d6d3cd; --muted:#9a9894; --line:#3a3a40;
+  --bg:#16161a; --paper:#1d1d22; --accent:#d9ab9b; --stem:#9fae8a;
+  --veil:rgba(22,22,26,.82);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font:300 15px/1.75 Poppins,system-ui,sans-serif;overflow-x:hidden;transition:background .5s,color .5s;padding-bottom:52px}
+img{display:block;max-width:100%}
+a{color:inherit}
+.serif{font-family:"Libre Baskerville",Georgia,serif;font-weight:400}
+
+/* En-tete : visible des l'arrivee */
+header{position:fixed;inset:0 0 auto 0;z-index:50;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:12px 16px;background:var(--veil);backdrop-filter:blur(14px) saturate(150%);-webkit-backdrop-filter:blur(14px) saturate(150%);border-bottom:1px solid color-mix(in srgb,var(--line) 50%,transparent)}
+.logo{text-decoration:none;line-height:1;color:var(--ink)}
+.logo b{display:block;font:300 15px/1 Poppins,sans-serif;letter-spacing:.42em}
+.logo span{display:block;font:300 9px/1 Poppins,sans-serif;letter-spacing:.62em;margin-top:5px;color:var(--muted)}
+.hd-right{display:flex;align-items:center;gap:6px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 18px;border-radius:999px;font:400 12px/1 Poppins,sans-serif;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;border:1px solid var(--ink);color:var(--ink);background:transparent;cursor:pointer;transition:transform .4s cubic-bezier(.16,1,.3,1),background .3s,color .3s}
+.btn.solid{background:var(--ink);color:var(--bg)}
+.btn:active{transform:scale(.97)}
+.icon-btn{width:44px;height:44px;border:0;background:none;color:var(--ink);display:grid;place-items:center;cursor:pointer}
+.burger{display:grid;gap:6px;width:22px}
+.burger i{display:block;height:1px;background:currentColor;transition:transform .4s}
+[aria-expanded="true"] .burger i:first-child{transform:translateY(3.5px) rotate(45deg)}
+[aria-expanded="true"] .burger i:last-child{transform:translateY(-3.5px) rotate(-45deg)}
+nav#menu{position:fixed;inset:68px 0 0 0;z-index:49;background:var(--bg);padding:32px 16px;display:flex;flex-direction:column;gap:4px;opacity:0;visibility:hidden;transform:translateY(-8px);transition:opacity .45s,transform .45s,visibility .45s}
+nav#menu.open{opacity:1;visibility:visible;transform:none}
+nav#menu a{font:400 26px/1.2 "Libre Baskerville",serif;text-decoration:none;color:var(--ink);padding:12px 0;border-bottom:1px solid var(--line)}
+nav#menu small{margin-top:auto;color:var(--muted);font-size:12px;letter-spacing:.1em}
+.theme-row{display:flex;gap:8px;margin-top:20px}
+.theme-row button{flex:1;min-height:44px;border:1px solid var(--line);background:none;color:var(--text);border-radius:999px;font:400 12px Poppins,sans-serif;cursor:pointer}
+.theme-row button[aria-pressed="true"]{border-color:var(--ink);color:var(--ink)}
+
+/* Ouverture */
+.hero{position:relative;height:100svh;min-height:600px;overflow:hidden;background:#222}
+.hero .ph{position:absolute;inset:-6% 0;will-change:transform}
+.hero img{width:100%;height:100%;object-fit:cover;transform:scale(1.12);animation:breathe 22s ease-in-out infinite alternate}
+@keyframes breathe{to{transform:scale(1.02) translate3d(0,-1.5%,0)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.2) 0%,rgba(0,0,0,0) 30%,rgba(0,0,0,.55) 100%)}
+.hero-txt{position:absolute;left:16px;right:16px;bottom:64px;z-index:2;color:#fff}
+.hero-txt .kicker{font-size:11px;letter-spacing:.32em;text-transform:uppercase;opacity:.9}
+.hero-txt h1{font:400 clamp(38px,11vw,64px)/1.08 "Libre Baskerville",serif;margin:14px 0 16px;letter-spacing:-.01em}
+.hero-txt h1 em{font-style:italic}
+.hero-txt p{max-width:30ch;font-size:14px;opacity:.92}
+.scroll-cue{position:absolute;left:50%;bottom:16px;z-index:2;width:1px;height:36px;background:linear-gradient(#fff,transparent);animation:cue 2.6s ease-in-out infinite}
+@keyframes cue{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+canvas#grain{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:40;opacity:.06;mix-blend-mode:multiply}
+
+/* Sections */
+section{position:relative}
+.wrap{padding:0 16px;max-width:1080px;margin:0 auto}
+.ma{height:22vh}
+.label{font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:var(--muted);display:flex;align-items:center;gap:12px}
+.label::before{content:"";width:28px;height:1px;background:var(--accent)}
+h2{font:400 clamp(28px,8vw,48px)/1.2 "Libre Baskerville",serif;color:var(--ink);margin:18px 0 22px}
+h2 em{font-style:italic;color:var(--accent)}
+.lead{font-size:16px;color:var(--text);max-width:34ch}
+.quote{font:italic 400 clamp(22px,6.4vw,38px)/1.45 "Libre Baskerville",serif;color:var(--ink);max-width:22ch}
+.quote cite{display:block;margin-top:18px;font:300 12px Poppins,sans-serif;font-style:normal;letter-spacing:.14em;color:var(--muted)}
+
+.frame{position:relative;overflow:hidden;border-radius:2px;background:var(--paper)}
+.frame img{width:100%;height:118%;object-fit:cover;will-change:transform}
+.tall{aspect-ratio:4/5}
+.wide{aspect-ratio:4/3}
+.reveal-mask{clip-path:inset(12% 0 12% 0)}
+
+/* Deux styles */
+.duo{display:grid;gap:56px}
+.style-card .frame{margin-bottom:22px}
+.style-card h3{font:400 30px/1.2 "Libre Baskerville",serif;color:var(--ink);letter-spacing:.06em}
+.style-card .jp{font-size:12px;color:var(--muted);letter-spacing:.2em;margin:6px 0 14px}
+.style-card p{max-width:36ch}
+.offset{margin-left:18%}
+
+/* Couches parallaxe */
+.layers{position:relative;height:150vw;max-height:900px}
+.layers .l1{position:absolute;left:0;top:0;width:72%}
+.layers .l2{position:absolute;right:0;top:34%;width:58%;z-index:2;box-shadow:0 30px 60px -30px rgba(0,0,0,.35)}
+.layers .note{position:absolute;left:0;bottom:0;width:44%;font-size:13px;color:var(--muted)}
+
+/* Prestations */
+.services{list-style:none;border-top:1px solid var(--line)}
+.services li{display:flex;align-items:baseline;gap:14px;padding:20px 0;border-bottom:1px solid var(--line)}
+.services .n{font:400 12px "Libre Baskerville",serif;color:var(--accent);min-width:24px}
+.services .t{font:400 19px/1.35 "Libre Baskerville",serif;color:var(--ink)}
+.services .d{display:block;font-size:13px;color:var(--muted);margin-top:4px}
+
+.press{display:flex;flex-wrap:wrap;gap:10px 22px;font:400 14px "Libre Baskerville",serif;color:var(--muted)}
+
+.full{position:relative;height:88svh;overflow:hidden}
+.full img{position:absolute;inset:-10% 0;width:100%;height:120%;object-fit:cover;will-change:transform}
+.full .cap{position:absolute;left:16px;right:16px;bottom:28px;color:#fff;z-index:2;font:italic 400 20px/1.5 "Libre Baskerville",serif;text-shadow:0 2px 20px rgba(0,0,0,.4)}
+.full::after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 50%,rgba(0,0,0,.5))}
+
+.contact{background:var(--paper);padding:88px 0 72px}
+.contact .actions{display:grid;gap:12px;margin-top:30px}
+.contact .actions .btn{min-height:52px;font-size:13px}
+.contact dl{margin-top:36px;display:grid;gap:14px;font-size:14px}
+.contact dt{font-size:11px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted)}
+
+footer{padding:40px 16px 24px;font-size:12px;color:var(--muted);text-align:center}
+.bandeau{position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:var(--veil);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line);font-size:10.5px;line-height:1.45;color:var(--muted);text-align:center}
+
+.fade{opacity:0;transform:translateY(28px)}
+.no-js .fade{opacity:1;transform:none}
+
+@media (min-width:820px){
+  .duo{grid-template-columns:1fr 1fr;align-items:start}
+  .duo .style-card:last-child{margin-top:140px}
+  .layers{height:720px}
+  .contact .actions{grid-template-columns:repeat(2,max-content)}
+}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  .hero img,.scroll-cue{animation:none}
+  .fade{opacity:1;transform:none}
+  .reveal-mask{clip-path:none}
+  canvas#grain{display:none}
+}
+</style>
+</head>
+<body class="no-js">
+
+<header>
+  <a class="logo" href="#top" aria-label="Akiko Usami, accueil"><b>AKIKO</b><span>USAMI</span></a>
+  <div class="hd-right">
+    <a class="btn solid" href="#contact">Contact</a>
+    <button class="icon-btn" id="menuBtn" aria-expanded="false" aria-controls="menu" aria-label="Ouvrir le menu"><span class="burger"><i></i><i></i></span></button>
+  </div>
+</header>
+
+<nav id="menu" aria-label="Menu principal">
+  <a href="#ikebana">Ikebana</a>
+  <a href="#wafuka">Wafuka</a>
+  <a href="#prestations">Mariages et événements</a>
+  <a href="#prestations">Cours et démonstrations</a>
+  <a href="#apropos">À propos</a>
+  <a href="#contact">Contact</a>
+  <div class="theme-row" role="group" aria-label="Thème">
+    <button data-t="light">Clair</button><button data-t="system">Système</button><button data-t="dark">Sombre</button>
+  </div>
+  <small>Atelier à Paris 14e, sur rendez-vous</small>
+</nav>
+
+<canvas id="grain" aria-hidden="true"></canvas>
+
+<main id="top">
+  <section class="hero" aria-label="Ouverture">
+    <div class="ph" data-speed="0.35"><img data-photo="1" fetchpriority="high"></div>
+    <div class="hero-txt">
+      <div class="kicker fade">Ikebana &middot; Wafuka &middot; Paris</div>
+      <h1 class="fade">L'art de faire<br><em>vivre les fleurs</em></h1>
+      <p class="fade">Décoratrice florale japonaise, diplômée de l'Ikenobo, installée à Paris.</p>
+    </div>
+    <div class="scroll-cue" aria-hidden="true"></div>
+  </section>
+
+  <div class="ma"></div>
+
+  <section class="wrap">
+    <p class="quote fade">« C'est la simplicité qui m'a plu dans la pratique de l'ikebana. Il ne s'agit pas uniquement de fleurs, parfois on utilise juste une tige. »<cite>Akiko Usami, dans Pen</cite></p>
+  </section>
+
+  <div class="ma"></div>
+
+  <section class="wrap duo">
+    <article class="style-card" id="ikebana">
+      <div class="frame tall reveal-mask"><img data-photo="8" data-par="0.12"></div>
+      <div class="label fade">Tradition</div>
+      <h3 class="fade">IKEBANA</h3>
+      <div class="jp fade">生け花</div>
+      <p class="fade">« L'ikebana est l'expression de la nature et donc de la vie. » Des compositions dans le pur respect des traditions nippones.</p>
+    </article>
+    <article class="style-card offset" id="wafuka">
+      <div class="frame tall reveal-mask"><img data-photo="7" data-par="0.12"></div>
+      <div class="label fade">Création</div>
+      <h3 class="fade">WAFUKA</h3>
+      <div class="jp fade">和風花 &middot; wafu, à la japonaise ; ka, fleur</div>
+      <p class="fade">« Un mélange osé entre le style floral asiatique et européen. Respectant les lignes imposées par l'ikebana, il amène une touche de couleur et de chaleur. »</p>
+    </article>
+  </section>
+
+  <div class="ma"></div>
+
+  <section class="full" aria-label="Composition">
+    <img data-photo="0" data-par="0.18">
+    <p class="cap fade">« Je trouvais que l'ikebana était trop sobre, trop triste pour mes clients français. »</p>
+  </section>
+
+  <div class="ma"></div>
+
+  <section class="wrap" id="apropos">
+    <div class="label fade">À propos</div>
+    <h2 class="fade">Entre Tokyo<br>et <em>Paris</em></h2>
+    <p class="lead fade">Diplômée de l'Ikenobo, Akiko a débuté à Tokyo dans de grands hôtels et salles d'événements. À Paris depuis 2006, elle crée son atelier dans le 14e en 2012, et y enseigne depuis.</p>
+    <div style="height:56px"></div>
+    <div class="layers">
+      <div class="frame tall l1"><img data-photo="1" data-par="0.08"></div>
+      <div class="frame tall l2" data-lift="-0.18"><img data-photo="9" data-par="0.14"></div>
+      <p class="note fade">Son sens de l'écoute et du détail, dans un style raffiné mixant influences françaises et japonaises.</p>
+    </div>
+  </section>
+
+  <div class="ma"></div>
+
+  <section class="wrap" id="prestations">
+    <div class="label fade">Prestations</div>
+    <h2 class="fade">Des évènements<br><em>d'exception</em></h2>
+    <p class="lead fade">Décoratrice florale basée à Paris, Akiko et son équipe vous accompagnent dans la création d'évènements d'exception, mariages ou professionnels.</p>
+    <div style="height:36px"></div>
+    <ul class="services">
+      <li class="fade"><span class="n">01</span><span><span class="t">Fleurs de mariage</span><span class="d">Bouquets et décors floraux du grand jour</span></span></li>
+      <li class="fade"><span class="n">02</span><span><span class="t">Événementiel</span><span class="d">Pour entreprises françaises et japonaises</span></span></li>
+      <li class="fade"><span class="n">03</span><span><span class="t">Décoration de vitrines</span></span></li>
+      <li class="fade"><span class="n">04</span><span><span class="t">Cours et démonstrations</span><span class="d">Flower lesson, à l'atelier</span></span></li>
+    </ul>
+    <div style="height:48px"></div>
+    <div class="frame wide reveal-mask"><img data-photo="2" data-par="0.1"></div>
+  </section>
+
+  <div class="ma"></div>
+
+  <section class="wrap">
+    <p class="quote fade">« In general they just trust me. So I am free to follow my intuitions. »<cite>Akiko Usami, pour Homo Faber</cite></p>
+    <div style="height:56px"></div>
+    <div class="label fade">Presse</div>
+    <div style="height:18px"></div>
+    <p class="press fade"><span>Vogue Paris</span><span>Homo Faber</span><span>Grazia</span><span>M le magazine du Monde</span><span>L'Express Styles</span><span>Pen</span><span>Hanajikan</span><span>Bridal Musings</span></p>
+  </section>
+
+  <div class="ma"></div>
+
+  <section class="full" aria-label="Composition événementielle">
+    <img data-photo="3" data-par="0.18">
+    <p class="cap fade">Mine can be seen on all sides, like sculptures.</p>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <div class="label fade">Contact</div>
+      <h2 class="fade">Parlons de<br>votre <em>projet</em></h2>
+      <p class="lead fade">Mariage, évènement, cours : Akiko vous répond et compose avec vous.</p>
+      <div class="actions fade">
+        <a class="btn solid" href="tel:+33699086700">Appeler l'atelier</a>
+        <a class="btn" href="https://www.akiko-usami.com/contact/" rel="noopener">Écrire une demande</a>
+      </div>
+      <dl class="fade">
+        <div><dt>Atelier</dt><dd>Paris 14e, sur rendez-vous</dd></div>
+        <div><dt>Téléphone</dt><dd>06 99 08 67 00</dd></div>
+        <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/akiko_usami/" rel="noopener">@akiko_usami</a></dd></div>
+      </dl>
+    </div>
+  </section>
+</main>
+
+<footer>Akiko Usami, décoratrice florale à Paris depuis 2012.</footer>
+<div class="bandeau">Maquette privée préparée par Maison Vitura pour Akiko Usami. Photos et textes : Akiko Usami.</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+const PHOTOS = [
+  {src:"https://www.akiko-usami.com/wp-content/uploads/2023/05/big.jpg", alt:"Bouquet de mariée pastel : pivoines, roses pêche et pois de senteur lavande, par Akiko Usami"},
+  {src:"https://www.akiko-usami.com/wp-content/uploads/2024/03/test1.jpg", alt:"La main d'Akiko Usami posée sur une composition de rose pêche et de dahlias blancs"},
+  {src:"https://www.akiko-usami.com/wp-content/uploads/2024/03/P1047880-コピー-1-scaled.jpg", alt:"Table de petit-déjeuner événementiel sous verrière, petites compositions florales colorées"},
+  {src:"https://www.akiko-usami.com/wp-content/uploads/2024/03/ok1-1-scaled.jpg", alt:"Composition florale événementielle d'Akiko Usami"},
+  {src:"https://www.akiko-usami.com/wp-content/uploads/2024/03/slide-4.jpg", alt:"Composition florale d'Akiko Usami"},
+  {src:"https://www.akiko-usami.com/wp-content/uploads/2023/05/9-1000x750.jpg", alt:"Ikebana : branche verte et mousse sur un plateau"},
+  {src:"https://www.akiko-usami.com/wp-content/uploads/2023/05/10-1000x750.jpg", alt:"Wafuka : anneau de tiges, fleurs blanches et bleues"},
+  {src:"https://www.akiko-usami.com/wp-content/uploads/2023/05/Wafuka-2.jpg", alt:"Composition dans le style wafuka d'Akiko Usami"},
+  {src:"https://www.akiko-usami.com/wp-content/uploads/2023/05/ikebana-10-scaled.jpg", alt:"Composition ikebana d'Akiko Usami"},
+  {src:"https://www.akiko-usami.com/wp-content/uploads/2023/05/ikebana-1-scaled.jpg", alt:"Composition ikebana d'Akiko Usami"}
+];
+document.body.classList.remove('no-js');
+document.querySelectorAll('img[data-photo]').forEach(img=>{
+  const p = PHOTOS[+img.dataset.photo];
+  img.src = encodeURI(p.src); img.alt = p.alt; img.decoding = 'async';
+  if (!img.hasAttribute('fetchpriority')) img.loading = 'lazy';
+});
+
+/* Theme */
+const root = document.documentElement;
+function setTheme(t){
+  try{ t==='system' ? localStorage.removeItem('t') : localStorage.setItem('t',t);}catch(e){}
+  if (t==='system') root.removeAttribute('data-theme'); else root.setAttribute('data-theme',t);
+  document.querySelectorAll('.theme-row button').forEach(b=>b.setAttribute('aria-pressed', String(b.dataset.t===t)));
+}
+let saved='system'; try{ saved = localStorage.getItem('t') || 'system'; }catch(e){}
+setTheme(saved);
+document.querySelectorAll('.theme-row button').forEach(b=>b.addEventListener('click',()=>setTheme(b.dataset.t)));
+
+/* Menu */
+const menuBtn = document.getElementById('menuBtn'), menu = document.getElementById('menu');
+function toggle(open){ menu.classList.toggle('open',open); menuBtn.setAttribute('aria-expanded',String(open)); menuBtn.setAttribute('aria-label', open?'Fermer le menu':'Ouvrir le menu'); }
+menuBtn.addEventListener('click',()=>toggle(!menu.classList.contains('open')));
+menu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>toggle(false)));
+document.addEventListener('keydown',e=>{ if(e.key==='Escape') toggle(false); });
+
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* Grain de papier (canvas 2D, leger) */
+if(!reduce){
+  const c = document.getElementById('grain'), x = c.getContext('2d');
+  c.width = 160; c.height = 160;
+  const d = x.createImageData(160,160);
+  for(let i=0;i<d.data.length;i+=4){ const v = Math.random()*255; d.data[i]=d.data[i+1]=d.data[i+2]=v; d.data[i+3]=255; }
+  x.putImageData(d,0,0);
+  c.style.imageRendering='pixelated';
+}
+
+if(!reduce && window.gsap && window.ScrollTrigger){
+  gsap.registerPlugin(ScrollTrigger);
+  const ease = 'power3.out';
+  gsap.to('.hero-txt .fade',{opacity:1,y:0,duration:1.6,ease,stagger:.22,delay:.25});
+  gsap.to('.hero .ph',{yPercent:18,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:true}});
+  gsap.to('.hero-txt',{yPercent:-40,opacity:0,ease:'none',scrollTrigger:{trigger:'.hero',start:'center center',end:'bottom top',scrub:true}});
+  gsap.utils.toArray('main .fade').forEach(el=>{
+    if(el.closest('.hero')) return;
+    gsap.to(el,{opacity:1,y:0,duration:1.4,ease,scrollTrigger:{trigger:el,start:'top 88%'}});
+  });
+  gsap.utils.toArray('.reveal-mask').forEach(el=>{
+    gsap.to(el,{clipPath:'inset(0% 0% 0% 0%)',duration:1.8,ease:'expo.out',scrollTrigger:{trigger:el,start:'top 85%'}});
+  });
+  gsap.utils.toArray('img[data-par]').forEach(img=>{
+    const s = +img.dataset.par;
+    gsap.fromTo(img,{yPercent:-s*60,scale:1.08},{yPercent:s*20,scale:1,ease:'none',scrollTrigger:{trigger:img.parentElement,start:'top bottom',end:'bottom top',scrub:true}});
+  });
+  gsap.utils.toArray('[data-lift]').forEach(el=>{
+    gsap.to(el,{yPercent:+el.dataset.lift*100,ease:'none',scrollTrigger:{trigger:el.parentElement,start:'top bottom',end:'bottom top',scrub:true}});
+  });
+  addEventListener('load',()=>ScrollTrigger.refresh());
+} else {
+  document.querySelectorAll('.fade').forEach(el=>{el.style.opacity=1;el.style.transform='none'});
+  document.querySelectorAll('.reveal-mask').forEach(el=>el.style.clipPath='none');
+}
+</script>
+</body>
+</html>

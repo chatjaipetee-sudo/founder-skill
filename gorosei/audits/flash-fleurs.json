@@ -1,0 +1,104 @@
+{
+  "boutique": "Ateliers Flash Fleurs",
+  "site": "https://ateliersflashfleurs.com/",
+  "date_audit": "2026-10-30",
+  "plateforme": "Site fait sur mesure en un seul fichier HTML (aucune trace de Shopify, Wix, WordPress, Squarespace ni Webflow dans le code). Fonctions Netlify (.netlify/functions/stock, checkout, notify), paiement Stripe, emails Brevo (mentions légales). Noms de domaine gérés chez Squarespace DNS (enregistrements NS), messagerie Google (MX smtp.google.com). Le même modèle de code sert à d'autres fleuristes : le dictionnaire de traduction contient des phrases de « Les Lys de Boulogne », « Les Lys d'Auteuil » et « À la Campagne », et ces domaines figurent dans l'en-tête de sécurité (content-security-policy).",
+  "poids_total_accueil_mo": 11.69,
+  "nb_requetes": 11,
+  "temps_chargement_mobile_s": {
+    "connexion_rapide_mesuree": "fin de chargement (load) entre 2,16 et 2,70 s sur 3 essais, premier affichage 1,26 à 1,53 s (connexion de centre de données, pas un vrai réseau mobile)",
+    "4g_lente_simulee": "48,98 s avant la fin du chargement ; le HTML seul finit d'arriver à 48,4 s ; premier affichage à 3,1 s. Réglage de référence de Lighthouse mobile : 1,6 Mbit/s, 150 ms de latence, processeur ralenti 4 fois. Pendant ces 49 s, le titre H1 (nom du bouquet signature) reste vide."
+  },
+  "erreurs_console": "Aucune erreur ni avertissement console sur 4 chargements (Playwright, Chromium, 390x844, échelle 2).",
+  "fichiers_les_plus_lourds": [
+    {"url": "https://ateliersflashfleurs.com/", "poids_ko_transferes": 7709, "note": "la page HTML elle-même : 10,83 Mo une fois décompressée, dont 96,7 % d'images collées dans le code en base64 (399 images, 392 différentes, 7 en double)"},
+    {"url": "https://ateliersflashfleurs.com/media/demo.mp4", "poids_ko_transferes": 1805, "note": "vidéo de démonstration chargée automatiquement (attribut autoplay) alors qu'elle est dans une fenêtre cachée, sans clic sur « Voir la démo »"},
+    {"url": "https://ateliersflashfleurs.com/.netlify/functions/stock", "poids_ko_transferes": 792, "note": "appelé 2 fois à chaque visite (2 x 792 Ko) ; contient aussi des photos en base64"},
+    {"url": "https://ateliersflashfleurs.com/js/jspdf.umd.min.js", "poids_ko_transferes": 110, "note": "outil de création de PDF chargé dès l'accueil"},
+    {"url": "https://ateliersflashfleurs.com/styles/logo-aff-mark.png", "poids_ko_transferes": 100, "note": "logo PNG de 100 Ko affiché en 46 px"}
+  ],
+  "referencement": {
+    "title": "Ateliers Flash Fleurs, Artisan fleuriste à Paris 15e",
+    "meta_description": "Présente (atelier de création et artisan fleuriste à Paris 15e, bouquets sur mesure, terrasses, événements, abonnements, livraison gratuite dans le 75015).",
+    "h1": "Dans le HTML envoyé, le H1 est vide (&nbsp;). Il est rempli ensuite par JavaScript avec un nom de bouquet qui tourne (vu : « Notre création récente », « Mauve »). Il ne contient jamais « fleuriste » ni « Paris 15 ».",
+    "textes_alternatifs": "Présents sur les images du code (ex. « La devanture des Ateliers Flash Fleurs, 4 rue Bausset, Paris 15e »). La galerie réutilise rond.jpg pour deux légendes différentes (« Bouquet de roses », « Centre de table »).",
+    "json_ld": "Un bloc schema.org Florist : nom, téléphone +33148427623, email admin@, adresse 4 rue Bausset 75015. Absents : horaires (openingHours), coordonnées GPS, lien Instagram (sameAs), avis.",
+    "open_graph": "og:title, og:description, og:image (https://ateliersflashfleurs.com/styles/rond.jpg, répond 200).",
+    "robots_txt": "absent (404)",
+    "sitemap_xml": "absent (404)",
+    "html_sans_javascript": "Le HTML brut affiche « 01 XX XX XX XX » comme téléphone et « Mardi au samedi 9h – 19h30, Dimanche 9h – 13h, Lundi fermé » ; après JavaScript la page affiche « 01 48 42 76 23 · 06 44 10 06 82 » et « Lun. au jeu. 8h30 – 20h30, Ven. & sam. 8h30 – 21h00, Dimanche 9h30 – 19h30 ». Un robot qui ne lit pas le JavaScript voit le faux numéro et les anciens horaires.",
+    "mesure_audience": "Aucun outil de mesure chargé (aucune requête Google Analytics ou Google Ads ; la variable GADS_CONVERSION_ID est vide dans le code).",
+    "recherche_fleuriste_quartier": "non vérifié"
+  },
+  "hebergement": {
+    "hebergeur_declare": "Netlify, Inc., 512 2nd Street, San Francisco, États-Unis (mentions légales, section 2 : https://ateliersflashfleurs.com/mentions-legales)",
+    "entetes_http": "server: Netlify ; x-nf-request-id ; cache-status \"Netlify Edge\"",
+    "dns": "ateliersflashfleurs.com A 75.2.60.5 (Amazon, anycast, enregistrée à Seattle US selon ipinfo.io). www : CNAME gregarious-eclair-983fd4.netlify.app ; pour un visiteur français (sous-réseau Orange simulé via dns.google) elle répond par 63.176.8.218 et 35.157.26.135, à Francfort, Allemagne (ipinfo.io).",
+    "conclusion": "Société d'hébergement américaine prouvée (ses propres mentions légales). Le lieu physique du serveur pour un visiteur parisien n'est pas les États-Unis de façon prouvée (relais à Francfort ou adresse anycast) : dire « hébergé par une société américaine », pas « serveur aux États-Unis »."
+  },
+  "mobile": {
+    "largeur": "pas de défilement horizontal (largeur 390 = 390)",
+    "hauteur_page": "46 352 px, environ 55 écrans de téléphone sur une seule page",
+    "affichage_haut_de_page": "Bandeau promo « −25 % », nom coupé dans l'en-tête (« Ateliers Flash Fl... »), photo au premier écran, deux étiquettes flottantes qui recouvrent la photo, le titre H1 n'arrive qu'en bas du premier écran. Boutons WhatsApp et téléphone flottants qui recouvrent le texte.",
+    "captures": "scratchpad ordre/flash-fleurs : run2-haut.png, run2-pleine-page.png, pellicule-lent-*.png, tranches/planche-*.png"
+  },
+  "email_public_verifie": {
+    "admin@ateliersflashfleurs.com": "oui, publié sur la page d'accueil : section Contact (#ctEmail, https://ateliersflashfleurs.com/#contact), pied de page (#ftEmail) et données JSON-LD",
+    "contact@ateliersflashfleurs.com": "aussi publié, dans les mentions légales (email de l'éditeur, des réclamations et des droits RGPD) : https://ateliersflashfleurs.com/mentions-legales",
+    "note": "deux adresses de rôle différentes publiées ; aucune adresse personnelle utilisée"
+  },
+  "defauts_verifies": [
+    {"defaut": "Page d'accueil de 11,7 Mo transférés sur téléphone, dont 7,7 Mo pour le seul code HTML, rempli à 96,7 % de 392 photos collées en base64.", "preuve": "Playwright 390x844, 3 mesures identiques (11,69 Mo, 11 requêtes) ; curl : HTML 10 825 403 octets, 7 889 770 compressés.", "lien_avec_valeurs": "La maison vend la fraîcheur et la légèreté du fait main (« fleurs choisies chaque matin pour leur fraîcheur et leur tenue ») ; sa page pèse autant qu'une dizaine de sites classiques."},
+    {"defaut": "En 4G lente, 49 secondes avant la fin du chargement, et le titre principal (bouquet signature) reste vide tout ce temps.", "preuve": "Simulation Lighthouse mobile (1,6 Mbit/s, 150 ms, processeur x4) : load à 48,98 s, H1 vide jusque-là ; pellicule de captures à 2, 5, 12, 30, 45 s.", "lien_avec_valeurs": "Elle promet « livraison le jour même si commande avant midi » : le client attend presque une minute que sa vitrine s'ouvre."},
+    {"defaut": "Hébergé par une société américaine alors que tout le discours est local (rue Bausset, livraison à vélo dans le 15e).", "preuve": "Mentions légales : « hébergé par Netlify, Inc., San Francisco, États-Unis » ; en-tête server: Netlify.", "lien_avec_valeurs": "« Achetez directement chez l'artisan fleuriste », sans intermédiaire : le site, lui, passe par un prestataire de San Francisco."},
+    {"defaut": "Informations contradictoires : le HTML brut annonce « 01 XX XX XX XX » et « Lundi fermé », la page affichée dit 7j/7 ; la livraison 75015 est dite « gratuite » en haut et « offerte dès 25 € (sinon 10 €) » plus bas.", "preuve": "Code source (#ctPhone, #ctHours) contre rendu Playwright ; textes du hero et de la section #livraison.", "lien_avec_valeurs": "« Rien n'est laissé au hasard » (section La maison)."},
+    {"defaut": "Mentions légales publiées comme un modèle inachevé : médiateur « [À COMPLÉTER, nom et site du médiateur] » et phrase « Document fourni à titre de modèle, à faire vérifier et compléter ».", "preuve": "https://ateliersflashfleurs.com/mentions-legales, sections 4.8 et fin de page.", "lien_avec_valeurs": "À ne pas utiliser comme pique (sujet juridique), seulement comme point à corriger au rendez-vous."},
+    {"defaut": "Le titre H1 ne dit jamais « fleuriste » ni « Paris 15e » ; pas de robots.txt ni de sitemap ; pas d'horaires dans les données structurées.", "preuve": "H1 vide dans le HTML, rempli par un nom de bouquet ; /robots.txt et /sitemap.xml en 404 ; JSON-LD sans openingHours.", "lien_avec_valeurs": "Elle se présente comme « artisan fleuriste à Paris 15e » mais son titre principal ne le dit pas à Google."}
+  ],
+  "valeurs_et_identite": "Atelier de préparation et de vente de compositions florales faites main, rue Bausset dans le 15e. Ses mots : « artisans fleuristes de métier », « montée à la main, tige à tige », « fleurs choisies chaque matin pour leur fraîcheur et leur tenue », « rien n'est standardisé », « nous livrons nous-mêmes vos commandes, à vélo ou en camionnette », « achetez directement chez l'artisan fleuriste ». Clients particuliers et entreprises du 15e. Pas de cours ni d'ateliers pour le public trouvés sur le site : « Ateliers » désigne le lieu de fabrication.",
+  "faits_marque": [
+    {"fait": "Adresse : 4 rue Bausset, 75015 Paris", "source_url": "https://ateliersflashfleurs.com/#contact"},
+    {"fait": "Société éditrice : AMSHC, SASU, RCS Paris 899 442 842, enseigne Ateliers Flash Fleurs", "source_url": "https://ateliersflashfleurs.com/mentions-legales"},
+    {"fait": "Programme fidélité automatique : -5 % à la 2e commande, -10 % à la 3e, -20 % à la 4e", "source_url": "https://ateliersflashfleurs.com/#avantages"},
+    {"fait": "Accompagnement deuil : -10 % automatique sur les compositions de deuil", "source_url": "https://ateliersflashfleurs.com/#deuil"},
+    {"fait": "Composeur de bouquet en ligne, tige à tige, prix en temps réel, paiement Stripe", "source_url": "https://ateliersflashfleurs.com/#composeur"},
+    {"fait": "Abonnements entreprise par livraison : Découverte 35-50 €, Essentielle 50-75 €, Signature 75-100 €, Prestige 100-120 €, Sur-mesure +120 €", "source_url": "https://ateliersflashfleurs.com/#abonnements"},
+    {"fait": "Livraison à vélo ou en camionnette ; offerte dès 25 € dans le 75015, dès 35 € à Boulogne, dès 65 € rive gauche ; jour même si commande avant midi", "source_url": "https://ateliersflashfleurs.com/#livraison"},
+    {"fait": "Bandeau : « Économisez 25 % de commission de plateforme intermédiaire, achetez directement chez l'artisan fleuriste »", "source_url": "https://ateliersflashfleurs.com/"},
+    {"fait": "Site en plusieurs langues (sélecteur FR, dont arabe, anglais, espagnol)", "source_url": "https://ateliersflashfleurs.com/"}
+  ],
+  "kit_marque": {
+    "couleurs": {"rose_or_principal": "#c4738c", "rose_clair": "#f3c7d5", "rose_tres_pale": "#fbe9ef", "rose_survol": "#a85874", "noir_boutons": "#141414", "anthracite_titres": "#111111", "texte": "#3a3a3a", "gris": "#6e6e6e", "fond": "#ffffff", "fond_2": "#f2f2f2", "theme_color_meta": "#c4738c", "degrade_bandeau": "#b5306e, #d9694a, #e6b45c"},
+    "typographies": {"titres": "Cormorant Garamond (400, 500, 600, italique 400), Google Fonts", "texte": "Jost (300, 400, 500), Google Fonts", "style": "petites capitales espacées (letter-spacing 4px) en rose pour les surtitres"},
+    "ton": "Élégant, chaleureux, artisanal, vouvoiement, beaucoup de « fait main », « fraîcheur », « sur mesure », « à votre image » ; émojis fleurs (✿, 🌿, 🕊️).",
+    "phrases_cles": [
+      "Atelier floral · Artisan fleuriste · Paris 15e",
+      "Un atelier, un métier, un savoir-faire",
+      "Chaque création y est montée à la main, tige à tige, avec des fleurs choisies chaque matin pour leur fraîcheur et leur tenue.",
+      "Du bouquet du quotidien aux grandes réceptions, rien n'est laissé au hasard, et rien n'est standardisé.",
+      "Parce que la beauté d'un bouquet tient aussi à sa fraîcheur, nous livrons nous-mêmes vos commandes, à vélo ou en camionnette.",
+      "Composez votre bouquet, tige à tige",
+      "Des fleurs pour chaque instant",
+      "Achetez directement chez l'artisan fleuriste"
+    ]
+  },
+  "photos": [
+    {"url": "https://ateliersflashfleurs.com/styles/devanture-gauche.jpg", "description": "Plantes et fleurs devant la boutique (138 Ko)"},
+    {"url": "https://ateliersflashfleurs.com/styles/enseigne.jpg", "description": "Enseigne de la boutique, rue Bausset (87 Ko)"},
+    {"url": "https://ateliersflashfleurs.com/styles/champetre.jpg", "description": "Bouquet champêtre, légendé « Compositions de mariage » (77 Ko)"},
+    {"url": "https://ateliersflashfleurs.com/styles/rond.jpg", "description": "Bouquet rond de roses, aussi image de partage og:image (57 Ko)"},
+    {"url": "https://ateliersflashfleurs.com/styles/piquet.jpg", "description": "Hortensias et fleurs pastel (38 Ko)"},
+    {"url": "https://ateliersflashfleurs.com/styles/logo-aff-mark.png", "description": "Logo rond noir, fleur rose, monogramme AFF"},
+    {"url": "non vérifié", "description": "Les autres photos (devanture d'angle aux stores gris « Ateliers Flash Fleurs », bouquets signatures, plantes) n'ont pas d'URL : elles sont collées en base64 dans le HTML. A extraire du code si le Studio en a besoin. Aucune photo de cours trouvée."}
+  ],
+  "produits_signature": "Bouquets signatures réalisés à la commande (noms qui tournent en haut de page, ex. « Mauve » à 36,50 €), composeur de bouquet tige à tige, abonnements entreprise et particuliers (hebdomadaire, quinzaine, mensuel), compositions de deuil (coeurs, couronnes, coussins, croix, gerbes, raquettes), plantes d'intérieur et d'extérieur (ex. olivier 30 cm 29,50 €, citronnier 70 cm 89,50 €, d'après .netlify/functions/stock), fleurissement et entretien de terrasses et balcons.",
+  "infos_pratiques": {
+    "adresse": "4 rue Bausset, 75015 Paris (angle rue Maublanc : non vérifié sur le site)",
+    "horaires_affiches": "Lun. au jeu. 8h30-20h30 ; ven. et sam. 8h30-21h00 ; dimanche 9h30-19h30 ; pied de page « 7j/7 dès 8h30 » (le HTML brut dit autre chose, voir defauts)",
+    "telephone_boutique": "01 48 42 76 23 (fixe) ; 06 44 10 06 82 (mobile, bouton WhatsApp), publiés sur la page",
+    "email": "admin@ateliersflashfleurs.com (accueil) ; contact@ateliersflashfleurs.com (mentions légales)",
+    "instagram": "non vérifié (aucun lien Instagram trouvé sur le site)",
+    "commande_en_ligne": "oui : composeur et catalogue avec paiement Stripe, demande de devis, WhatsApp",
+    "avis": "lien vers la recherche Google Maps, aucune note affichée sur le site"
+  }
+}
