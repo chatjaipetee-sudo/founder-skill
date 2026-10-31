@@ -1,6 +1,6 @@
-> **À NE PAS ENVOYER EN L'ÉTAT.** Signé « Alice » : identité à trancher (voir `gorosei/PASSATION.md`, journal du 31/10). Attendre aussi que la maquette existe.
+> **À NE PAS ENVOYER EN L'ÉTAT.** Maquette à relire avant tout envoi, et envoi validé par le fondateur (voir `gorosei/PASSATION.md`, journal du 31/10).
 
-# Akiko Usami : piques et séquence (Alice)
+# Akiko Usami : piques et séquence
 
 Date : 2026-10-30. Canal : formulaire https://www.akiko-usami.com/contact/ (le fondateur envoie lui-même, rien n'a été envoyé).
 Source des défauts : gorosei/audits/akiko-usami.json (defauts_verifies).
@@ -39,8 +39,8 @@ C'est de la prospection, je le dis tout de suite. J'ai déjà préparé votre pa
 
 Seriez-vous curieuse de la voir, 5 minutes, jeudi ou vendredi ?
 
-Alice
-Commerciale senior, Maison Vitura
+L'équipe de Maison Vitura
+support.maisonvitura@gmail.com
 Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 
 ## 3. J+3
@@ -54,8 +54,8 @@ Et le menu se voit dès l'arrivée sur téléphone.
 
 Seriez-vous curieuse de la voir, 5 minutes, mardi ou mercredi ?
 
-Alice
-Commerciale senior, Maison Vitura
+L'équipe de Maison Vitura
+support.maisonvitura@gmail.com
 Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 
 Élément nouveau : détail de la maquette (nom rempli par la vignette wafuka, anneau de tiges, photo publique 10-1000x750.jpg ; menu visible). À réaliser tel quel dans la maquette avant envoi.
@@ -71,8 +71,8 @@ La page d'accueil préparée avec vos photos reste disponible.
 
 Préférez-vous la voir ce mois-ci, ou que je revienne au printemps ?
 
-Alice
-Commerciale senior, Maison Vitura
+L'équipe de Maison Vitura
+support.maisonvitura@gmail.com
 Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 
 ## 5. Contrôles (porte gorosei/harvey/harvey/gate.py, destinataire contact@exemple.fr)

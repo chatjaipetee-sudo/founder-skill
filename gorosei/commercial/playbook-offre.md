@@ -1,9 +1,11 @@
+> **Signature et identité (décision du fondateur, 31/10/2026).** Les messages sont signés « L'équipe de Maison Vitura ». « Alice » est un nom de rôle dans ce document, pas une personne : ne jamais signer ni se présenter sous ce nom. Au téléphone, la personne qui appelle dit son vrai prénom : « je suis [votre prénom], de l'équipe de Maison Vitura ».
+
 # Playbook de l'offre : « Vitrine Vivante », pour un fleuriste indépendant de Paris
 
 Rédigé le 30 octobre 2026 par le département Commercial.
 
 Méthode : l'équation de valeur de `skills/founder-offer/SKILL.md`, et les
-règles d'Alice de `gorosei/fiches/2026-10-21-cold-call-technique-illegale.md`.
+règles de l'équipe commerciale de `gorosei/fiches/2026-10-21-cold-call-technique-illegale.md`.
 
 Trois règles pour lire ce document :
 
@@ -262,7 +264,7 @@ demandes de bouquets, en ligne en 14 jours, pour 30 minutes de votre temps. »
 un site rapide qui prend les demandes, en ligne avant la Saint-Valentin, pour
 30 minutes de votre temps. »
 
-### Présenter l'offre au rendez-vous de 5 minutes (règles d'Alice)
+### Présenter l'offre au rendez-vous de 5 minutes (règles de l'équipe commerciale)
 
 1. Montrer la maquette, puis se taire (règle 3). Il parle en premier.
 2. « Votre page d'accueil est déjà prête, avec vos photos. » Appuyer sur

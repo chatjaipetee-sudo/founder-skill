@@ -60,9 +60,10 @@ rapide ».
 Chaque message se termine par la phrase : « Pour ne plus recevoir de message de
 ma part, répondez simplement "stop". »
 
-Les messages sont signés par Alice, commerciale senior de l'agence : « Je suis
-Alice, de Maison Vitura » dans le texte, et en signature « Alice » puis
-« Commerciale senior, Maison Vitura ». Pas de numéro de téléphone tant que
+Les messages sont signés « L'équipe de Maison Vitura », avec l'adresse
+support.maisonvitura@gmail.com en dessous. Le texte dit « Nous sommes l'équipe
+de Maison Vitura ». Jamais de personnage fictif, de prénom ou de titre inventé :
+un destinataire doit savoir qui lui écrit. Pas de numéro de téléphone tant que
 l'agence n'en a pas. Aucun autre placeholder. Le lien de démo ne se met pas
 dans le premier message.
 
@@ -70,13 +71,13 @@ dans le premier message.
 
 Le fondateur a jugé les premiers emails trop mous. La méthode vient de
 l'analyse mesurée de deux appels : `gorosei/fiches/2026-10-21-cold-call-technique-illegale.md`,
-section « Les règles d'Alice ». Lis-la avant d'écrire. Pour l'email, cela
+section « Les règles de l'équipe commerciale ». Lis-la avant d'écrire. Pour l'email, cela
 donne :
 
 1. **Les deux premières lignes frappent**, et tiennent dans l'aperçu de la
    boîte de réception. Pas de formule d'introduction.
 2. **Dire tout de suite que c'est de la prospection**, ou poser une question
-   à deux options sur Alice ou sur le moment. Jamais sur une identité.
+   à deux options sur l'équipe ou sur le moment. Jamais sur une identité.
 3. **La pique** : « Je me demandais comment un fleuriste comme le vôtre ... »,
    suivie d'un défaut **prouvé** du site (poids, lenteur sur téléphone,
    référencement, mise en page), relié à ce que la boutique défend, avec ses
@@ -97,7 +98,7 @@ donne :
    tel quel dans l'objet et la première ligne, confirmer en 3 lignes, sans
    point d'exclamation.
 
-Signature : Alice, Commerciale senior, Maison Vitura (voir l'étape 2).
+Signature : L'équipe de Maison Vitura (voir l'étape 2).
 
 ## Étape 3 : règles de qualité (non négociables)
 

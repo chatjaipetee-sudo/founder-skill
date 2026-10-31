@@ -70,7 +70,7 @@ des sous-titres mot à mot (mots clés en vert).
   Elementor. Passer par WordPress et Elementor demande un hébergement et
   peut-être une licence payante. Rien ne s'installe sans l'accord du
   fondateur (règle 6).
-- **Pour Alice** : la structure de l'accroche se transpose sans rien
+- **Pour l'équipe commerciale** : la structure de l'accroche se transpose sans rien
   inventer. Un chiffre vrai dans la première ligne, l'effort évité, trois
   fonctions concrètes de la future page, puis « vous pourrez tout changer
   vous-même », seulement si c'est vrai pour l'offre.

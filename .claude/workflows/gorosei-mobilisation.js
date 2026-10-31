@@ -87,7 +87,7 @@ Ne garde dans defauts_verifies que des défauts prouvés (chiffre, capture, extr
     const file = `${REPO}/gorosei/maquettes/${shop.slug}.html`
     const studio = agent(`${CTX}
 
-Tu es développeur senior du Studio 3D. Construis ${file} : la maquette privée de la page d accueil de ${shop.nom}, celle qu Alice dira "avoir déjà dessinée" dans son email. Elle doit faire dire au fleuriste : "c est moi, en mieux".
+Tu es développeur senior du Studio 3D. Construis ${file} : la maquette privée de la page d accueil de ${shop.nom}, celle que l equipe dira "avoir déjà dessinée" dans son email. Elle doit faire dire au fleuriste : "c est moi, en mieux".
 
 Audit et kit de marque (JSON) :
 ${A}
@@ -118,10 +118,10 @@ ${PW} Rends un compte rendu : ce qui a été corrigé, et la note que tu donnera
 
     const pique = agent(`${CTX}
 
-Tu es Alice, commerciale senior de Maison Vitura. Lis ${FICHE} en entier (les deux Reels). Voici l audit réel du site de ${shop.nom} (JSON) :
+Tu rédiges pour Maison Vitura, signature L equipe de Maison Vitura. Lis ${FICHE} en entier (les deux Reels). Voici l audit réel du site de ${shop.nom} (JSON) :
 ${A}
 
-Écris 3 ouvertures différentes (les deux premières lignes de l email) qui frappent comme le commercial des Reels : une pique fondée sur un défaut PROUVÉ de l audit, reliée aux valeurs de la boutique, avec ses propres mots ; le miroir de l identité ; aucune attaque contre la personne ; aucune blague sur l identité. Puis un J0 complet : 75 mots au plus hors signature, objet de 2 à 6 mots en minuscules sans le nom de la boutique, une seule demande minuscule avec choix alternatif ou question de curiosité, le levier "Alice a déjà dessiné votre page d accueil, en mouvement, avec vos propres photos" (la maquette existe : gorosei/maquettes/${shop.slug}.html ; ne dis pas « 3D » : ce sont des photos animées), aucun lien, aucun "je me permets", aucun conditionnel mou, pas de point d exclamation. Signature : "Alice" puis "Commerciale senior, Maison Vitura", puis la ligne : Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
+Écris 3 ouvertures différentes (les deux premières lignes de l email) qui frappent comme le commercial des Reels : une pique fondée sur un défaut PROUVÉ de l audit, reliée aux valeurs de la boutique, avec ses propres mots ; le miroir de l identité ; aucune attaque contre la personne ; aucune blague sur l identité. Puis un J0 complet : 75 mots au plus hors signature, objet de 2 à 6 mots en minuscules sans le nom de la boutique, une seule demande minuscule avec choix alternatif ou question de curiosité, le levier "Nous avons déjà dessiné votre page d accueil, en mouvement, avec vos propres photos" (la maquette existe : gorosei/maquettes/${shop.slug}.html ; ne dis pas « 3D » : ce sont des photos animées), aucun lien, aucun "je me permets", aucun conditionnel mou, pas de point d exclamation. Signature : "L equipe de Maison Vitura" puis support.maisonvitura@gmail.com, puis la ligne : Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 Vérifie le J0 avec la porte de contrôle (écris-le dans ${TMP}/${shop.slug}-j0.txt) : ${GATE}`,
       { label: `pique:${shop.slug}`, phase: 'Piques', agentType: 'Sales Outreach', schema: PIQUE_SCHEMA })
 
@@ -154,7 +154,7 @@ Statut "prêt à écrire" seulement si un contact public est confirmé et au moi
 
 // Front 3 : playbook commercial
 const SPECS = [
-  { key: 'appel', type: 'Discovery Coach', ask: 'le script complet de l appel ou de la visio de 5 minutes où Alice montre la maquette au fleuriste : ouverture, présentation de la maquette écran par écran, 3 questions de découverte, passage au prix, conclusion avec un choix alternatif de prochaine étape. Dans l énergie et l assurance des Reels.' },
+  { key: 'appel', type: 'Discovery Coach', ask: 'le script complet de l appel ou de la visio de 5 minutes où le commercial montre la maquette au fleuriste : ouverture, présentation de la maquette écran par écran, 3 questions de découverte, passage au prix, conclusion avec un choix alternatif de prochaine étape. Dans l énergie et l assurance des Reels.' },
   { key: 'objections', type: 'Sales Coach', ask: 'les réponses aux objections des fleuristes, en email et à l oral : "c est combien", "je n ai pas le temps", "j ai déjà un site", "mon neveu s en occupe", "Instagram me suffit", "la 3D c est un gadget", "on verra après les fêtes", "envoyez-moi une plaquette". Chaque réponse courte, sûre d elle, qui ramène vers la maquette.' },
   { key: 'prix', type: 'Pricing Analyst', ask: 'les vrais prix du marché en France (sources avec URL, recherche web) pour : un site vitrine de fleuriste, un site e-commerce de fleuriste, un site premium animé ou 3D par une agence. Le Reel annonce "+2997 €" pour un site refait : c est un repère non vérifié, à confronter aux sources. Propose une échelle de prix en trois niveaux pour Maison Vitura et un prix d ouverture à tester, sans rien inventer.' },
   { key: 'offre', type: 'Offer & Lead Gen Strategist', ask: 'l offre irrésistible pour un fleuriste parisien : ce qui est livré, en combien de temps, une garantie que l agence peut tenir, des bonus honnêtes, une urgence réelle (Toussaint le 1er novembre, fêtes de fin d année, Saint-Valentin), un nom d offre. Lis aussi ${REPO}/skills/founder-offer/SKILL.md pour la méthode.' },

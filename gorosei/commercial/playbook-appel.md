@@ -1,3 +1,5 @@
+> **Signature et identité (décision du fondateur, 31/10/2026).** Les messages sont signés « L'équipe de Maison Vitura ». « Alice » est un nom de rôle dans ce document, pas une personne : ne jamais signer ni se présenter sous ce nom. Au téléphone, la personne qui appelle dit son vrai prénom : « je suis [votre prénom], de l'équipe de Maison Vitura ».
+
 # Playbook : l'appel de 5 minutes pour montrer la maquette (fleuriste)
 
 Écrit le 30 octobre 2026 par le département Commercial.
@@ -9,7 +11,7 @@ propres photos, animées au défilement.
 
 **D'où viennent les rythmes.** De la fiche
 `gorosei/fiches/2026-10-21-cold-call-technique-illegale.md` : les partitions
-mesurées des appels 1 et 2 et « Les règles d'Alice » (numérotées 1 à 12
+mesurées des appels 1 et 2 et « Les règles de l'équipe commerciale » (numérotées 1 à 12
 ci-dessous). Ce sont des repères mesurés sur deux Reels d'un seul vendeur,
 pas des chronos à tenir au dixième. Ces deux appels n'avaient pas d'image à
 montrer : quand une mesure est transposée à la maquette, c'est écrit.
@@ -76,7 +78,7 @@ déloyale : le « non » est permis dès la première phrase.
 
 **Alice** (vite, d'un trait, voix qui descend en fin de phrase) :
 
-> « Bonjour [prénom], c'est Alice, de Maison Vitura. [Jeudi 9 heures, avant
+> « Bonjour [prénom], c'est [votre prénom], de l'équipe de Maison Vitura. [Jeudi 9 heures, avant
 > l'ouverture] : c'est votre créneau, je suis à l'heure. »
 
 Le créneau est dit avec ses mots à lui, tels qu'il les a écrits (règle 8).

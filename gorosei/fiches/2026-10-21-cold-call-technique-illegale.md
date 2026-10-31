@@ -192,7 +192,7 @@ vérifier le « +2997 € » du titre.
 10. **Écho exact de l'heure** (160 à 510 ms après), validation qui descend,
     fin rapide.
 
-### Les règles d'Alice
+### Les règles de l'équipe commerciale
 
 Chaque règle s'appuie sur une mesure ci-dessus. Les règles 1, 2, 5 et 9
 valent aussi pour l'email.
@@ -203,7 +203,7 @@ valent aussi pour l'email.
    permets de vous contacter ».
 2. **Dire soi-même que c'est de la prospection.** Dans les deux appels, ce
    mot désarme : aucun des deux prospects ne raccroche. La question à deux
-   options porte sur Alice ou sur le moment, jamais sur une identité.
+   options porte sur l'équipe ou sur le moment, jamais sur une identité.
    Exemple : « Qu'est-ce qui vous dérange le plus : que je vous appelle en
    plein coup de feu du matin, ou que ce soit de la prospection ? »
 3. **Après une question, se taire.** Silences mesurés : de 1,2 à 14,7 s. Au
@@ -236,7 +236,7 @@ valent aussi pour l'email.
     premier contact : le prix se donne au rendez-vous.
 11. **Une fois la proposition faite, parler moins d'un cinquième du
     temps.** Le vendeur parle 12 à 15 %. C'est le prospect qui choisit
-    l'heure (dans les deux appels). Si Alice a proposé le créneau, elle a
+    l'heure (dans les deux appels). Si le commercial a proposé le créneau, il a
     trop parlé.
 12. **Écho exact, validation qui descend, fin rapide.** Répéter le jour et
     l'heure du prospect avec ses mots, une demi-seconde après lui, puis

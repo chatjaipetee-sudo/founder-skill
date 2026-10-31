@@ -1,3 +1,5 @@
+> **Signature et identité (décision du fondateur, 31/10/2026).** Les messages sont signés « L'équipe de Maison Vitura ». « Alice » est un nom de rôle dans ce document, pas une personne : ne jamais signer ni se présenter sous ce nom. Au téléphone, la personne qui appelle dit son vrai prénom : « je suis [votre prénom], de l'équipe de Maison Vitura ».
+
 # Playbook des objections : fleuristes de Paris
 
 Mis à jour le 30 octobre 2026. Département Commercial.
@@ -6,7 +8,7 @@ Les réponses d'Alice aux 10 objections attendues chez les fleuristes
 indépendants de Paris. Chaque objection a deux versions : à l'oral
 (téléphone ou boutique) et par email (réponse dans le même fil).
 
-Méthode : « Les règles d'Alice », dans
+Méthode : « Les règles de l'équipe commerciale », dans
 `gorosei/fiches/2026-10-21-cold-call-technique-illegale.md`, surtout les
 règles 3 (se taire), 4 (« D'accord » sans excuse), 8 (reprendre le mot du
 prospect) et 11 (le laisser choisir).
@@ -78,7 +80,7 @@ lui-même chaque email, un par un, après relecture.
 >
 > Alice
 >
-> Commerciale senior, Maison Vitura
+> L'équipe de Maison Vitura
 >
 > Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 
@@ -112,7 +114,7 @@ S'il insiste : « Quel moment de la semaine est le plus calme pour vous ? »
 >
 > Alice
 >
-> Commerciale senior, Maison Vitura
+> L'équipe de Maison Vitura
 >
 > Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 
@@ -147,7 +149,7 @@ téléphone. »
 >
 > Alice
 >
-> Commerciale senior, Maison Vitura
+> L'équipe de Maison Vitura
 >
 > Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 
@@ -179,7 +181,7 @@ crochets. Pas de défaut sans preuve. On vise le site, jamais la personne.
 >
 > Alice
 >
-> Commerciale senior, Maison Vitura
+> L'équipe de Maison Vitura
 >
 > Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 
@@ -215,7 +217,7 @@ confiance, Alice ne l'a pas encore.
 >
 > Alice
 >
-> Commerciale senior, Maison Vitura
+> L'équipe de Maison Vitura
 >
 > Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 
@@ -243,7 +245,7 @@ confiance, Alice ne l'a pas encore.
 >
 > Alice
 >
-> Commerciale senior, Maison Vitura
+> L'équipe de Maison Vitura
 >
 > Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 
@@ -275,7 +277,7 @@ Plus aucun contact avant cette date.
 >
 > Alice
 >
-> Commerciale senior, Maison Vitura
+> L'équipe de Maison Vitura
 >
 > Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 
@@ -305,7 +307,7 @@ le prouve. Respecter son calendrier, c'est ce qui rend la date crédible.
 >
 > Alice
 >
-> Commerciale senior, Maison Vitura
+> L'équipe de Maison Vitura
 >
 > Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 
@@ -342,7 +344,7 @@ Puis, selon sa réponse :
 >
 > Alice
 >
-> Commerciale senior, Maison Vitura
+> L'équipe de Maison Vitura
 >
 > Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 
@@ -377,7 +379,7 @@ seconde ».
 >
 > Alice
 >
-> Commerciale senior, Maison Vitura
+> L'équipe de Maison Vitura
 
 Seul email sans la ligne « stop » : la personne vient de la dire.
 
@@ -415,7 +417,7 @@ Puis raccrocher en moins de 2 secondes. Jamais « ça vous va ? » après un oui
 >
 > Alice
 >
-> Commerciale senior, Maison Vitura
+> L'équipe de Maison Vitura
 >
 > Pour ne plus recevoir de message de ma part, répondez simplement « stop ».
 

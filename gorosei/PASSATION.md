@@ -737,8 +737,8 @@ Corolle n'y est pas ; G-025 dit encore « remplacer [Prénom] et
   prix et offre en cours). Ensuite : maquette, relecture et email par
   boutique dans `gorosei/maquettes/` et `gorosei/commercial/piques/`.
   Décisions du fondateur (31/10) : prix plancher 500 € ; réponse « je ne veux
-  pas être démarché » sans ligne stop, validée. Alice : le fondateur la dit
-  fictive. Identité d'expéditeur à trancher (voir journal du 31/10).
+  pas être démarché » sans ligne stop, validée. Identité d'expéditeur : option 2 (31/10),
+  signature « L'équipe de Maison Vitura ». Alice est fictive et ne signe plus rien.
 - Audit Akiko Usami fait (`gorosei/audits/akiko-usami.json`) : 6,11 Mo,
   premier affichage à 10,6 s sur téléphone, menu invisible à l'arrivée, nom
   rempli par l'image de démonstration du thème. « Grands hôtels parisiens »
@@ -763,6 +763,17 @@ Corolle n'y est pas ; G-025 dit encore « remplacer [Prénom] et
   dépôt créé (`graphify update .`, sans modèle), ignoré par git (17 Mo,
   reconstructible). Les 4 brouillons Gmail et l'email Akiko Usami sont signés
   Alice : ne pas les envoyer en l'état.
+- 31/10 (option 2) : signature « L'équipe de Maison Vitura » avec
+  support.maisonvitura@gmail.com, sans prénom ni titre inventé. Les 4
+  brouillons Gmail sont réécrits en conséquence ; sans « rue Maublanc » (non
+  vérifiée) ; adresses et faits contrôlés sur les sites : Debeaulieu (30 rue
+  Henry Monnier, contact@debeaulieu-paris.com), Lachaume (1845, 103 rue du
+  Faubourg Saint-Honoré, contact@lachaume.com, sur maisonlachaume.com),
+  Désirée (bonjour@desireefleurs.fr dans les données de la boutique ; article
+  Reporterre cité dans `prospection-fleuristes-brut-2026-10-17.json`),
+  Flash Fleurs (admin@ateliersflashfleurs.com). Boîte de Harvey (md, json,
+  page) et séquence Akiko Usami mises à jour. Les playbooks gardent « Alice »
+  comme nom de rôle, avec une note en tête.
 - Email Akiko Usami écrit (`gorosei/commercial/piques/akiko-usami.md`,
   J0 74 mots, porte OK). Ne part pas avant que sa maquette existe.
 
