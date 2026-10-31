@@ -739,6 +739,9 @@ Corolle n'y est pas ; G-025 dit encore « remplacer [Prénom] et
   Décisions du fondateur (31/10) : prix plancher 500 € ; réponse « je ne veux
   pas être démarché » sans ligne stop, validée. Identité d'expéditeur : option 2 (31/10),
   signature « L'équipe de Maison Vitura ». Alice est fictive et ne signe plus rien.
+- 31/10 : demande d'installer Kapso (GitHub) pour un numéro WhatsApp :
+  refusée (registre G-034). Une ligne téléphonique tenue à la main reste
+  possible.
 - Audit Akiko Usami fait (`gorosei/audits/akiko-usami.json`) : 6,11 Mo,
   premier affichage à 10,6 s sur téléphone, menu invisible à l'arrivée, nom
   rempli par l'image de démonstration du thème. « Grands hôtels parisiens »
